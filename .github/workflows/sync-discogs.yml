@@ -1,0 +1,28 @@
+name: Sync Discogs collection
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-discogs.mjs
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+          DISCOGS_USERNAME: NocturneArchive
+      - run: |
+          git config user.name "Nocturne Archive sync"
+          git config user.email "actions@github.com"
+          git add data/collection.json
+          git diff --cached --quiet || git commit -m "Update collection"
+          git push
