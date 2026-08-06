@@ -42,6 +42,8 @@
       .filters { display:flex; flex-wrap:wrap; gap:8px; }
       .filter { padding:10px 14px; background:transparent; border:1px solid var(--line); color:var(--muted); border-radius:99px; font:500 10px 'DM Mono'; letter-spacing:.08em; text-transform:uppercase; }
       .filter.active,.filter:hover { background:var(--bone); color:var(--ink); border-color:var(--bone); }
+      .catalog-tools { display:grid; grid-template-columns:minmax(220px,1fr) 180px 160px; gap:9px; margin:0 0 18px; }
+      .catalog-tools input,.catalog-tools select { min-height:46px; width:100%; border:1px solid var(--line); border-radius:0; padding:0 14px; color:var(--bone); background:#181817; font:500 13px Manrope,sans-serif; outline:none; }.catalog-tools input::placeholder{color:#9b978e}.catalog-tools input:focus,.catalog-tools select:focus{border-color:var(--gold);box-shadow:0 0 0 2px rgba(219,197,139,.14)}.catalog-tools select{appearance:auto}.result-line{margin:-2px 0 18px;color:var(--muted);font-size:13px}
       .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
       .card { min-width:0; }
       .card { cursor:pointer; transition:transform .35s ease; } .card:hover { transform:translateY(-7px); }
@@ -63,12 +65,12 @@
       footer { border-top:1px solid var(--line); padding:24px 0 33px; display:flex; justify-content:space-between; color:#747168; font:9px 'DM Mono'; letter-spacing:.07em; text-transform:uppercase; }
       /* Readability pass: small labels remain refined, but are comfortable at normal zoom. */
       .nav-links { font-size:12px; color:#c5c0b5; }
-      .eyebrow,.section-kicker,.hero-meta span,.weekly-label,.live,.modal-format { font-size:11px; letter-spacing:.11em; }
-      .room-button,.filter,.details,.weekly-meta,.modal-note { font-size:11px; letter-spacing:.07em; }
+      .eyebrow,.section-kicker,.hero-meta span,.weekly-label,.live,.modal-format { font-size:12px; letter-spacing:.1em; }
+      .room-button,.filter,.details,.weekly-meta,.modal-note { font-size:12px; letter-spacing:.06em; }
       .cover:after { font-size:10px; color:rgba(255,255,255,.82); }
-      .value span,.auction-stats span,footer { font-size:10px; letter-spacing:.08em; color:#aaa69c; }
-      .artist,.title { font-size:13px; }.title { color:#c5c0b5; }
-      .intro { font-size:15px; }.weekly-copy,.auction-info p,.archive-note p,.modal-box p { font-size:14px; }
+      .value span,.auction-stats span,footer { font-size:12px; letter-spacing:.06em; color:#aaa69c; }
+      .artist,.title { font-size:14px; }.title { color:#c5c0b5; }
+      .intro { font-size:16px; }.weekly-copy,.auction-info p,.archive-note p,.modal-box p { font-size:15px; }
       .weekly { border-top:1px solid var(--line); padding:84px 0; }
       .auction { padding:84px 0; border-top:1px solid var(--line); }
       .auction-layout { display:grid; grid-template-columns:.86fr 1.14fr; border:1px solid var(--line); background:#161615; }
@@ -83,7 +85,7 @@
       .weekly-card.featured:before { content:''; position:absolute; width:250px; height:250px; border:1px solid rgba(201,179,122,.26); border-radius:50%; right:-80px; bottom:-115px; box-shadow:0 0 0 25px rgba(201,179,122,.035),0 0 0 55px rgba(201,179,122,.025); }
       .weekly-label { color:var(--gold); font:10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; }.weekly-title { position:relative; font:400 37px/.93 'Instrument Serif'; letter-spacing:-.04em; max-width:280px; }.weekly-card:not(.featured) .weekly-title{font-size:28px}.weekly-meta{color:var(--muted);font:10px 'DM Mono';letter-spacing:.06em;text-transform:uppercase;}
       .modal { position:fixed; inset:0; padding:20px; background:rgba(3,3,3,.78); display:none; align-items:center; justify-content:center; z-index:5; backdrop-filter:blur(9px); }.modal.open{display:flex}.modal-box{max-width:510px;width:100%;padding:30px;background:#1b1b19;border:1px solid rgba(201,179,122,.35);box-shadow:0 24px 100px #000;position:relative}.modal-close{position:absolute;right:16px;top:14px;border:0;background:none;color:var(--muted);font:16px 'DM Mono';}.modal-format{font:10px 'DM Mono';letter-spacing:.12em;color:var(--gold);text-transform:uppercase}.modal-box h3{font:400 54px/.9 'Instrument Serif';letter-spacing:-.05em;margin:14px 0}.modal-box p{color:#bab6ad;font-size:13px;line-height:1.7;max-width:380px}.modal-note{padding-top:17px;border-top:1px solid var(--line);font:10px 'DM Mono';color:var(--muted);letter-spacing:.04em}
-      @media(max-width:760px){ .shell{padding:0 20px}.nav-links{display:none}.hero{min-height:700px;display:block;padding-top:82px}.record{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78}.hero-meta{position:relative;grid-template-columns:repeat(2,1fr);margin-top:280px;gap:20px 12px}.collection-snapshot{grid-template-columns:1fr 1fr;margin-top:28px}.collection{padding-top:55px}.collection-top{display:block}.filters{margin-top:25px}.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}.archive-note{display:block}.value{text-align:left;margin-top:20px}.auction{padding:55px 0}.auction-layout{grid-template-columns:1fr}.auction-art{min-height:250px}.auction-info{padding:28px 22px}.auction-stats{grid-template-columns:1fr 1fr}.auction-stats div:last-child{grid-column:span 2;border-left:0;border-top:1px solid var(--line);padding-left:0}.weekly{padding:55px 0}.weekly-head{display:block}.weekly-copy{text-align:left;margin-top:15px}.weekly-grid{grid-template-columns:1fr}.weekly-card{min-height:200px} footer{display:block;line-height:2} }
+      @media(max-width:760px){ .shell{padding:0 20px}.nav-links{display:none}.hero{min-height:700px;display:block;padding-top:82px}.record{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78}.hero-meta{position:relative;grid-template-columns:repeat(2,1fr);margin-top:280px;gap:20px 12px}.collection-snapshot{grid-template-columns:1fr 1fr;margin-top:28px}.collection{padding-top:55px}.collection-top{display:block}.filters{margin-top:25px}.catalog-tools{grid-template-columns:1fr;margin-top:17px}.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}.archive-note{display:block}.value{text-align:left;margin-top:20px}.auction{padding:55px 0}.auction-layout{grid-template-columns:1fr}.auction-art{min-height:250px}.auction-info{padding:28px 22px}.auction-stats{grid-template-columns:1fr 1fr}.auction-stats div:last-child{grid-column:span 2;border-left:0;border-top:1px solid var(--line);padding-left:0}.weekly{padding:55px 0}.weekly-head{display:block}.weekly-copy{text-align:left;margin-top:15px}.weekly-grid{grid-template-columns:1fr}.weekly-card{min-height:200px} footer{display:block;line-height:2} }
     </style>
   </head>
   <body>
@@ -116,7 +118,9 @@
           </div>
         </section>
         <section class="collection" id="collection">
-          <div class="collection-top"><div><div class="section-kicker">The collection</div><h2>Selected shelf.</h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="vinyl">Vinyl</button><button class="filter" data-filter="cd">CD</button><button class="filter" data-filter="available">Available</button></div></div>
+          <div class="collection-top"><div><div class="section-kicker">The collection</div><h2>Explore the archive.</h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="vinyl">Vinyl</button><button class="filter" data-filter="cd">CD</button><button class="filter" data-filter="available">Available</button></div></div>
+          <div class="catalog-tools"><input id="search" type="search" placeholder="Search artist or release" aria-label="Search the archive"><select id="genre-filter" aria-label="Filter by genre"><option value="all">All genres</option></select><select id="sort" aria-label="Sort the archive"><option value="recent">Recently added</option><option value="artist">Artist A–Z</option><option value="year-desc">Newest release year</option><option value="year-asc">Earliest release year</option></select></div>
+          <div class="result-line" id="result-count">Showing all releases</div>
           <div class="grid" id="grid"></div>
           <div class="archive-note"><p>Collection data will be synchronised from Discogs. Notes, condition and estimated value remain part of the private archive unless intentionally shared here.</p><div class="value"><strong id="value">—</strong><span>Estimated archive value</span></div></div>
         </section>
@@ -134,13 +138,21 @@
         {artist:'Nocturne Archive', title:'A room for collected sound', format:'CD', year:'2026', cover:'four', state:'archive', note:'Every record is an object, every object a small time capsule.'}
       ];
       let active = 'all';
+      let selectedGenre = 'all';
+      let query = '';
+      let sortMode = 'recent';
       const grid = document.querySelector('#grid');
       const render = () => {
-        const visible = releases.filter(r => active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active));
-        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span></div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('');
+        const lowered = query.toLowerCase().trim();
+        const visible = releases.filter(r => (active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active)) && (selectedGenre === 'all' || r.genres?.includes(selectedGenre)) && (!lowered || `${r.artist} ${r.title} ${r.note || ''}`.toLowerCase().includes(lowered))).sort((a,b) => sortMode === 'artist' ? a.artist.localeCompare(b.artist) : sortMode === 'year-desc' ? Number(b.year || 0) - Number(a.year || 0) : sortMode === 'year-asc' ? Number(a.year || 9999) - Number(b.year || 9999) : new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
+        document.querySelector('#result-count').textContent = `Showing ${visible.length} of ${releases.length} releases`;
+        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span></div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
         grid.querySelectorAll('.card').forEach(card => card.addEventListener('click', () => openRelease(releases[card.dataset.release])));
       };
       document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => { active = button.dataset.filter; document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b === button)); render(); }));
+      document.querySelector('#search').addEventListener('input', event => { query = event.target.value; render(); });
+      document.querySelector('#genre-filter').addEventListener('change', event => { selectedGenre = event.target.value; render(); });
+      document.querySelector('#sort').addEventListener('change', event => { sortMode = event.target.value; render(); });
       const updateArchiveSummary = (collection) => {
         const archive = collection.releases;
         const vinyl = archive.filter(release => release.format === 'Vinyl').length;
@@ -179,6 +191,8 @@
           const collection = await response.json();
           if (!collection.releases?.length || collection.placeholder) return;
           releases = collection.releases;
+          const genres = [...new Set(releases.flatMap(release => release.genres || []))].sort();
+          document.querySelector('#genre-filter').innerHTML = '<option value="all">All genres</option>' + genres.map(genre => `<option value="${genre}">${genre}</option>`).join('');
           updateArchiveSummary(collection);
           render();
         } catch (_) {
