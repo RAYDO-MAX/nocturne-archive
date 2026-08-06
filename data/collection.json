@@ -1,6 +1,6 @@
 {
   "username": "NocturneArchive",
-  "updatedAt": "2026-08-06T10:30:59.564Z",
+  "updatedAt": "2026-08-06T11:15:57.033Z",
   "estimatedValue": "€3,028.56–€13,982.15",
   "releases": [
     {
@@ -13,6 +13,13 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Funk / Soul",
+        "Soul",
+        "African",
+        "Psychedelic Rock"
+      ],
       "dateAdded": "2023-08-15T03:23:20-07:00"
     },
     {
@@ -25,6 +32,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Reggae",
+        "Rock & Roll"
+      ],
       "dateAdded": "2023-08-16T01:56:31-07:00"
     },
     {
@@ -37,6 +49,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz, Rock",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Jazz-Rock"
+      ],
       "dateAdded": "2023-08-15T04:04:54-07:00"
     },
     {
@@ -49,6 +66,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Promo, Stereo — Jazz, Pop",
+      "genres": [
+        "Jazz",
+        "Pop"
+      ],
       "dateAdded": "2023-08-17T02:23:50-07:00"
     },
     {
@@ -61,6 +82,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T03:31:57-07:00"
     },
     {
@@ -73,6 +98,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T03:30:36-07:00"
     },
     {
@@ -85,6 +114,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T03:32:28-07:00"
     },
     {
@@ -97,6 +130,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-16T12:21:47-07:00"
     },
     {
@@ -109,6 +146,13 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Classical",
+        "Requiem",
+        "Mass",
+        "Choral",
+        "Orchestra"
+      ],
       "dateAdded": "2023-08-16T12:23:35-07:00"
     },
     {
@@ -121,6 +165,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Acoustic",
+        "Blues Rock"
+      ],
       "dateAdded": "2023-08-15T12:12:48-07:00"
     },
     {
@@ -133,6 +183,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Blues"
+      ],
       "dateAdded": "2023-08-16T12:20:00-07:00"
     },
     {
@@ -145,6 +199,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
       "dateAdded": "2024-05-20T03:01:45-07:00"
     },
     {
@@ -157,6 +215,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Reissue, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "Beat",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T12:41:57-07:00"
     },
     {
@@ -169,6 +232,14 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Beat",
+        "Rock & Roll",
+        "Pop Rock",
+        "Psychedelic Rock"
+      ],
       "dateAdded": "2023-08-16T12:34:28-07:00"
     },
     {
@@ -181,6 +252,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Latin",
+        "Pop",
+        "Blues Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-25T04:00:48-07:00"
     },
     {
@@ -193,6 +271,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country",
+        "Hindustani"
+      ],
       "dateAdded": "2023-09-20T06:58:00-07:00"
     },
     {
@@ -205,6 +287,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue — Jazz, Folk, World, & Country",
+      "genres": [
+        "Jazz",
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2023-08-22T03:36:30-07:00"
     },
     {
@@ -217,6 +303,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Deluxe Edition, Reissue — Rock",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Country Rock"
+      ],
       "dateAdded": "2023-08-16T02:03:55-07:00"
     },
     {
@@ -229,6 +320,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Limited Edition, Reissue, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Folk Rock",
+        "Hard Rock"
+      ],
       "dateAdded": "2023-08-15T03:42:10-07:00"
     },
     {
@@ -241,6 +338,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Post Bop"
+      ],
       "dateAdded": "2024-05-25T04:09:05-07:00"
     },
     {
@@ -253,6 +355,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Funk / Soul",
+        "Blues",
+        "Pop"
+      ],
       "dateAdded": "2023-08-15T12:10:10-07:00"
     },
     {
@@ -265,6 +372,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue — Funk / Soul",
+      "genres": [
+        "Funk / Soul",
+        "Soul",
+        "Rhythm & Blues"
+      ],
       "dateAdded": "2023-08-17T02:30:22-07:00"
     },
     {
@@ -277,6 +389,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Repress — Jazz, Pop",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Swing",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-17T02:21:47-07:00"
     },
     {
@@ -289,6 +407,9 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2023-08-16T03:02:39-07:00"
     },
     {
@@ -301,6 +422,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Blues"
+      ],
       "dateAdded": "2024-05-25T03:53:04-07:00"
     },
     {
@@ -313,6 +437,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "Alternative Rock",
+        "Blues Rock"
+      ],
       "dateAdded": "2023-08-15T04:11:58-07:00"
     },
     {
@@ -325,6 +454,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-16T12:10:49-07:00"
     },
     {
@@ -337,6 +471,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-15T12:29:24-07:00"
     },
     {
@@ -349,6 +487,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:35:26-07:00"
     },
     {
@@ -361,6 +503,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Country Blues",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-20T02:52:45-07:00"
     },
     {
@@ -373,6 +521,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-15T12:22:47-07:00"
     },
     {
@@ -385,6 +537,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Pop Rock",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-15T12:23:33-07:00"
     },
     {
@@ -397,6 +555,14 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Folk, World, & Country",
+        "Psychedelic Rock",
+        "Folk",
+        "Indie Pop"
+      ],
       "dateAdded": "2024-05-19T05:34:35-07:00"
     },
     {
@@ -409,6 +575,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-15T12:24:06-07:00"
     },
     {
@@ -421,6 +592,21 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good (VG) · Good Plus (G+)",
+      "genres": [
+        "Hip Hop",
+        "Jazz",
+        "Rock",
+        "Blues",
+        "Folk Rock",
+        "Country Rock",
+        "Pop Rock",
+        "Indie Rock",
+        "Blues Rock",
+        "Contemporary Jazz",
+        "RnB/Swing",
+        "Swing",
+        "Piano Blues"
+      ],
       "dateAdded": "2024-05-20T02:51:29-07:00"
     },
     {
@@ -433,6 +619,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-15T12:30:18-07:00"
     },
     {
@@ -445,6 +635,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2024-05-25T03:54:05-07:00"
     },
     {
@@ -457,6 +650,14 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Pop",
+        "Vocal",
+        "Ballad",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-15T12:28:13-07:00"
     },
     {
@@ -469,6 +670,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Jazz",
+        "Bop",
+        "Soul-Jazz",
+        "Latin Jazz"
+      ],
       "dateAdded": "2023-08-17T01:52:26-07:00"
     },
     {
@@ -481,6 +688,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T03:34:11-07:00"
     },
     {
@@ -493,6 +704,12 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2024-05-25T03:31:47-07:00"
     },
     {
@@ -505,6 +722,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Good (G)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T02:58:08-07:00"
     },
     {
@@ -517,6 +738,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:35:48-07:00"
     },
     {
@@ -529,6 +754,15 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Hip Hop",
+        "Jazz",
+        "Afro-Cuban Jazz",
+        "Soul-Jazz",
+        "Smooth Jazz",
+        "Jazz-Funk"
+      ],
       "dateAdded": "2023-08-17T01:52:56-07:00"
     },
     {
@@ -541,6 +775,12 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Bop",
+        "Soul-Jazz",
+        "Latin Jazz"
+      ],
       "dateAdded": "2023-08-17T01:50:19-07:00"
     },
     {
@@ -553,6 +793,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Jazz-Funk",
+        "Soul-Jazz"
+      ],
       "dateAdded": "2023-08-17T01:53:23-07:00"
     },
     {
@@ -565,6 +810,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Bop",
+        "Hard Bop"
+      ],
       "dateAdded": "2023-08-16T02:48:17-07:00"
     },
     {
@@ -577,6 +827,14 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Stereo — Jazz, Funk / Soul, Folk, World, & Country",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Folk, World, & Country",
+        "Soul-Jazz",
+        "Jazz-Funk",
+        "Soul"
+      ],
       "dateAdded": "2023-08-17T02:01:03-07:00"
     },
     {
@@ -589,6 +847,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Synth-pop"
+      ],
       "dateAdded": "2023-08-17T02:43:59-07:00"
     },
     {
@@ -601,6 +864,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Stereo — Jazz",
+      "genres": [
+        "Jazz",
+        "Big Band"
+      ],
       "dateAdded": "2023-08-15T04:16:59-07:00"
     },
     {
@@ -613,6 +880,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Mono — Jazz",
+      "genres": [
+        "Jazz",
+        "Big Band"
+      ],
       "dateAdded": "2023-08-15T04:17:18-07:00"
     },
     {
@@ -625,6 +896,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Soft Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-15T12:34:47-07:00"
     },
     {
@@ -637,6 +914,15 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Electronic",
+        "Funk / Soul",
+        "Lounge",
+        "Future Jazz",
+        "Downtempo",
+        "Jazzdance",
+        "Soul"
+      ],
       "dateAdded": "2024-05-20T03:51:04-07:00"
     },
     {
@@ -649,6 +935,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Prog Rock",
+        "Folk Rock"
+      ],
       "dateAdded": "2023-08-16T12:13:18-07:00"
     },
     {
@@ -661,6 +952,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Classical",
+        "Romantic"
+      ],
       "dateAdded": "2023-08-16T12:20:41-07:00"
     },
     {
@@ -673,6 +968,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-17T02:47:22-07:00"
     },
     {
@@ -685,6 +984,15 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Funk / Soul",
+        "Pop",
+        "Disco",
+        "Funk",
+        "Electro",
+        "Synth-pop"
+      ],
       "dateAdded": "2023-08-15T03:34:37-07:00"
     },
     {
@@ -697,6 +1005,14 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Folk, World, & Country",
+        "Folk Rock",
+        "Rhythm & Blues",
+        "Ballad"
+      ],
       "dateAdded": "2023-08-16T01:50:38-07:00"
     },
     {
@@ -709,6 +1025,15 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "Rock",
+        "Pop",
+        "Classical",
+        "Folk, World, & Country",
+        "Electro House"
+      ],
       "dateAdded": "2024-05-25T04:27:48-07:00"
     },
     {
@@ -721,6 +1046,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-17T01:51:00-07:00"
     },
     {
@@ -733,6 +1062,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Classical",
+        "Contemporary"
+      ],
       "dateAdded": "2024-05-20T03:59:44-07:00"
     },
     {
@@ -745,6 +1078,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Stereo · Box Set — Jazz, Classical",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-16T12:32:32-07:00"
     },
     {
@@ -757,6 +1095,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Club Edition, Stereo — Jazz, Classical",
+      "genres": [
+        "Jazz",
+        "Classical"
+      ],
       "dateAdded": "2023-08-16T12:27:44-07:00"
     },
     {
@@ -769,6 +1111,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album, Mono — Rock",
+      "genres": [
+        "Rock",
+        "Lounge",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-15T04:08:26-07:00"
     },
     {
@@ -781,6 +1128,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Pop"
+      ],
       "dateAdded": "2024-05-25T04:48:47-07:00"
     },
     {
@@ -793,6 +1143,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Classical",
+        "Romantic"
+      ],
       "dateAdded": "2023-08-16T12:22:16-07:00"
     },
     {
@@ -805,6 +1159,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Electronic",
+      "genres": [
+        "Electronic",
+        "Synth-pop",
+        "Ambient"
+      ],
       "dateAdded": "2023-08-15T03:59:30-07:00"
     },
     {
@@ -817,6 +1176,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP · Box Set, Compilation — Jazz, Classical",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-16T12:31:16-07:00"
     },
     {
@@ -829,6 +1193,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Post Bop",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T03:29:43-07:00"
     },
     {
@@ -841,6 +1210,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Ballad",
+        "Easy Listening"
+      ],
       "dateAdded": "2023-08-15T12:06:18-07:00"
     },
     {
@@ -853,6 +1228,9 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Pop"
+      ],
       "dateAdded": "2023-08-15T12:06:50-07:00"
     },
     {
@@ -865,6 +1243,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T03:57:42-07:00"
     },
     {
@@ -877,6 +1259,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz",
+      "genres": [
+        "Jazz",
+        "Post Bop"
+      ],
       "dateAdded": "2023-08-16T02:56:29-07:00"
     },
     {
@@ -889,6 +1275,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:26:18-07:00"
     },
     {
@@ -901,6 +1291,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T03:21:48-07:00"
     },
     {
@@ -913,6 +1307,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Free Improvisation"
+      ],
       "dateAdded": "2024-05-20T03:43:16-07:00"
     },
     {
@@ -925,6 +1324,13 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz, Blues",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "Smooth Jazz",
+        "Reggae",
+        "Samba"
+      ],
       "dateAdded": "2023-08-16T03:01:12-07:00"
     },
     {
@@ -937,6 +1343,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Psychedelic Rock"
+      ],
       "dateAdded": "2024-05-25T04:38:50-07:00"
     },
     {
@@ -949,6 +1360,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Post Bop",
+        "Gospel"
+      ],
       "dateAdded": "2024-05-25T03:36:25-07:00"
     },
     {
@@ -961,6 +1377,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "Future Jazz"
+      ],
       "dateAdded": "2023-08-16T12:08:55-07:00"
     },
     {
@@ -973,6 +1394,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-16T12:11:52-07:00"
     },
     {
@@ -985,6 +1411,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock"
+      ],
       "dateAdded": "2024-05-20T03:11:01-07:00"
     },
     {
@@ -997,6 +1427,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Space Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:14:41-07:00"
     },
     {
@@ -1009,6 +1445,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Stage & Screen",
+        "Soundtrack",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:09:44-07:00"
     },
     {
@@ -1021,6 +1464,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:13:54-07:00"
     },
     {
@@ -1033,6 +1481,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:11:58-07:00"
     },
     {
@@ -1045,6 +1498,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Stage & Screen",
+        "Soundtrack",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:05:15-07:00"
     },
     {
@@ -1057,6 +1517,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Good (G)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock",
+        "Arena Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-20T03:16:16-07:00"
     },
     {
@@ -1069,6 +1536,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:13:11-07:00"
     },
     {
@@ -1081,6 +1553,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:03:20-07:00"
     },
     {
@@ -1093,6 +1569,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-20T03:04:13-07:00"
     },
     {
@@ -1105,6 +1587,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Arena Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:10:27-07:00"
     },
     {
@@ -1117,6 +1604,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:12:37-07:00"
     },
     {
@@ -1129,6 +1621,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album — Rock",
+      "genres": [
+        "Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2023-08-15T04:15:04-07:00"
     },
     {
@@ -1141,6 +1637,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M) · Mint (M)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Avantgarde",
+        "Experimental",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-05-20T03:06:30-07:00"
     },
     {
@@ -1153,6 +1656,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-25T04:46:08-07:00"
     },
     {
@@ -1165,6 +1672,13 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Folk Rock",
+        "Art Rock",
+        "Synth-pop"
+      ],
       "dateAdded": "2024-05-12T04:39:58-07:00"
     },
     {
@@ -1177,6 +1691,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Art Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-20T03:00:16-07:00"
     },
     {
@@ -1189,6 +1708,9 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2024-05-25T03:45:41-07:00"
     },
     {
@@ -1201,6 +1723,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Folk, World, & Country",
+        "Fusion"
+      ],
       "dateAdded": "2024-05-11T12:41:28-07:00"
     },
     {
@@ -1213,6 +1740,15 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "Funk / Soul",
+        "Soul",
+        "Soul-Jazz",
+        "Contemporary R&B",
+        "Downtempo"
+      ],
       "dateAdded": "2024-05-25T03:47:47-07:00"
     },
     {
@@ -1225,6 +1761,16 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Pop",
+        "Smooth Jazz",
+        "Contemporary Jazz",
+        "Soul",
+        "Neo Soul",
+        "Soul-Jazz"
+      ],
       "dateAdded": "2024-05-25T03:49:49-07:00"
     },
     {
@@ -1237,6 +1783,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz, Funk / Soul, Pop",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Pop",
+        "Soul"
+      ],
       "dateAdded": "2023-08-17T02:53:29-07:00"
     },
     {
@@ -1249,6 +1801,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz, Funk / Soul",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Soul",
+        "Smooth Jazz"
+      ],
       "dateAdded": "2023-08-17T02:51:15-07:00"
     },
     {
@@ -1261,6 +1819,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Soft Rock",
+        "Hard Rock"
+      ],
       "dateAdded": "2023-08-16T00:05:19-07:00"
     },
     {
@@ -1273,6 +1836,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Electronic",
+        "Downtempo",
+        "Modern Classical",
+        "Deep House"
+      ],
       "dateAdded": "2023-08-17T02:47:54-07:00"
     },
     {
@@ -1285,6 +1854,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Folk, World, & Country",
+        "Alternative Rock",
+        "Folk"
+      ],
       "dateAdded": "2024-05-20T03:34:31-07:00"
     },
     {
@@ -1297,6 +1873,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Blues",
+        "Modern Electric Blues"
+      ],
       "dateAdded": "2023-08-15T03:52:11-07:00"
     },
     {
@@ -1309,6 +1889,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz"
+      ],
       "dateAdded": "2024-05-25T03:44:08-07:00"
     },
     {
@@ -1321,6 +1905,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz"
+      ],
       "dateAdded": "2024-05-20T03:35:20-07:00"
     },
     {
@@ -1333,6 +1921,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Art Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2023-08-16T11:51:42-07:00"
     },
     {
@@ -1345,6 +1938,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Remastered, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2023-08-16T12:00:49-07:00"
     },
     {
@@ -1357,6 +1955,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2023-08-16T11:52:41-07:00"
     },
     {
@@ -1369,6 +1972,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T03:35:20-07:00"
     },
     {
@@ -1381,6 +1989,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz",
+        "Fusion"
+      ],
       "dateAdded": "2024-05-25T03:59:27-07:00"
     },
     {
@@ -1393,6 +2006,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz",
+      "genres": [
+        "Jazz",
+        "Swing"
+      ],
       "dateAdded": "2023-08-15T04:03:38-07:00"
     },
     {
@@ -1405,6 +2022,14 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Reggae",
+        "Funk / Soul",
+        "Pop",
+        "Folk, World, & Country",
+        "Soul-Jazz"
+      ],
       "dateAdded": "2024-05-20T03:58:57-07:00"
     },
     {
@@ -1417,6 +2042,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Hip Hop",
+        "Jazz",
+        "Funk / Soul",
+        "Neo Soul"
+      ],
       "dateAdded": "2023-08-17T02:45:18-07:00"
     },
     {
@@ -1429,6 +2060,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Reissue — Reggae",
+      "genres": [
+        "Reggae",
+        "Roots Reggae",
+        "Reggae-Pop"
+      ],
       "dateAdded": "2023-08-16T02:00:54-07:00"
     },
     {
@@ -1441,6 +2077,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Blues",
+        "Abstract"
+      ],
       "dateAdded": "2024-04-14T11:53:34-07:00"
     },
     {
@@ -1453,6 +2095,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Swing"
+      ],
       "dateAdded": "2024-05-20T03:52:55-07:00"
     },
     {
@@ -1465,6 +2112,9 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Blues"
+      ],
       "dateAdded": "2024-05-19T04:49:34-07:00"
     },
     {
@@ -1477,6 +2127,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "Pop"
+      ],
       "dateAdded": "2024-05-12T04:04:28-07:00"
     },
     {
@@ -1489,6 +2144,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Electronic, Jazz",
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "New Age",
+        "Easy Listening",
+        "Ambient"
+      ],
       "dateAdded": "2023-08-15T03:45:46-07:00"
     },
     {
@@ -1501,6 +2163,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Pop",
+        "Chanson",
+        "Ballad"
+      ],
       "dateAdded": "2024-05-25T04:26:27-07:00"
     },
     {
@@ -1513,6 +2180,9 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2024-05-25T04:23:57-07:00"
     },
     {
@@ -1525,6 +2195,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Remastered — Rock, Funk / Soul",
+      "genres": [
+        "Rock",
+        "Funk / Soul",
+        "Folk Rock",
+        "Psychedelic"
+      ],
       "dateAdded": "2023-08-15T04:10:18-07:00"
     },
     {
@@ -1537,6 +2213,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Funk / Soul",
+        "Contemporary R&B",
+        "Soul"
+      ],
       "dateAdded": "2023-08-15T12:31:22-07:00"
     },
     {
@@ -1549,6 +2230,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Dixieland",
+        "Swing"
+      ],
       "dateAdded": "2023-08-16T12:15:36-07:00"
     },
     {
@@ -1561,6 +2247,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Soul-Jazz",
+        "Swing",
+        "Vocal"
+      ],
       "dateAdded": "2024-05-25T03:39:55-07:00"
     },
     {
@@ -1573,6 +2265,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2023-08-16T00:06:56-07:00"
     },
     {
@@ -1585,6 +2281,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Hard Rock"
+      ],
       "dateAdded": "2024-05-25T04:18:39-07:00"
     },
     {
@@ -1597,6 +2297,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Synth-pop"
+      ],
       "dateAdded": "2024-05-25T04:21:06-07:00"
     },
     {
@@ -1609,6 +2313,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country",
+        "Country"
+      ],
       "dateAdded": "2023-08-15T12:16:06-07:00"
     },
     {
@@ -1621,6 +2329,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country",
+        "Folk"
+      ],
       "dateAdded": "2023-08-15T12:22:12-07:00"
     },
     {
@@ -1633,6 +2345,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Folk Rock",
+        "Lounge"
+      ],
       "dateAdded": "2023-08-15T12:21:02-07:00"
     },
     {
@@ -1645,6 +2362,12 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Alternative Rock",
+        "Folk Rock",
+        "Soft Rock"
+      ],
       "dateAdded": "2023-08-16T00:03:20-07:00"
     },
     {
@@ -1657,6 +2380,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Funk / Soul",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-12T02:17:09-07:00"
     },
     {
@@ -1669,6 +2398,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "New Wave",
+        "Pop Rock",
+        "Synth-pop"
+      ],
       "dateAdded": "2024-05-20T01:55:40-07:00"
     },
     {
@@ -1681,6 +2417,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2024-11-23T13:15:16-08:00"
     },
     {
@@ -1693,6 +2435,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Big Band",
+        "Easy Listening"
+      ],
       "dateAdded": "2024-05-20T04:03:50-07:00"
     },
     {
@@ -1705,6 +2452,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-16T02:47:23-07:00"
     },
     {
@@ -1717,6 +2469,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-16T02:47:47-07:00"
     },
     {
@@ -1729,6 +2486,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Jazz-Rock"
+      ],
       "dateAdded": "2024-05-20T03:46:51-07:00"
     },
     {
@@ -1741,6 +2503,12 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Jazz-Rock",
+        "Vocal"
+      ],
       "dateAdded": "2024-05-20T03:48:07-07:00"
     },
     {
@@ -1753,6 +2521,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Limited Edition — Rock",
+      "genres": [
+        "Rock",
+        "New Wave"
+      ],
       "dateAdded": "2023-08-31T02:58:42-07:00"
     },
     {
@@ -1765,6 +2537,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Rock, Pop",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-15T04:20:34-07:00"
     },
     {
@@ -1777,6 +2554,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Electronic",
+        "Ambient"
+      ],
       "dateAdded": "2023-08-16T06:49:52-07:00"
     },
     {
@@ -1789,6 +2570,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Electronic",
+      "genres": [
+        "Electronic",
+        "Ambient"
+      ],
       "dateAdded": "2023-08-25T05:56:41-07:00"
     },
     {
@@ -1801,6 +2586,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country",
+        "Country"
+      ],
       "dateAdded": "2023-08-16T12:19:11-07:00"
     },
     {
@@ -1813,6 +2602,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Indie Rock"
+      ],
       "dateAdded": "2024-05-25T03:38:49-07:00"
     },
     {
@@ -1825,6 +2618,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "New Wave",
+        "Synth-pop"
+      ],
       "dateAdded": "2023-08-16T01:45:55-07:00"
     },
     {
@@ -1837,6 +2636,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Synth-pop"
+      ],
       "dateAdded": "2023-08-16T01:46:22-07:00"
     },
     {
@@ -1849,6 +2652,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop",
+        "Indie Rock"
+      ],
       "dateAdded": "2023-08-15T03:52:51-07:00"
     },
     {
@@ -1861,6 +2670,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2024-05-25T04:04:27-07:00"
     },
     {
@@ -1873,6 +2686,9 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2024-05-20T03:41:29-07:00"
     },
     {
@@ -1885,6 +2701,14 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Latin",
+        "Folk, World, & Country",
+        "New Age",
+        "Flamenco"
+      ],
       "dateAdded": "2024-05-20T03:41:58-07:00"
     },
     {
@@ -1897,6 +2721,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Pop"
+      ],
       "dateAdded": "2023-08-15T12:30:43-07:00"
     },
     {
@@ -1909,6 +2737,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Funk / Soul",
+        "Folk, World, & Country",
+        "Funk",
+        "Psychedelic"
+      ],
       "dateAdded": "2024-03-07T12:04:23-08:00"
     },
     {
@@ -1921,6 +2756,17 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Funk / Soul",
+        "Pop",
+        "Balearic",
+        "Future Jazz",
+        "Nu-Disco",
+        "Trip Hop",
+        "Leftfield",
+        "Downtempo"
+      ],
       "dateAdded": "2023-09-11T04:34:05-07:00"
     },
     {
@@ -1933,6 +2779,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:33:23-07:00"
     },
     {
@@ -1945,6 +2796,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-20T03:39:05-07:00"
     },
     {
@@ -1957,6 +2812,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T11:53:46-07:00"
     },
     {
@@ -1969,6 +2830,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Alternative Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T11:49:30-07:00"
     },
     {
@@ -1981,6 +2847,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T03:20:57-07:00"
     },
     {
@@ -1993,6 +2864,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-20T02:54:22-07:00"
     },
     {
@@ -2005,6 +2880,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Electronic, Pop",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Indie Pop",
+        "Leftfield",
+        "Alt-Pop"
+      ],
       "dateAdded": "2024-02-17T06:19:24-08:00"
     },
     {
@@ -2017,6 +2899,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Stereo — Jazz",
+      "genres": [
+        "Jazz",
+        "Big Band",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:04:45-07:00"
     },
     {
@@ -2029,6 +2916,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Footwork"
+      ],
       "dateAdded": "2023-08-15T03:20:07-07:00"
     },
     {
@@ -2041,6 +2932,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Pop",
+        "Chanson"
+      ],
       "dateAdded": "2023-08-16T12:17:10-07:00"
     },
     {
@@ -2053,6 +2948,9 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2023-08-16T12:18:12-07:00"
     },
     {
@@ -2065,6 +2963,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Good (G) · Good (G)",
+      "genres": [
+        "Pop",
+        "Schlager"
+      ],
       "dateAdded": "2023-08-15T04:26:30-07:00"
     },
     {
@@ -2077,6 +2979,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz, Classical",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Easy Listening"
+      ],
       "dateAdded": "2023-08-15T04:28:18-07:00"
     },
     {
@@ -2089,6 +2996,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Stereo — Pop, Classical",
+      "genres": [
+        "Pop",
+        "Classical",
+        "Novelty",
+        "Romantic"
+      ],
       "dateAdded": "2023-08-15T04:23:54-07:00"
     },
     {
@@ -2101,6 +3014,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz, Pop",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Schlager",
+        "Easy Listening"
+      ],
       "dateAdded": "2023-08-15T04:29:44-07:00"
     },
     {
@@ -2113,6 +3032,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-20T03:40:08-07:00"
     },
     {
@@ -2125,6 +3049,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album — Pop",
+      "genres": [
+        "Pop",
+        "Ballad"
+      ],
       "dateAdded": "2023-08-15T03:51:31-07:00"
     },
     {
@@ -2137,6 +3065,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-16T02:46:56-07:00"
     },
     {
@@ -2149,6 +3082,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Post Bop",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-16T02:17:07-07:00"
     },
     {
@@ -2161,6 +3100,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Jazz-Funk",
+        "Fusion"
+      ],
       "dateAdded": "2025-02-17T01:45:48-08:00"
     },
     {
@@ -2173,6 +3118,12 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Club Edition, Special Edition, Stereo — Funk / Soul, Pop",
+      "genres": [
+        "Funk / Soul",
+        "Pop",
+        "Rhythm & Blues",
+        "Soul"
+      ],
       "dateAdded": "2023-08-17T02:27:43-07:00"
     },
     {
@@ -2185,6 +3136,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Quadraphonic — Blues",
+      "genres": [
+        "Blues",
+        "Louisiana Blues"
+      ],
       "dateAdded": "2023-08-16T03:07:35-07:00"
     },
     {
@@ -2197,6 +3152,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Blues Rock"
+      ],
       "dateAdded": "2023-08-15T03:22:43-07:00"
     },
     {
@@ -2209,6 +3169,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Rhythm & Blues"
+      ],
       "dateAdded": "2023-08-16T12:12:26-07:00"
     },
     {
@@ -2221,6 +3186,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Limited Edition, Reissue, Remastered — Jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal"
+      ],
       "dateAdded": "2023-08-17T02:41:20-07:00"
     },
     {
@@ -2233,6 +3203,13 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Rhythm & Blues",
+        "Vocal",
+        "Rock & Roll"
+      ],
       "dateAdded": "2024-05-20T04:02:40-07:00"
     },
     {
@@ -2245,6 +3222,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Rock, Blues",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Rock & Roll"
+      ],
       "dateAdded": "2023-08-15T03:48:36-07:00"
     },
     {
@@ -2257,6 +3239,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-25T04:12:55-07:00"
     },
     {
@@ -2269,6 +3256,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2023-08-15T12:15:40-07:00"
     },
     {
@@ -2281,6 +3271,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Soft Rock"
+      ],
       "dateAdded": "2024-05-25T04:37:16-07:00"
     },
     {
@@ -2293,6 +3287,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Blues Rock"
+      ],
       "dateAdded": "2023-08-16T02:16:19-07:00"
     },
     {
@@ -2305,6 +3304,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Acoustic"
+      ],
       "dateAdded": "2023-08-16T11:54:30-07:00"
     },
     {
@@ -2317,6 +3321,14 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop",
+        "Synth-pop",
+        "Alternative Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T12:04:55-07:00"
     },
     {
@@ -2329,6 +3341,12 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album — Rock, Blues, Folk, World, & Country",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Folk, World, & Country",
+        "Blues Rock"
+      ],
       "dateAdded": "2023-08-16T01:55:58-07:00"
     },
     {
@@ -2341,6 +3359,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Funk / Soul",
+        "Disco",
+        "Nu-Disco",
+        "House"
+      ],
       "dateAdded": "2023-08-16T12:03:43-07:00"
     },
     {
@@ -2353,6 +3378,9 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Pop",
+      "genres": [
+        "Pop"
+      ],
       "dateAdded": "2023-09-01T03:40:03-07:00"
     },
     {
@@ -2365,6 +3393,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Good (G)",
+      "genres": [
+        "Funk / Soul",
+        "Pop",
+        "Disco"
+      ],
       "dateAdded": "2024-05-25T04:19:10-07:00"
     },
     {
@@ -2377,6 +3410,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Latin",
+        "Son"
+      ],
       "dateAdded": "2023-08-16T12:07:29-07:00"
     },
     {
@@ -2389,6 +3427,9 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Reissue, Mono — Folk, World, & Country",
+      "genres": [
+        "Folk, World, & Country"
+      ],
       "dateAdded": "2023-08-16T01:54:53-07:00"
     },
     {
@@ -2401,6 +3442,12 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Contemporary Jazz",
+        "Baroque"
+      ],
       "dateAdded": "2024-05-25T03:55:39-07:00"
     },
     {
@@ -2413,6 +3460,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2024-05-25T03:51:25-07:00"
     },
     {
@@ -2425,6 +3475,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T03:37:19-07:00"
     },
     {
@@ -2437,6 +3492,9 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2024-05-25T03:40:41-07:00"
     },
     {
@@ -2449,6 +3507,9 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2023-08-17T02:16:23-07:00"
     },
     {
@@ -2461,6 +3522,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Test Pressing — Jazz",
+      "genres": [
+        "Jazz",
+        "Soul-Jazz",
+        "Post Bop"
+      ],
       "dateAdded": "2023-08-17T02:13:32-07:00"
     },
     {
@@ -2473,6 +3539,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-16T02:53:04-07:00"
     },
     {
@@ -2485,6 +3555,15 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Limited Edition, Picture Disc — Rock, Classical, Stage & Screen",
+      "genres": [
+        "Rock",
+        "Classical",
+        "Stage & Screen",
+        "Easy Listening",
+        "Surf",
+        "Avantgarde",
+        "Modern"
+      ],
       "dateAdded": "2023-08-17T02:07:05-07:00"
     },
     {
@@ -2497,6 +3576,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Surf",
+        "Easy Listening",
+        "Cool Jazz"
+      ],
       "dateAdded": "2024-05-12T05:32:14-07:00"
     },
     {
@@ -2509,6 +3595,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Easy Listening"
+      ],
       "dateAdded": "2024-05-12T05:24:29-07:00"
     },
     {
@@ -2521,6 +3612,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-12T05:33:55-07:00"
     },
     {
@@ -2533,6 +3628,17 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Folk, World, & Country",
+        "Surf",
+        "Prog Rock",
+        "Avantgarde",
+        "Fusion",
+        "Jazz-Rock",
+        "Klezmer"
+      ],
       "dateAdded": "2024-05-11T12:45:22-07:00"
     },
     {
@@ -2545,6 +3651,14 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Folk, World, & Country",
+        "Folk Rock",
+        "Celtic",
+        "Folk",
+        "Medieval"
+      ],
       "dateAdded": "2023-08-16T01:46:57-07:00"
     },
     {
@@ -2557,6 +3671,9 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+)",
+      "genres": [
+        "Jazz"
+      ],
       "dateAdded": "2023-08-16T12:10:23-07:00"
     },
     {
@@ -2569,6 +3686,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T04:34:55-07:00"
     },
     {
@@ -2581,6 +3702,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Bop"
+      ],
       "dateAdded": "2024-05-25T04:07:19-07:00"
     },
     {
@@ -2593,6 +3718,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Cool Jazz"
+      ],
       "dateAdded": "2024-05-20T03:20:42-07:00"
     },
     {
@@ -2605,6 +3734,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2023-08-16T01:12:09-07:00"
     },
     {
@@ -2617,6 +3751,11 @@
       "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T01:19:02-07:00"
     },
     {
@@ -2629,6 +3768,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Rock",
+      "genres": [
+        "Rock",
+        "AOR",
+        "Soft Rock"
+      ],
       "dateAdded": "2023-08-16T01:43:08-07:00"
     },
     {
@@ -2641,6 +3785,11 @@
       "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Rock",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Hard Rock"
+      ],
       "dateAdded": "2023-08-16T02:06:51-07:00"
     },
     {
@@ -2653,6 +3802,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue — Rock",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2023-08-16T01:38:33-07:00"
     },
     {
@@ -2665,6 +3818,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2023-08-16T12:06:27-07:00"
     },
     {
@@ -2677,6 +3834,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Electro",
+        "Synth-pop"
+      ],
       "dateAdded": "2024-05-25T04:22:39-07:00"
     },
     {
@@ -2689,6 +3851,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2023-08-17T02:31:51-07:00"
     },
     {
@@ -2701,6 +3867,15 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Soul-Jazz",
+        "Smooth Jazz",
+        "Ballad",
+        "Vocal",
+        "Acoustic"
+      ],
       "dateAdded": "2024-05-25T03:50:42-07:00"
     },
     {
@@ -2713,6 +3888,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+) · Made in Japan",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
       "dateAdded": "2024-05-25T03:43:05-07:00"
     },
     {
@@ -2725,6 +3904,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "Folk, World, & Country",
+        "Soul-Jazz"
+      ],
       "dateAdded": "2023-08-17T02:34:47-07:00"
     },
     {
@@ -2737,6 +3922,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Swing"
+      ],
       "dateAdded": "2024-05-19T03:42:21-07:00"
     },
     {
@@ -2749,6 +3938,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Bop",
+        "Swing"
+      ],
       "dateAdded": "2024-11-23T13:16:30-08:00"
     },
     {
@@ -2761,6 +3955,13 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Folk, World, & Country",
+        "Soft Rock",
+        "Vocal",
+        "Folk"
+      ],
       "dateAdded": "2024-05-12T06:21:15-07:00"
     },
     {
@@ -2773,6 +3974,12 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Pop",
+        "Folk Rock",
+        "Ballad",
+        "Vocal"
+      ],
       "dateAdded": "2024-05-12T06:20:41-07:00"
     },
     {
@@ -2785,6 +3992,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Very Good Plus (VG+)",
+      "genres": [
+        "Rock",
+        "Soft Rock",
+        "Pop Rock",
+        "Folk Rock",
+        "Vocal"
+      ],
       "dateAdded": "2024-05-12T06:18:55-07:00"
     },
     {
@@ -2797,6 +4011,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Modal"
+      ],
       "dateAdded": "2023-08-16T02:13:16-07:00"
     },
     {
@@ -2809,6 +4027,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Folk, World, & Country",
+        "Country"
+      ],
       "dateAdded": "2023-08-16T12:18:43-07:00"
     },
     {
@@ -2821,6 +4043,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Leftfield",
+        "Trip Hop",
+        "Downtempo",
+        "Dub"
+      ],
       "dateAdded": "2023-08-16T12:05:26-07:00"
     },
     {
@@ -2833,6 +4062,14 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage & Screen",
+        "Modern Classical",
+        "Chanson",
+        "Soundtrack"
+      ],
       "dateAdded": "2024-05-25T03:58:59-07:00"
     },
     {
@@ -2845,6 +4082,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Alternative Rock",
+        "Prog Rock"
+      ],
       "dateAdded": "2023-08-16T03:18:07-07:00"
     },
     {
@@ -2857,6 +4099,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Good (G)",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-20T03:54:53-07:00"
     },
     {
@@ -2869,6 +4115,10 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good (VG) · Good (G)",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
       "dateAdded": "2024-05-20T03:56:28-07:00"
     },
     {
@@ -2881,6 +4131,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Alternative Rock"
+      ],
       "dateAdded": "2023-08-16T03:19:26-07:00"
     },
     {
@@ -2893,6 +4147,11 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Synth-pop"
+      ],
       "dateAdded": "2024-05-25T04:33:01-07:00"
     },
     {
@@ -2905,6 +4164,13 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "AOR",
+        "Rock & Roll",
+        "Pop Rock"
+      ],
       "dateAdded": "2023-08-16T00:09:08-07:00"
     },
     {
@@ -2917,6 +4183,16 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "Latin",
+        "Stage & Screen",
+        "Soundtrack",
+        "Easy Listening",
+        "Contemporary Jazz",
+        "Ambient"
+      ],
       "dateAdded": "2024-05-20T03:28:49-07:00"
     },
     {
@@ -2929,6 +4205,10 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Blues",
+        "Louisiana Blues"
+      ],
       "dateAdded": "2023-08-16T02:49:15-07:00"
     },
     {
@@ -2941,6 +4221,10 @@
       "cover": "one",
       "state": "archive",
       "note": "Mint (M) · Near Mint (NM or M-)",
+      "genres": [
+        "Jazz",
+        "Big Band"
+      ],
       "dateAdded": "2025-02-27T02:43:45-08:00"
     },
     {
@@ -2953,6 +4237,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Mint (M)",
+      "genres": [
+        "Jazz",
+        "Hard Bop"
+      ],
       "dateAdded": "2023-08-16T02:48:47-07:00"
     },
     {
@@ -2965,6 +4253,13 @@
       "cover": "three",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Country Rock",
+        "Soft Rock",
+        "Pop Rock"
+      ],
       "dateAdded": "2024-05-25T04:12:07-07:00"
     },
     {
@@ -2977,6 +4272,13 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Stage & Screen",
+        "Kayōkyoku",
+        "Theme"
+      ],
       "dateAdded": "2023-08-15T02:03:43-07:00"
     },
     {
@@ -2989,6 +4291,15 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Classical",
+        "Folk, World, & Country",
+        "New Age",
+        "Acoustic",
+        "Baroque",
+        "Medieval",
+        "Folk"
+      ],
       "dateAdded": "2023-08-17T01:51:22-07:00"
     },
     {
@@ -3001,6 +4312,10 @@
       "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
+      "genres": [
+        "Classical",
+        "Contemporary"
+      ],
       "dateAdded": "2024-05-20T03:19:44-07:00"
     },
     {
@@ -3013,6 +4328,16 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Blues",
+        "Pop",
+        "Soul-Jazz",
+        "Acoustic",
+        "Piano Blues",
+        "Neo Soul"
+      ],
       "dateAdded": "2024-05-25T04:10:27-07:00"
     },
     {
@@ -3025,6 +4350,16 @@
       "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Blues",
+        "Pop",
+        "Soul-Jazz",
+        "Acoustic",
+        "Piano Blues",
+        "Neo Soul"
+      ],
       "dateAdded": "2024-05-25T04:10:53-07:00"
     },
     {
@@ -3037,6 +4372,14 @@
       "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
+      "genres": [
+        "Funk / Soul",
+        "Blues",
+        "Pop",
+        "Acoustic",
+        "Piano Blues",
+        "Neo Soul"
+      ],
       "dateAdded": "2023-08-15T12:33:40-07:00"
     },
     {
@@ -3049,6 +4392,13 @@
       "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Pop",
+        "Fusion",
+        "Jazz-Rock"
+      ],
       "dateAdded": "2024-05-25T04:03:56-07:00"
     },
     {
@@ -3061,6 +4411,11 @@
       "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
+      "genres": [
+        "Jazz",
+        "Jazz-Rock",
+        "Fusion"
+      ],
       "dateAdded": "2024-05-25T04:01:10-07:00"
     }
   ]
