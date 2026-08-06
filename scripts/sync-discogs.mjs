@@ -41,6 +41,7 @@ const releases = all.map((entry, index) => {
     cover: coverStyles[index % coverStyles.length],
     state: 'archive',
     note,
+    genres: [...new Set([...(info.genres || []), ...(info.styles || [])])],
     dateAdded: entry.date_added,
   };
 });
