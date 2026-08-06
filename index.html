@@ -29,6 +29,8 @@
       .hero-meta b { display:block; font:400 29px 'Instrument Serif',serif; }
       .hero-meta span { font:500 9px 'DM Mono',monospace; color:var(--muted); text-transform:uppercase; letter-spacing:.11em; }
       .room-actions { display:flex; gap:10px; margin-top:29px; position:relative; }
+      .collection-snapshot { position:relative; display:grid; grid-template-columns:1.35fr 1fr 1fr .9fr; gap:1px; margin-top:47px; max-width:960px; border:1px solid var(--line); background:var(--line); }
+      .snapshot-item { min-height:73px; padding:13px 16px; background:rgba(19,19,18,.9); }.snapshot-item strong { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font:400 22px 'Instrument Serif'; letter-spacing:-.02em; color:var(--bone); }.snapshot-item span{display:block;margin-top:5px;color:var(--muted);font:10px 'DM Mono';letter-spacing:.09em;text-transform:uppercase;}
       .room-button { padding:13px 17px; color:var(--bone); border:1px solid var(--line); background:rgba(255,255,255,.025); font:500 10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; transition:.25s ease; }
       .room-button:hover { color:var(--ink); border-color:var(--gold); background:var(--gold); box-shadow:0 0 28px rgba(201,179,122,.25); transform:translateY(-2px); }
       .record { width:min(35vw,460px); aspect-ratio:1; justify-self:end; border-radius:50%; background:repeating-radial-gradient(circle at 50% 50%, #161616 0 3px,#20201f 4px 5px,#111 6px 8px); box-shadow:0 0 0 14px #191918, 0 25px 90px #000; position:relative; transform:translate(7%,-5%) rotate(-17deg); }
@@ -81,7 +83,7 @@
       .weekly-card.featured:before { content:''; position:absolute; width:250px; height:250px; border:1px solid rgba(201,179,122,.26); border-radius:50%; right:-80px; bottom:-115px; box-shadow:0 0 0 25px rgba(201,179,122,.035),0 0 0 55px rgba(201,179,122,.025); }
       .weekly-label { color:var(--gold); font:10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; }.weekly-title { position:relative; font:400 37px/.93 'Instrument Serif'; letter-spacing:-.04em; max-width:280px; }.weekly-card:not(.featured) .weekly-title{font-size:28px}.weekly-meta{color:var(--muted);font:10px 'DM Mono';letter-spacing:.06em;text-transform:uppercase;}
       .modal { position:fixed; inset:0; padding:20px; background:rgba(3,3,3,.78); display:none; align-items:center; justify-content:center; z-index:5; backdrop-filter:blur(9px); }.modal.open{display:flex}.modal-box{max-width:510px;width:100%;padding:30px;background:#1b1b19;border:1px solid rgba(201,179,122,.35);box-shadow:0 24px 100px #000;position:relative}.modal-close{position:absolute;right:16px;top:14px;border:0;background:none;color:var(--muted);font:16px 'DM Mono';}.modal-format{font:10px 'DM Mono';letter-spacing:.12em;color:var(--gold);text-transform:uppercase}.modal-box h3{font:400 54px/.9 'Instrument Serif';letter-spacing:-.05em;margin:14px 0}.modal-box p{color:#bab6ad;font-size:13px;line-height:1.7;max-width:380px}.modal-note{padding-top:17px;border-top:1px solid var(--line);font:10px 'DM Mono';color:var(--muted);letter-spacing:.04em}
-      @media(max-width:760px){ .shell{padding:0 20px}.nav-links{display:none}.hero{min-height:700px;display:block;padding-top:82px}.record{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78}.hero-meta{position:relative;grid-template-columns:repeat(2,1fr);margin-top:280px;gap:20px 12px}.collection{padding-top:55px}.collection-top{display:block}.filters{margin-top:25px}.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}.archive-note{display:block}.value{text-align:left;margin-top:20px}.auction{padding:55px 0}.auction-layout{grid-template-columns:1fr}.auction-art{min-height:250px}.auction-info{padding:28px 22px}.auction-stats{grid-template-columns:1fr 1fr}.auction-stats div:last-child{grid-column:span 2;border-left:0;border-top:1px solid var(--line);padding-left:0}.weekly{padding:55px 0}.weekly-head{display:block}.weekly-copy{text-align:left;margin-top:15px}.weekly-grid{grid-template-columns:1fr}.weekly-card{min-height:200px} footer{display:block;line-height:2} }
+      @media(max-width:760px){ .shell{padding:0 20px}.nav-links{display:none}.hero{min-height:700px;display:block;padding-top:82px}.record{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78}.hero-meta{position:relative;grid-template-columns:repeat(2,1fr);margin-top:280px;gap:20px 12px}.collection-snapshot{grid-template-columns:1fr 1fr;margin-top:28px}.collection{padding-top:55px}.collection-top{display:block}.filters{margin-top:25px}.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}.archive-note{display:block}.value{text-align:left;margin-top:20px}.auction{padding:55px 0}.auction-layout{grid-template-columns:1fr}.auction-art{min-height:250px}.auction-info{padding:28px 22px}.auction-stats{grid-template-columns:1fr 1fr}.auction-stats div:last-child{grid-column:span 2;border-left:0;border-top:1px solid var(--line);padding-left:0}.weekly{padding:55px 0}.weekly-head{display:block}.weekly-copy{text-align:left;margin-top:15px}.weekly-grid{grid-template-columns:1fr}.weekly-card{min-height:200px} footer{display:block;line-height:2} }
     </style>
   </head>
   <body>
@@ -95,6 +97,7 @@
             <p class="intro" id="archive-intro">A considered archive of records and compact discs. Each object has a history, a sound, and a place in the room.</p>
             <div class="hero-meta"><div><b id="total-count">—</b><span>In archive</span></div><div><b id="vinyl-count">—</b><span>Vinyl records</span></div><div><b id="cd-count">—</b><span>Compact discs</span></div><div><b id="artist-count">—</b><span>Artists</span></div></div>
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
+            <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
           </div><div class="record" aria-hidden="true"></div>
         </section>
         <section class="auction" id="auction">
@@ -146,11 +149,17 @@
         const years = archive.map(release => Number(release.year)).filter(Number.isFinite);
         const firstDecade = years.length ? `${Math.floor(Math.min(...years) / 10) * 10}s` : '';
         const lastDecade = years.length ? `${Math.floor(Math.max(...years) / 10) * 10}s` : '';
+        const genreCounts = archive.flatMap(release => release.genres || []).reduce((counts, genre) => counts.set(genre, (counts.get(genre) || 0) + 1), new Map());
+        const topGenres = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([genre]) => genre).join(' · ');
         document.querySelector('#total-count').textContent = archive.length;
         document.querySelector('#vinyl-count').textContent = vinyl;
         document.querySelector('#cd-count').textContent = cd;
         document.querySelector('#artist-count').textContent = artists;
         document.querySelector('#value').textContent = collection.estimatedValue || 'Value unavailable';
+        document.querySelector('#top-genres').textContent = topGenres || 'To be revealed';
+        document.querySelector('#time-span').textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
+        document.querySelector('#hero-value').textContent = collection.estimatedValue || '—';
+        document.querySelector('#last-sync').textContent = collection.updatedAt ? new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric' }).format(new Date(collection.updatedAt)) : '—';
         if (archive.length && firstDecade) document.querySelector('#archive-intro').textContent = `An evolving archive of ${archive.length} physical releases, spanning ${firstDecade}${firstDecade !== lastDecade ? ` to ${lastDecade}` : ''}. Each object has a history, a sound, and a place in the room.`;
       };
       const modal = document.querySelector('#modal');
