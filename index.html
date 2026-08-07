@@ -36,8 +36,9 @@
       .turntable { width:min(35vw,460px); aspect-ratio:1; justify-self:end; position:relative; transform:translate(7%,-5%); }
       .record { width:100%; aspect-ratio:1; border-radius:50%; background:repeating-radial-gradient(circle at 50% 50%, #161616 0 3px,#20201f 4px 5px,#111 6px 8px); box-shadow:0 0 0 14px #191918, 0 25px 90px #000; position:relative; animation:spin 26s linear 3.1s infinite backwards; }
       @keyframes spin { from { transform:rotate(-17deg); } to { transform:rotate(343deg); } }
-      .tonearm { position:absolute; z-index:2; top:7%; right:-4%; width:48%; height:14px; border-radius:99px 4px 4px 99px; background:linear-gradient(180deg,#ded9cc,#68655e 55%,#292827); box-shadow:0 3px 7px rgba(0,0,0,.55); transform-origin:right center; animation:tonearm-settle 3.1s cubic-bezier(.25,.8,.25,1) forwards; }
-      .tonearm:before { content:''; position:absolute; width:31px; height:31px; right:-8px; top:50%; transform:translateY(-50%); border-radius:50%; background:radial-gradient(circle at 35% 32%,#e4decf 0 9%,#77746e 10% 34%,#20201f 36%); box-shadow:0 2px 7px #000; }
+      .tonearm-base { position:absolute; z-index:3; top:3%; right:2%; width:43px; height:43px; border-radius:50%; background:radial-gradient(circle at 34% 30%,#f1e9d4 0 6%,#9c9589 7% 26%,#3b3934 27% 55%,#161615 57%); box-shadow:0 4px 10px #000; }
+      .tonearm { position:absolute; z-index:4; top:9%; right:6%; width:53%; height:15px; border:1px solid rgba(255,247,224,.55); border-radius:99px 4px 4px 99px; background:linear-gradient(180deg,#f2ebdb,#89847a 55%,#35332f); box-shadow:0 4px 9px rgba(0,0,0,.7); transform-origin:right center; animation:tonearm-settle 3.1s cubic-bezier(.25,.8,.25,1) forwards; }
+      .tonearm:before { content:''; position:absolute; width:20px; height:20px; right:-6px; top:50%; transform:translateY(-50%); border-radius:50%; background:radial-gradient(circle at 35% 32%,#e4decf 0 9%,#77746e 10% 34%,#20201f 36%); box-shadow:0 2px 7px #000; }
       .tonearm:after { content:''; position:absolute; width:25px; height:10px; left:-14px; bottom:-5px; border-radius:2px; background:#c7b374; box-shadow:0 3px 5px #000; }
       @keyframes tonearm-settle { 0% { transform:rotate(-39deg); opacity:0; } 15% { opacity:1; } 68% { transform:rotate(17deg); } 82% { transform:rotate(15deg) translateY(-2px); } 100% { transform:rotate(15deg) translateY(0); } }
       @media (prefers-reduced-motion: reduce) { .record { animation:none; transform:rotate(-17deg); }.tonearm{animation:none;transform:rotate(15deg)} }
@@ -59,6 +60,7 @@
       .cover img { width:100%; height:100%; display:block; object-fit:cover; transition:transform .45s ease; }.card:hover .cover img{transform:scale(1.045)}
       .card:hover .cover { box-shadow:0 14px 35px rgba(0,0,0,.36),0 0 0 1px rgba(201,179,122,.38); }
       .cover:after { content:'Discogs sync preview'; position:absolute; bottom:12px; left:13px; font:9px 'DM Mono'; letter-spacing:.08em; text-transform:uppercase; color:rgba(255,255,255,.56); }
+      .card-price { position:absolute; z-index:2; right:11px; bottom:10px; padding:8px 9px; background:var(--gold); color:#181713; font:600 12px Manrope,sans-serif; opacity:0; transform:translateY(5px); transition:.25s ease; }.card:hover .card-price,.card:focus .card-price{opacity:1;transform:translateY(0)}
       .cover.one { background:linear-gradient(135deg,#db351b 0 45%,#17130f 45% 55%,#e8a42e 55%); }
       .cover.two { background:radial-gradient(circle at 50% 37%,#d7c99e 0 15%,#483d32 16% 32%,#1b201f 33%); }
       .cover.three { background:linear-gradient(35deg,#132e36 0 30%,#91b5b0 30% 34%,#bf5138 34% 72%,#e6d7b8 72%); }
@@ -89,6 +91,7 @@
       .weekly-copy { max-width:340px; color:var(--muted); font-size:12px; line-height:1.7; text-align:right; }
       .weekly-grid { display:grid; grid-template-columns:1.3fr 1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); }
       .weekly-card { min-height:255px; padding:22px; background:#151514; position:relative; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; transition:background .25s ease; text-decoration:none; color:inherit; }
+      .weekly-card .weekly-art { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.34; filter:saturate(.7) contrast(1.08); transition:transform .5s ease,opacity .3s ease; }.weekly-card:hover .weekly-art{transform:scale(1.05);opacity:.48}.weekly-card > :not(.weekly-art){position:relative;z-index:1;text-shadow:0 2px 16px #000}
       .weekly-card:hover { background:#20201d; }.weekly-card.featured { background:linear-gradient(135deg,#28241d,#171716 72%); }
       .weekly-card.featured:before { content:''; position:absolute; width:250px; height:250px; border:1px solid rgba(201,179,122,.26); border-radius:50%; right:-80px; bottom:-115px; box-shadow:0 0 0 25px rgba(201,179,122,.035),0 0 0 55px rgba(201,179,122,.025); }
       .weekly-label { color:var(--gold); font:10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; }.weekly-title { position:relative; font:400 37px/.93 'Instrument Serif'; letter-spacing:-.04em; max-width:280px; }.weekly-card:not(.featured) .weekly-title{font-size:28px}.weekly-meta{color:var(--muted);font:10px 'DM Mono';letter-spacing:.06em;text-transform:uppercase;}
@@ -110,7 +113,7 @@
             <div class="hero-meta"><div><b id="total-count">—</b><span>In archive</span></div><div><b id="vinyl-count">—</b><span>Vinyl records</span></div><div><b id="cd-count">—</b><span>Compact discs</span></div><div><b id="artist-count">—</b><span>Artists</span></div></div>
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><button class="room-button" id="room-tone" aria-pressed="false">Play room tone</button><a class="room-button" href="#collection">Enter archive</a></div>
             <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
-          </div><div class="turntable" aria-hidden="true"><div class="record"></div><div class="tonearm"></div></div>
+          </div><div class="turntable" aria-hidden="true"><div class="record"></div><div class="tonearm-base"></div><div class="tonearm"></div></div>
         </section>
         <section class="auction" id="auction">
           <div class="section-kicker">Nocturne auctions</div>
@@ -154,7 +157,7 @@
         const visible = releases.filter(r => (active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active)) && (selectedGenre === 'all' || r.genres?.includes(selectedGenre)) && (!lowered || `${r.artist} ${r.title} ${r.note || ''}`.toLowerCase().includes(lowered))).sort((a,b) => sortMode === 'artist' ? a.artist.localeCompare(b.artist) : sortMode === 'year-desc' ? Number(b.year || 0) - Number(a.year || 0) : sortMode === 'year-asc' ? Number(a.year || 9999) - Number(b.year || 9999) : new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
         document.querySelector('#result-count').textContent = `Showing ${visible.length} of ${releases.length} releases`;
         resetButton.hidden = active === 'all' && selectedGenre === 'all' && !query && sortMode === 'recent';
-        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span></div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
+        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span>${r.estimatedPrice ? `<span class="card-price">${r.estimatedPrice}</span>` : ''}</div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
         grid.querySelectorAll('.card').forEach(card => card.addEventListener('click', () => openRelease(releases[card.dataset.release])));
       };
       document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => { active = button.dataset.filter; document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b === button)); render(); }));
@@ -252,7 +255,7 @@
           if (!response.ok) throw new Error('Weekly data is not ready');
           const weekly = await response.json();
           if (!weekly.releases?.length || weekly.placeholder) return;
-          document.querySelector('#weekly-grid').innerHTML = weekly.releases.slice(0, 3).map((release, index) => `<a class="weekly-card ${index === 0 ? 'featured' : ''}" href="https://musicbrainz.org/release-group/${encodeURIComponent(release.id)}" target="_blank" rel="noreferrer"><span class="weekly-label">${escapeHtml(release.date || 'This week')}</span><div class="weekly-title">${escapeHtml(release.title)}</div><span class="weekly-meta">${escapeHtml(release.artist)}</span></a>`).join('');
+          document.querySelector('#weekly-grid').innerHTML = weekly.releases.slice(0, 3).map((release, index) => `<a class="weekly-card ${index === 0 ? 'featured' : ''}" href="https://musicbrainz.org/release-group/${encodeURIComponent(release.id)}" target="_blank" rel="noreferrer"><img class="weekly-art" src="https://coverartarchive.org/release-group/${encodeURIComponent(release.id)}/front-250" alt="" loading="lazy" onerror="this.remove()"><span class="weekly-label">${escapeHtml(release.date || 'This week')}</span><div class="weekly-title">${escapeHtml(release.title)}</div><span class="weekly-meta">${escapeHtml(release.artist)}</span></a>`).join('');
         } catch (_) { /* Keep the neutral loading card when the weekly feed is unavailable. */ }
       };
       render();
