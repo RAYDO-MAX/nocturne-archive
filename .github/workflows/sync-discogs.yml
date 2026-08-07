@@ -20,9 +20,10 @@ jobs:
         env:
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
           DISCOGS_USERNAME: NocturneArchive
+      - run: node scripts/sync-weekly-releases.mjs
       - run: |
           git config user.name "Nocturne Archive sync"
           git config user.email "actions@github.com"
-          git add data/collection.json
+          git add data/collection.json data/weekly-releases.json
           git diff --cached --quiet || git commit -m "Update collection"
           git push
