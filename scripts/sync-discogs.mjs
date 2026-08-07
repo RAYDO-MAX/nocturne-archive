@@ -28,11 +28,29 @@ for (let page = 1; ; page += 1) {
 const formatName = (information) => information.formats?.map((format) => [format.name, ...(format.descriptions || [])].join(', ')).join(' · ') || 'Other';
 const shortFormat = (information) => information.formats?.some((format) => format.name === 'Vinyl') ? 'Vinyl' : information.formats?.some((format) => format.name === 'CD') ? 'CD' : information.formats?.[0]?.name || 'Other';
 const coverStyles = ['one', 'two', 'three', 'four'];
-const releases = all.map((entry, index) => {
+const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+const priceFor = (suggestions, condition) => {
+  const preferred = [condition, 'Near Mint (NM or M-)', 'Very Good Plus (VG+)', 'Very Good (VG)', 'Good Plus (G+)'];
+  const match = preferred.map((key) => suggestions?.[key]).find((entry) => entry?.value);
+  return match ? `${match.currency} ${Number(match.value).toFixed(2)}` : null;
+};
+const releases = [];
+for (const [index, entry] of all.entries()) {
   const info = entry.basic_information;
   const note = entry.notes?.map((item) => item.value).filter(Boolean).join(' · ') || `${formatName(info)} — ${info.genres?.join(', ') || 'No genre listed'}`;
-  return {
+  let detail = {};
+  let suggestions = null;
+  try {
+    await delay(1050);
+    detail = await request(`/releases/${info.id}`);
+    await delay(1050);
+    suggestions = await request(`/marketplace/price_suggestions/${info.id}`);
+  } catch (_) {
+    // Individual release details are optional; a complete catalogue is more useful than failing the full sync.
+  }
+  releases.push({
     id: entry.instance_id,
+    discogsId: info.id,
     artist: info.artists?.map((artist) => artist.name.replace(/ \(\d+\)$/, '')).join(', ') || 'Unknown artist',
     title: info.title,
     format: shortFormat(info),
@@ -43,8 +61,15 @@ const releases = all.map((entry, index) => {
     note,
     genres: [...new Set([...(info.genres || []), ...(info.styles || [])])],
     dateAdded: entry.date_added,
-  };
-});
+    label: detail.labels?.map((label) => label.name).filter(Boolean).join(', ') || info.labels?.map((label) => label.name).filter(Boolean).join(', ') || 'Not specified',
+    country: detail.country || 'Not specified',
+    released: detail.released || info.year || '—',
+    condition: entry.media_condition || entry.condition || 'Not specified',
+    sleeveCondition: entry.sleeve_condition || 'Not specified',
+    estimatedPrice: priceFor(suggestions, entry.media_condition || entry.condition),
+    tracklist: (detail.tracklist || []).filter((track) => track.type_ === 'track' || !track.type_).map((track) => ({ position: track.position || '', title: track.title || '', duration: track.duration || '' })),
+  });
+}
 
 let estimatedValue = 'Value unavailable';
 try {
