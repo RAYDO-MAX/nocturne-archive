@@ -1,22 +1,16 @@
 {
-  "updatedAt": "2026-08-07T10:13:48.633Z",
+  "updatedAt": "2026-08-08T05:24:02.318Z",
   "releases": [
-    {
-      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
-      "title": "Radiation Therapy",
-      "artist": "Crossbreed",
-      "date": "2026"
-    },
-    {
-      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
-      "title": "Castlevania: Piano Collections",
-      "artist": "Benyamin NussRamon van Engelenhoven",
-      "date": "2026"
-    },
     {
       "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
       "title": "The Ballad of General Jupiter",
       "artist": "Anton Roolaart",
+      "date": "2026"
+    },
+    {
+      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
+      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
+      "artist": "Fritz ReinerReiner Vienna Philharmonic",
       "date": "2026"
     },
     {
@@ -32,9 +26,39 @@
       "date": "2026"
     },
     {
-      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
-      "title": "Thunk",
-      "artist": "Jim MoginieThe Family Dog",
+      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
+      "title": "Radiation Therapy",
+      "artist": "Crossbreed",
+      "date": "2026"
+    },
+    {
+      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
+      "title": "Castlevania: Piano Collections",
+      "artist": "Benyamin NussRamon van Engelenhoven",
+      "date": "2026"
+    },
+    {
+      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
+      "title": "Living Free (Live Manchester '75)",
+      "artist": "Don McLean",
+      "date": "2026"
+    },
+    {
+      "id": "ecd9914c-79f2-402a-b84e-96f91aed70e0",
+      "title": "Eastward Bound (live New York ’75)",
+      "artist": "Savoy Brown",
+      "date": "2026"
+    },
+    {
+      "id": "537d15e2-1b31-4737-aacd-d96dc410a920",
+      "title": "Through Lines",
+      "artist": "Skye Peterson",
+      "date": "2026"
+    },
+    {
+      "id": "99223d42-db65-42d4-9376-64f0a555484e",
+      "title": "DREAMBOY (UNFINISHED)",
+      "artist": "Lil Nas X",
       "date": "2026"
     },
     {
@@ -47,30 +71,6 @@
       "id": "7e7c88bd-756f-4930-a4ba-788c62e996b7",
       "title": "ЖЗЛ",
       "artist": "Lacerate",
-      "date": "2026"
-    },
-    {
-      "id": "121c2760-e64e-4874-96d6-ebdfc13270ce",
-      "title": "Не ври мне, что всё будет хорошо",
-      "artist": "Мёртвая Вера",
-      "date": "2026"
-    },
-    {
-      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
-      "title": "Аудионаркотики. Часть 1",
-      "artist": "Еперный театор",
-      "date": "2026"
-    },
-    {
-      "id": "d5af81e0-9adc-4559-8672-cb44f6b0b63b",
-      "title": "Outroom",
-      "artist": "X - Tram",
-      "date": "2026"
-    },
-    {
-      "id": "ecd9914c-79f2-402a-b84e-96f91aed70e0",
-      "title": "Eastward Bound (live New York ’75)",
-      "artist": "Savoy Brown",
       "date": "2026"
     }
   ]
