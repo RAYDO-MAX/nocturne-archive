@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-08-08T05:24:02.318Z",
+  "updatedAt": "2026-08-09T05:32:39.974Z",
   "releases": [
-    {
-      "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
-      "title": "The Ballad of General Jupiter",
-      "artist": "Anton Roolaart",
-      "date": "2026"
-    },
-    {
-      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
-      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
-      "artist": "Fritz ReinerReiner Vienna Philharmonic",
-      "date": "2026"
-    },
-    {
-      "id": "92ca6ff8-7c90-4d16-806e-536fa3fb5412",
-      "title": "Midnights in October",
-      "artist": "Midnights in October",
-      "date": "2026"
-    },
-    {
-      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
-      "title": "Meridians",
-      "artist": "Alasdair FraserNatalie Haas",
-      "date": "2026"
-    },
     {
       "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
       "title": "Radiation Therapy",
@@ -38,9 +14,21 @@
       "date": "2026"
     },
     {
-      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
-      "title": "Living Free (Live Manchester '75)",
-      "artist": "Don McLean",
+      "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
+      "title": "The Ballad of General Jupiter",
+      "artist": "Anton Roolaart",
+      "date": "2026"
+    },
+    {
+      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
+      "title": "Electric Fantasy",
+      "artist": "Pierre Schott",
+      "date": "2026"
+    },
+    {
+      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
+      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
+      "artist": "Fritz ReinerReiner Vienna Philharmonic",
       "date": "2026"
     },
     {
@@ -50,9 +38,27 @@
       "date": "2026"
     },
     {
-      "id": "537d15e2-1b31-4737-aacd-d96dc410a920",
-      "title": "Through Lines",
-      "artist": "Skye Peterson",
+      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
+      "title": "Аудионаркотики. Часть 2",
+      "artist": "Еперный театор",
+      "date": "2026"
+    },
+    {
+      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
+      "title": "Thunk",
+      "artist": "Jim MoginieThe Family Dog",
+      "date": "2026"
+    },
+    {
+      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
+      "title": "Аудионаркотики. Часть 1",
+      "artist": "Еперный театор",
+      "date": "2026"
+    },
+    {
+      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
+      "title": "Living Free (Live Manchester '75)",
+      "artist": "Don McLean",
       "date": "2026"
     },
     {
@@ -62,15 +68,9 @@
       "date": "2026"
     },
     {
-      "id": "d6b6d243-343c-417e-8b26-31db549aa17b",
-      "title": "Broken Dreams",
-      "artist": "Siska",
-      "date": "2026"
-    },
-    {
-      "id": "7e7c88bd-756f-4930-a4ba-788c62e996b7",
-      "title": "ЖЗЛ",
-      "artist": "Lacerate",
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
       "date": "2026"
     }
   ]
