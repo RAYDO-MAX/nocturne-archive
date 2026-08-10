@@ -18,7 +18,7 @@
       nav { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
       .brand { font-family:'Instrument Serif',serif; font-size:29px; letter-spacing:-.03em; }
       .brand em { color:var(--gold); font-style:italic; }
-      .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }
+      .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }.nav-links a{color:inherit;text-decoration:none}.nav-links a:hover{color:var(--gold)}
       .hero { min-height:650px; position:relative; display:grid; grid-template-columns:1fr .8fr; align-items:end; padding:88px 0 65px; overflow:hidden; }
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
       h1 { max-width:760px; margin:18px 0 27px; font:400 clamp(72px,10vw,150px)/.8 'Instrument Serif',serif; letter-spacing:-.06em; }
@@ -103,11 +103,13 @@
       .release-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.release-spec span,.release-spec strong{overflow-wrap:anywhere}.release-spec span{letter-spacing:.04em}
       @media(max-width:760px){ .shell{padding:0 20px}.nav-links{display:none}.hero{min-height:700px;display:block;padding-top:82px}.record{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78}.hero-meta{position:relative;grid-template-columns:repeat(2,1fr);margin-top:280px;gap:20px 12px}.collection-snapshot{grid-template-columns:1fr 1fr;margin-top:28px}.collection{padding-top:55px}.collection-top{display:block}.filters{margin-top:25px}.catalog-tools{grid-template-columns:1fr;margin-top:17px}.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}.archive-note{display:block}.value{text-align:left;margin-top:20px}.auction{padding:55px 0}.auction-layout{grid-template-columns:1fr}.auction-art{min-height:250px}.auction-info{padding:28px 22px}.auction-stats{grid-template-columns:1fr 1fr}.auction-stats div:last-child{grid-column:span 2;border-left:0;border-top:1px solid var(--line);padding-left:0}.weekly{padding:55px 0}.weekly-head{display:block}.weekly-copy{text-align:left;margin-top:15px}.weekly-grid{grid-template-columns:1fr}.weekly-card{min-height:200px} footer{display:block;line-height:2} }
       @media(max-width:760px){ .hero .turntable{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78} .hero .record{width:100%;position:relative;right:auto;bottom:auto;opacity:1} .record-play{width:88px;height:88px;font-size:10px} }
+      /* Accessible type scale and visible keyboard focus. */
+      .nav-links,.eyebrow,.section-kicker,.hero-meta span,.snapshot-item span,.weekly-label,.weekly-meta,.live,.modal-format{font-size:13px}.room-button,.filter,.details,.map-tab{font-size:13px}.auction-stats span,.value span,footer{font-size:12px}.modal-note{font-size:13px}.card:focus-visible,.nav-links a:focus-visible,.room-button:focus-visible,.filter:focus-visible,.map-tab:focus-visible,.bid-button:focus-visible,.modal-close:focus-visible{outline:2px solid var(--gold);outline-offset:4px}.card:focus-visible{transform:translateY(-5px)}
     </style>
   </head>
   <body>
     <div class="shell">
-      <nav><div class="brand">Nocturne <em>Archive</em></div><div class="nav-links"><span>Collection</span><span>About</span><span>Available soon</span></div></nav>
+      <nav><a class="brand" href="index.html">Nocturne <em>Archive</em></a><div class="nav-links"><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div></nav>
       <main>
         <section class="hero">
           <div>
@@ -118,13 +120,6 @@
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
             <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
           </div><div class="turntable"><div class="record"></div><div class="tonearm-base"></div><div class="tonearm"></div><button class="record-play" id="room-tone" aria-pressed="false" aria-label="Play ambient">Play ambient</button></div>
-        </section>
-        <section class="auction" id="auction">
-          <div class="section-kicker">Upcoming auctions</div>
-          <div class="auction-layout">
-            <div class="auction-art" aria-hidden="true"></div>
-            <div class="auction-info"><div class="live">Coming soon · no live bidding</div><h2>The first catalogue is in preparation.</h2><p>Selected releases will be offered individually with condition reports, provenance and full Discogs details. This page does not accept bids yet; the opening date and first lots will be announced here.</p><div class="auction-stats"><div><strong>—</strong><span>Lots announced</span></div><div><strong>—</strong><span>Opening date</span></div><div><strong>Preview</strong><span>Bidding status</span></div></div><button class="bid-button" id="auction-join">View auction notice</button></div>
-          </div>
         </section>
         <section class="weekly">
           <div class="weekly-head"><div><div class="section-kicker">The weekly signal</div><h2>New music, this week.</h2></div><p class="weekly-copy">A compact, independent radar of albums released this week — separate from the Nocturne Archive collection.</p></div>
@@ -141,6 +136,13 @@
           <div class="grid" id="grid"></div>
           <div class="archive-note"><p>Collection data will be synchronised from Discogs. Notes, condition and estimated value remain part of the private archive unless intentionally shared here.</p><div class="value"><strong id="value">—</strong><span>Estimated archive value</span><small class="estimate-note">Indicative Discogs estimate only. Final value can vary with condition, edition and demand.</small></div></div>
         </section>
+        <section class="auction" id="auction">
+          <div class="section-kicker">Upcoming auctions</div>
+          <div class="auction-layout">
+            <div class="auction-art" aria-hidden="true"></div>
+            <div class="auction-info"><div class="live">Coming soon · no live bidding</div><h2>The first catalogue is in preparation.</h2><p>Selected releases will be offered individually with condition reports, provenance and full Discogs details. This page does not accept bids yet; the opening date and first lots will be announced here.</p><div class="auction-stats"><div><strong>—</strong><span>Lots announced</span></div><div><strong>—</strong><span>Opening date</span></div><div><strong>Preview</strong><span>Bidding status</span></div></div></div>
+          </div>
+        </section>
       </main>
       <footer><span>© 2026 Nocturne Archive</span><span>Built for slow listening</span></footer>
     </div>
@@ -148,7 +150,6 @@
       <source src="assets/audio/chill-beat.ogg" type="audio/ogg" />
     </audio>
     <div class="modal" id="modal" aria-hidden="true"><div class="modal-box release-modal" role="dialog" aria-modal="true" aria-label="Release details"><button class="modal-close" aria-label="Close details">×</button><div class="release-modal-grid"><img class="release-modal-cover" id="modal-cover" alt=""><div><div class="modal-format" id="modal-format"></div><h3 id="modal-title"></h3><p class="release-artist" id="modal-artist"></p><div class="release-specs"><div class="release-spec"><span>Label</span><strong id="modal-label"></strong></div><div class="release-spec"><span>Country</span><strong id="modal-country"></strong></div><div class="release-spec"><span>Released</span><strong id="modal-released"></strong></div><div class="release-spec"><span>Media condition</span><strong class="release-condition" id="modal-condition"></strong></div><div class="release-spec"><span>Sleeve condition</span><strong class="release-condition" id="modal-sleeve"></strong></div><div class="release-spec"><span>Market estimate</span><strong id="modal-price"></strong></div></div><div class="release-tracklist" id="modal-tracklist"></div><div class="release-modal-note" id="modal-note"></div><a class="release-discogs" id="modal-discogs" target="_blank" rel="noreferrer">View release on Discogs</a></div></div></div></div>
-    <div class="modal" id="auction-modal" aria-hidden="true"><div class="modal-box" role="dialog" aria-modal="true" aria-label="Auction notice"><button class="modal-close" aria-label="Close auction notice">×</button><div class="modal-format">Upcoming auctions</div><h3>The catalogue is in preparation.</h3><p>Auctions will open only when real lots, verified condition reports, shipping terms and secure bidding are ready. This preview does not accept bids or payments.</p><div class="modal-note">Follow the archive for the first catalogue and opening date.</div></div></div>
     <script>
       // These samples are automatically replaced by data/collection.json after the private Discogs sync runs.
       let releases = [
@@ -170,8 +171,8 @@
         const visible = releases.filter(r => (active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active)) && (selectedGenre === 'all' || r.genres?.includes(selectedGenre)) && (!lowered || `${r.artist} ${r.title} ${r.note || ''}`.toLowerCase().includes(lowered))).sort((a,b) => sortMode === 'artist' ? a.artist.localeCompare(b.artist) : sortMode === 'year-desc' ? Number(b.year || 0) - Number(a.year || 0) : sortMode === 'year-asc' ? Number(a.year || 9999) - Number(b.year || 9999) : new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
         document.querySelector('#result-count').textContent = `Showing ${visible.length} of ${releases.length} releases`;
         resetButton.hidden = active === 'all' && selectedGenre === 'all' && !query && sortMode === 'recent';
-        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span>${r.estimatedPrice ? `<span class="card-price">${r.estimatedPrice}</span>` : ''}</div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
-        grid.querySelectorAll('.card').forEach(card => card.addEventListener('click', () => openRelease(releases[card.dataset.release])));
+        grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0" role="button" aria-label="Open details for ${escapeHtml(r.artist)} — ${escapeHtml(r.title)}"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span>${r.estimatedPrice ? `<span class="card-price">${r.estimatedPrice}</span>` : ''}</div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
+        grid.querySelectorAll('.card').forEach(card => { const showDetails = () => openRelease(releases[card.dataset.release]); card.addEventListener('click', showDetails); card.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); showDetails(); } }); });
       };
       document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => { active = button.dataset.filter; document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b === button)); render(); }));
       document.querySelector('#search').addEventListener('input', event => { query = event.target.value; render(); });
@@ -220,6 +221,7 @@
       };
       document.querySelectorAll('.map-tab').forEach(button => button.addEventListener('click', () => { activeMap = button.dataset.map; document.querySelectorAll('.map-tab').forEach(tab => { const selected = tab === button; tab.classList.toggle('active', selected); tab.setAttribute('aria-selected', selected); }); renderArchiveMap(); }));
       const modal = document.querySelector('#modal');
+      let lastFocusedElement = null;
       const escapeHtml = (text) => String(text || '').replace(/[&<>'"]/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' })[character]);
       const openRelease = (release) => {
         document.querySelector('#modal-format').textContent = `${release.format} / ${release.year}`;
@@ -236,20 +238,15 @@
         document.querySelector('#modal-discogs').href = `https://www.discogs.com/release/${release.discogsId || ''}`;
         const tracks = release.tracklist || [];
         document.querySelector('#modal-tracklist').innerHTML = tracks.length ? `<div class="modal-format">Tracklist</div>${tracks.map(track => `<div class="release-track"><span>${escapeHtml(track.position)}</span><span>${escapeHtml(track.title)}</span><span>${escapeHtml(track.duration)}</span></div>`).join('')}` : '<div class="modal-format">Tracklist unavailable</div>';
-        modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+        lastFocusedElement = document.activeElement; modal.classList.add('open'); modal.setAttribute('aria-hidden','false'); modal.querySelector('.modal-close').focus();
       };
-      const closeModal = () => { modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); };
-      document.querySelector('.modal-close').addEventListener('click', closeModal); modal.addEventListener('click', e => { if(e.target === modal) closeModal(); }); document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+      const closeModal = () => { modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); lastFocusedElement?.focus(); };
+      document.querySelector('.modal-close').addEventListener('click', closeModal); modal.addEventListener('click', e => { if(e.target === modal) closeModal(); }); document.addEventListener('keydown', e => { if(e.key === 'Escape' && modal.classList.contains('open')) closeModal(); if(e.key === 'Tab' && modal.classList.contains('open')) { const focusable = [...modal.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])')]; const first = focusable[0]; const last = focusable[focusable.length - 1]; if(e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); } else if(!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); } } });
       document.querySelector('#shuffle').addEventListener('click', () => { releases.sort(() => Math.random() - .5); active = 'all'; document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all')); render(); document.querySelector('#collection').scrollIntoView({behavior:'smooth'}); });
       const roomToneButton = document.querySelector('#room-tone');
       const ambientTrack = document.querySelector('#ambient-track');
       ambientTrack.volume = .14;
       roomToneButton.addEventListener('click', async () => { if (ambientTrack.paused) { await ambientTrack.play(); roomToneButton.textContent = 'Pause ambient'; roomToneButton.setAttribute('aria-pressed', 'true'); } else { ambientTrack.pause(); roomToneButton.textContent = 'Play ambient'; roomToneButton.setAttribute('aria-pressed', 'false'); } });
-      const auctionModal = document.querySelector('#auction-modal');
-      document.querySelector('#auction-join').addEventListener('click', () => { auctionModal.classList.add('open'); auctionModal.setAttribute('aria-hidden','false'); });
-      auctionModal.querySelector('.modal-close').addEventListener('click', () => { auctionModal.classList.remove('open'); auctionModal.setAttribute('aria-hidden','true'); });
-      auctionModal.addEventListener('click', e => { if(e.target === auctionModal) { auctionModal.classList.remove('open'); auctionModal.setAttribute('aria-hidden','true'); } });
-      document.addEventListener('keydown', e => { if(e.key === 'Escape') { auctionModal.classList.remove('open'); auctionModal.setAttribute('aria-hidden','true'); } });
       const loadCollection = async () => {
         try {
           const response = await fetch('./data/collection.json', { cache: 'no-store' });
