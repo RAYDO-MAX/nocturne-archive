@@ -15,9 +15,10 @@
       body { margin:0; color:var(--bone); background:var(--ink); font-family:Manrope, sans-serif; }
       button { font:inherit; cursor:pointer; }
       .shell { max-width:1440px; margin:auto; padding:0 42px; }
-      nav { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
-      .brand,.brand:visited { display:inline-flex; align-items:baseline; gap:9px; color:var(--bone); font-family:'Instrument Serif',serif; font-size:29px; letter-spacing:-.03em; text-decoration:none; }.brand span{letter-spacing:-.01em}.brand em { color:#e2c879; font-style:italic; padding-left:10px; border-left:1px solid rgba(226,200,121,.55); }
+      nav { position:sticky; top:0; z-index:20; height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); background:rgba(16,16,15,.92); backdrop-filter:blur(15px); }
+      .brand,.brand:visited { position:absolute;left:50%;transform:translateX(-50%);display:inline-flex;align-items:baseline;gap:7px;color:var(--bone);font-family:'Instrument Serif',serif;font-size:29px;letter-spacing:-.03em;text-decoration:none; }.brand span{letter-spacing:-.01em}.brand em{color:#e2c879;font-style:italic}
       .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }.nav-links a{color:inherit;text-decoration:none}.nav-links a:hover{color:var(--gold)}
+      section[id]{scroll-margin-top:102px}
       .hero { min-height:650px; position:relative; display:grid; grid-template-columns:1fr .8fr; align-items:end; padding:88px 0 65px; overflow:hidden; }
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
       h1 { max-width:760px; margin:18px 0 27px; font:400 clamp(72px,10vw,150px)/.8 'Instrument Serif',serif; letter-spacing:-.06em; }
@@ -105,11 +106,12 @@
       @media(max-width:760px){ .hero .turntable{width:260px;position:absolute;right:-42px;bottom:52px;opacity:.78} .hero .record{width:100%;position:relative;right:auto;bottom:auto;opacity:1} .record-play{width:88px;height:88px;font-size:10px} }
       /* Accessible type scale and visible keyboard focus. */
       .nav-links,.eyebrow,.section-kicker,.hero-meta span,.snapshot-item span,.weekly-label,.weekly-meta,.live,.modal-format{font-size:13px}.room-button,.filter,.details,.map-tab{font-size:13px}.auction-stats span,.value span,footer{font-size:12px}.modal-note{font-size:13px}.card:focus-visible,.nav-links a:focus-visible,.room-button:focus-visible,.filter:focus-visible,.map-tab:focus-visible,.bid-button:focus-visible,.modal-close:focus-visible{outline:2px solid var(--gold);outline-offset:4px}.card:focus-visible{transform:translateY(-5px)}
+      @media(max-width:760px){nav{height:64px;gap:17px}.brand,.brand:visited{position:static;transform:none;flex:none;font-size:25px;gap:6px}.nav-links{display:flex;gap:14px;overflow-x:auto;white-space:nowrap;font-size:11px;letter-spacing:.06em}.nav-links::-webkit-scrollbar{display:none}section[id]{scroll-margin-top:84px}}
     </style>
   </head>
   <body>
-    <div class="shell">
-      <nav><a class="brand" href="index.html" aria-label="Nocturne Archive home"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div></nav>
+    <div class="shell" id="top">
+      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div></nav>
       <main>
         <section class="hero">
           <div>
