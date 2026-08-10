@@ -15,6 +15,11 @@ const releases = (data['release-groups'] || []).map((release) => ({
   title: release.title,
   artist: release['artist-credit']?.map((credit) => credit.name).join('') || 'Various artists',
   date: release['first-release-date'] || '',
+  genres: (release.tags || [])
+    .slice()
+    .sort((a, b) => (b.count || 0) - (a.count || 0))
+    .slice(0, 3)
+    .map((tag) => tag.name),
 }));
 await mkdir('data', { recursive: true });
 await writeFile('data/weekly-releases.json', `${JSON.stringify({ updatedAt: new Date().toISOString(), releases }, null, 2)}\n`);
