@@ -1,77 +1,89 @@
 {
-  "updatedAt": "2026-08-10T05:56:56.421Z",
+  "updatedAt": "2026-08-10T12:40:47.327Z",
   "releases": [
     {
-      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
-      "title": "Castlevania: Piano Collections",
-      "artist": "Benyamin NussRamon van Engelenhoven",
-      "date": "2026"
+      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
+      "title": "Radiation Therapy",
+      "artist": "Crossbreed",
+      "date": "2026",
+      "genres": []
     },
     {
       "id": "fb67ceb3-904e-457d-b71e-3a9f272c0cc4",
       "title": "Grace for Pathos",
       "artist": "Summernightbrand Record Sales Office (SRSO)",
-      "date": "2026-08-10"
+      "date": "2026-08-10",
+      "genres": []
     },
     {
-      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
-      "title": "Radiation Therapy",
-      "artist": "Crossbreed",
-      "date": "2026"
+      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
+      "title": "Castlevania: Piano Collections",
+      "artist": "Benyamin NussRamon van Engelenhoven",
+      "date": "2026",
+      "genres": []
     },
     {
       "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
       "title": "The Ballad of General Jupiter",
       "artist": "Anton Roolaart",
-      "date": "2026"
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "929064e6-7147-4000-82cc-9db7709a45bd",
-      "title": "Young & Cursed (Original Motion Picture Soundtrack)",
-      "artist": "Patrick O'Malley",
-      "date": "2026"
+      "id": "92ca6ff8-7c90-4d16-806e-536fa3fb5412",
+      "title": "Midnights in October",
+      "artist": "Midnights in October",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "448f7eae-2c7a-4e17-8074-ded75eaa62f4",
-      "title": "Warehouse 10 Volume 15",
-      "artist": "Dave Matthews Band",
-      "date": "2026"
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "4a58202d-d2cb-4902-9557-13335cae5702",
-      "title": "Warehouse 2026: 7.16.2025 Allianz Amphitheater At Riverfront, Richmond, VA",
-      "artist": "Dave Matthews Band",
-      "date": "2026"
+      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
+      "title": "Thunk",
+      "artist": "Jim MoginieThe Family Dog",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "3e02ac97-49ff-415d-a85e-3221a6cfcd22",
-      "title": "Time Machine",
-      "artist": "The Jungle",
-      "date": "2026"
+      "id": "d6b6d243-343c-417e-8b26-31db549aa17b",
+      "title": "Broken Dreams",
+      "artist": "Siska",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "1edfeadd-79fd-49d1-a137-99a87ffcef29",
-      "title": "Flare",
-      "artist": "ASML",
-      "date": "2026"
+      "id": "7e7c88bd-756f-4930-a4ba-788c62e996b7",
+      "title": "ЖЗЛ",
+      "artist": "Lacerate",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "eeed6e34-7fd0-479a-8f16-40ba2a00586a",
-      "title": "Mass Murder Elite",
-      "artist": "Selbstmord",
-      "date": "2026"
+      "id": "121c2760-e64e-4874-96d6-ebdfc13270ce",
+      "title": "Не ври мне, что всё будет хорошо",
+      "artist": "Мёртвая Вера",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "d10d6494-b042-404f-a7e3-a4f5c82ae954",
-      "title": "Genom Tid Och Rum - Lost Recordings",
-      "artist": "Hel",
-      "date": "2026"
+      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
+      "title": "Аудионаркотики. Часть 1",
+      "artist": "Еперный театор",
+      "date": "2026",
+      "genres": []
     },
     {
-      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
-      "title": "Det Karolinska Arvet",
-      "artist": "Karolinerna",
-      "date": "2026"
+      "id": "d5af81e0-9adc-4559-8672-cb44f6b0b63b",
+      "title": "Outroom",
+      "artist": "X - Tram",
+      "date": "2026",
+      "genres": []
     }
   ]
 }
