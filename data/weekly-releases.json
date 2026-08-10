@@ -1,16 +1,22 @@
 {
-  "updatedAt": "2026-08-09T05:32:39.974Z",
+  "updatedAt": "2026-08-10T05:56:56.421Z",
   "releases": [
-    {
-      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
-      "title": "Radiation Therapy",
-      "artist": "Crossbreed",
-      "date": "2026"
-    },
     {
       "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
       "title": "Castlevania: Piano Collections",
       "artist": "Benyamin NussRamon van Engelenhoven",
+      "date": "2026"
+    },
+    {
+      "id": "fb67ceb3-904e-457d-b71e-3a9f272c0cc4",
+      "title": "Grace for Pathos",
+      "artist": "Summernightbrand Record Sales Office (SRSO)",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
+      "title": "Radiation Therapy",
+      "artist": "Crossbreed",
       "date": "2026"
     },
     {
@@ -20,57 +26,51 @@
       "date": "2026"
     },
     {
-      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
-      "title": "Electric Fantasy",
-      "artist": "Pierre Schott",
+      "id": "929064e6-7147-4000-82cc-9db7709a45bd",
+      "title": "Young & Cursed (Original Motion Picture Soundtrack)",
+      "artist": "Patrick O'Malley",
       "date": "2026"
     },
     {
-      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
-      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
-      "artist": "Fritz ReinerReiner Vienna Philharmonic",
+      "id": "448f7eae-2c7a-4e17-8074-ded75eaa62f4",
+      "title": "Warehouse 10 Volume 15",
+      "artist": "Dave Matthews Band",
       "date": "2026"
     },
     {
-      "id": "ecd9914c-79f2-402a-b84e-96f91aed70e0",
-      "title": "Eastward Bound (live New York ’75)",
-      "artist": "Savoy Brown",
+      "id": "4a58202d-d2cb-4902-9557-13335cae5702",
+      "title": "Warehouse 2026: 7.16.2025 Allianz Amphitheater At Riverfront, Richmond, VA",
+      "artist": "Dave Matthews Band",
       "date": "2026"
     },
     {
-      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
-      "title": "Аудионаркотики. Часть 2",
-      "artist": "Еперный театор",
+      "id": "3e02ac97-49ff-415d-a85e-3221a6cfcd22",
+      "title": "Time Machine",
+      "artist": "The Jungle",
       "date": "2026"
     },
     {
-      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
-      "title": "Thunk",
-      "artist": "Jim MoginieThe Family Dog",
+      "id": "1edfeadd-79fd-49d1-a137-99a87ffcef29",
+      "title": "Flare",
+      "artist": "ASML",
       "date": "2026"
     },
     {
-      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
-      "title": "Аудионаркотики. Часть 1",
-      "artist": "Еперный театор",
+      "id": "eeed6e34-7fd0-479a-8f16-40ba2a00586a",
+      "title": "Mass Murder Elite",
+      "artist": "Selbstmord",
       "date": "2026"
     },
     {
-      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
-      "title": "Living Free (Live Manchester '75)",
-      "artist": "Don McLean",
+      "id": "d10d6494-b042-404f-a7e3-a4f5c82ae954",
+      "title": "Genom Tid Och Rum - Lost Recordings",
+      "artist": "Hel",
       "date": "2026"
     },
     {
-      "id": "99223d42-db65-42d4-9376-64f0a555484e",
-      "title": "DREAMBOY (UNFINISHED)",
-      "artist": "Lil Nas X",
-      "date": "2026"
-    },
-    {
-      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
-      "title": "Meridians",
-      "artist": "Alasdair FraserNatalie Haas",
+      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
+      "title": "Det Karolinska Arvet",
+      "artist": "Karolinerna",
       "date": "2026"
     }
   ]
