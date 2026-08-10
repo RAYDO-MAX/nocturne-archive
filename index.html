@@ -72,7 +72,7 @@
       .details { display:flex; justify-content:space-between; font:10px 'DM Mono'; color:#77746d; }
       .archive-note { margin-top:78px; padding:25px 0 0; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:20px; }
       .archive-note p { margin:0; max-width:580px; color:#b8b4aa; font-size:13px; line-height:1.65; }
-      .value { text-align:right; } .value strong { display:block; color:var(--gold); font:400 31px 'Instrument Serif'; } .value span { color:var(--muted); font:9px 'DM Mono'; text-transform:uppercase; letter-spacing:.1em; }
+      .value { text-align:right; } .value strong { display:block; color:var(--gold); font:400 31px 'Instrument Serif'; } .value span { color:var(--muted); font:9px 'DM Mono'; text-transform:uppercase; letter-spacing:.1em; }.estimate-note{display:block;max-width:275px;margin:9px 0 0 auto;color:#aaa69c;font-size:12px;line-height:1.45;text-transform:none!important;letter-spacing:0!important}
       footer { border-top:1px solid var(--line); padding:24px 0 33px; display:flex; justify-content:space-between; color:#747168; font:9px 'DM Mono'; letter-spacing:.07em; text-transform:uppercase; }
       /* Readability pass: small labels remain refined, but are comfortable at normal zoom. */
       .nav-links { font-size:12px; color:#c5c0b5; }
@@ -120,10 +120,10 @@
           </div><div class="turntable"><div class="record"></div><div class="tonearm-base"></div><div class="tonearm"></div><button class="record-play" id="room-tone" aria-pressed="false" aria-label="Play ambient">Play ambient</button></div>
         </section>
         <section class="auction" id="auction">
-          <div class="section-kicker">Nocturne auctions</div>
+          <div class="section-kicker">Upcoming auctions</div>
           <div class="auction-layout">
             <div class="auction-art" aria-hidden="true"></div>
-            <div class="auction-info"><div class="live">Auction format preview</div><h2>Objects with another chapter to write.</h2><p>Selected releases will be offered individually, with their condition, provenance and full Discogs details. The first live lot will appear here when the auction system is connected.</p><div class="auction-stats"><div><strong id="auction-price">€ —</strong><span>Current bid</span></div><div><strong id="auction-time">—</strong><span>Time remaining</span></div><div><strong>—</strong><span>Bids</span></div></div><button class="bid-button" id="auction-join">Join the next auction</button></div>
+            <div class="auction-info"><div class="live">Coming soon · no live bidding</div><h2>The first catalogue is in preparation.</h2><p>Selected releases will be offered individually with condition reports, provenance and full Discogs details. This page does not accept bids yet; the opening date and first lots will be announced here.</p><div class="auction-stats"><div><strong>—</strong><span>Lots announced</span></div><div><strong>—</strong><span>Opening date</span></div><div><strong>Preview</strong><span>Bidding status</span></div></div><button class="bid-button" id="auction-join">View auction notice</button></div>
           </div>
         </section>
         <section class="weekly">
@@ -139,7 +139,7 @@
           <div class="catalog-tools"><input id="search" type="search" placeholder="Search artist or release" aria-label="Search the archive"><select id="genre-filter" aria-label="Filter by genre"><option value="all">All genres</option></select><select id="sort" aria-label="Sort the archive"><option value="recent">Recently added</option><option value="artist">Artist A–Z</option><option value="year-desc">Newest release year</option><option value="year-asc">Earliest release year</option></select></div>
           <div class="result-line" id="result-count">Showing all releases</div>
           <div class="grid" id="grid"></div>
-          <div class="archive-note"><p>Collection data will be synchronised from Discogs. Notes, condition and estimated value remain part of the private archive unless intentionally shared here.</p><div class="value"><strong id="value">—</strong><span>Estimated archive value</span></div></div>
+          <div class="archive-note"><p>Collection data will be synchronised from Discogs. Notes, condition and estimated value remain part of the private archive unless intentionally shared here.</p><div class="value"><strong id="value">—</strong><span>Estimated archive value</span><small class="estimate-note">Indicative Discogs estimate only. Final value can vary with condition, edition and demand.</small></div></div>
         </section>
       </main>
       <footer><span>© 2026 Nocturne Archive</span><span>Built for slow listening</span></footer>
@@ -148,7 +148,7 @@
       <source src="assets/audio/chill-beat.ogg" type="audio/ogg" />
     </audio>
     <div class="modal" id="modal" aria-hidden="true"><div class="modal-box release-modal" role="dialog" aria-modal="true" aria-label="Release details"><button class="modal-close" aria-label="Close details">×</button><div class="release-modal-grid"><img class="release-modal-cover" id="modal-cover" alt=""><div><div class="modal-format" id="modal-format"></div><h3 id="modal-title"></h3><p class="release-artist" id="modal-artist"></p><div class="release-specs"><div class="release-spec"><span>Label</span><strong id="modal-label"></strong></div><div class="release-spec"><span>Country</span><strong id="modal-country"></strong></div><div class="release-spec"><span>Released</span><strong id="modal-released"></strong></div><div class="release-spec"><span>Media condition</span><strong class="release-condition" id="modal-condition"></strong></div><div class="release-spec"><span>Sleeve condition</span><strong class="release-condition" id="modal-sleeve"></strong></div><div class="release-spec"><span>Market estimate</span><strong id="modal-price"></strong></div></div><div class="release-tracklist" id="modal-tracklist"></div><div class="release-modal-note" id="modal-note"></div><a class="release-discogs" id="modal-discogs" target="_blank" rel="noreferrer">View release on Discogs</a></div></div></div></div>
-    <div class="modal" id="auction-modal" aria-hidden="true"><div class="modal-box" role="dialog" aria-modal="true" aria-label="Auction notice"><button class="modal-close" aria-label="Close auction notice">×</button><div class="modal-format">Nocturne auctions</div><h3>Almost ready.</h3><p>Auctions will open with real lots, verified condition reports and a secure bidding process. This preview establishes the auction experience; it does not accept real bids yet.</p><div class="modal-note">Follow the archive for the first catalogue.</div></div></div>
+    <div class="modal" id="auction-modal" aria-hidden="true"><div class="modal-box" role="dialog" aria-modal="true" aria-label="Auction notice"><button class="modal-close" aria-label="Close auction notice">×</button><div class="modal-format">Upcoming auctions</div><h3>The catalogue is in preparation.</h3><p>Auctions will open only when real lots, verified condition reports, shipping terms and secure bidding are ready. This preview does not accept bids or payments.</p><div class="modal-note">Follow the archive for the first catalogue and opening date.</div></div></div>
     <script>
       // These samples are automatically replaced by data/collection.json after the private Discogs sync runs.
       let releases = [
