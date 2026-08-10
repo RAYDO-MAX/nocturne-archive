@@ -16,8 +16,7 @@
       button { font:inherit; cursor:pointer; }
       .shell { max-width:1440px; margin:auto; padding:0 42px; }
       nav { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
-      .brand { font-family:'Instrument Serif',serif; font-size:29px; letter-spacing:-.03em; }
-      .brand em { color:var(--gold); font-style:italic; }
+      .brand,.brand:visited { display:inline-flex; align-items:baseline; gap:9px; color:var(--bone); font-family:'Instrument Serif',serif; font-size:29px; letter-spacing:-.03em; text-decoration:none; }.brand span{letter-spacing:-.01em}.brand em { color:#e2c879; font-style:italic; padding-left:10px; border-left:1px solid rgba(226,200,121,.55); }
       .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }.nav-links a{color:inherit;text-decoration:none}.nav-links a:hover{color:var(--gold)}
       .hero { min-height:650px; position:relative; display:grid; grid-template-columns:1fr .8fr; align-items:end; padding:88px 0 65px; overflow:hidden; }
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
@@ -82,6 +81,7 @@
       .value span,.auction-stats span,footer { font-size:12px; letter-spacing:.06em; color:#aaa69c; }
       .artist,.title { font-size:14px; }.title { color:#c5c0b5; }
       .intro { font-size:16px; }.weekly-copy,.auction-info p,.archive-note p,.modal-box p { font-size:15px; }
+      .about{padding:72px 0;border-top:1px solid var(--line)}.about-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:55px;align-items:start}.about h2{max-width:390px}.about-copy{max-width:680px;margin:0;color:#cbc6ba;font-size:17px;line-height:1.72}.about-copy strong{color:var(--gold);font-weight:600}.about-details{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:31px;background:var(--line);border:1px solid var(--line)}.about-details div{padding:17px;background:#171716}.about-details b{display:block;color:var(--bone);font:400 25px 'Instrument Serif'}.about-details span{display:block;margin-top:5px;color:var(--muted);font:13px 'DM Mono';letter-spacing:.06em;text-transform:uppercase}@media(max-width:760px){.about{padding:55px 0}.about-layout{grid-template-columns:1fr;gap:20px}.about-copy{font-size:16px}.about-details{grid-template-columns:1fr 1fr}.about-details div:last-child{grid-column:span 2}}
       .weekly { border-top:1px solid var(--line); padding:84px 0; }
       .auction { padding:84px 0; border-top:1px solid var(--line); }
       .auction-layout { display:grid; grid-template-columns:.86fr 1.14fr; border:1px solid var(--line); background:#161615; }
@@ -109,7 +109,7 @@
   </head>
   <body>
     <div class="shell">
-      <nav><a class="brand" href="index.html">Nocturne <em>Archive</em></a><div class="nav-links"><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div></nav>
+      <nav><a class="brand" href="index.html" aria-label="Nocturne Archive home"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div></nav>
       <main>
         <section class="hero">
           <div>
@@ -120,6 +120,9 @@
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
             <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
           </div><div class="turntable"><div class="record"></div><div class="tonearm-base"></div><div class="tonearm"></div><button class="record-play" id="room-tone" aria-pressed="false" aria-label="Play ambient">Play ambient</button></div>
+        </section>
+        <section class="about" id="about">
+          <div class="about-layout"><div><div class="section-kicker">About Nocturne Archive</div><h2>A public room for physical music.</h2></div><div><p class="about-copy"><strong>Nocturne Archive</strong> is a living presentation of a private collection of vinyl and compact discs. It brings together editions, listening notes and Discogs details in one quiet, browseable space — built for people who still value music as an object.</p><div class="about-details"><div><b id="about-count">—</b><span>Physical releases</span></div><div><b>Discogs</b><span>Collection source</span></div><div><b>2026</b><span>Listening room</span></div></div></div></div>
         </section>
         <section class="weekly">
           <div class="weekly-head"><div><div class="section-kicker">The weekly signal</div><h2>New music, this week.</h2></div><p class="weekly-copy">A compact, independent radar of albums released this week — separate from the Nocturne Archive collection.</p></div>
@@ -193,6 +196,7 @@
         document.querySelector('#vinyl-count').textContent = vinyl;
         document.querySelector('#cd-count').textContent = cd;
         document.querySelector('#artist-count').textContent = artists;
+        document.querySelector('#about-count').textContent = archive.length || '—';
         document.querySelector('#value').textContent = collection.estimatedValue || 'Value unavailable';
         document.querySelector('#top-genres').textContent = topGenres || 'To be revealed';
         document.querySelector('#time-span').textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
