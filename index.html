@@ -78,14 +78,16 @@
       .snapshot-item { min-height:73px; padding:13px 16px; background:rgba(19,19,18,.9); }.snapshot-item strong { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font:400 22px 'Instrument Serif'; letter-spacing:-.02em; color:var(--bone); }.snapshot-item span{display:block;margin-top:5px;color:var(--muted);font:10px 'DM Mono';letter-spacing:.09em;text-transform:uppercase;}
       .room-button { padding:13px 17px; color:var(--bone); border:1px solid var(--line); background:rgba(255,255,255,.025); font:500 10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; transition:.25s ease; }
       .room-button:hover { color:var(--ink); border-color:var(--gold); background:var(--gold); box-shadow:0 0 28px rgba(201,179,122,.25); transform:translateY(-2px); }
-      .hero-sound { position:absolute; z-index:2; right:18px; bottom:37px; }
-      .room-play { position:absolute; z-index:4; left:calc(50% - 66px); bottom:31px; width:132px; height:132px; padding:13px; border:1px solid rgba(219,197,139,.82); border-radius:50%; display:grid; place-content:center; gap:4px; overflow:hidden; background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.12),transparent 28%),rgba(18,17,14,.88); color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); font:600 10px Manrope,sans-serif; letter-spacing:.1em; text-align:center; text-transform:uppercase; backdrop-filter:blur(8px); animation:room-pulse 2.8s ease-in-out infinite; transition:background .25s ease,color .25s ease,box-shadow .25s ease,transform .25s ease; }
+      .hero-sound { position:absolute; z-index:2; right:18px; bottom:37px; touch-action:none; }
+      .hero-sound.is-floating { position:fixed; z-index:30; right:auto; bottom:auto; cursor:grabbing; }
+      .room-play { position:absolute; z-index:4; left:calc(50% - 66px); bottom:31px; width:132px; height:132px; padding:13px; border:1px solid rgba(219,197,139,.82); border-radius:50%; display:grid; place-content:center; gap:4px; overflow:hidden; background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.12),transparent 28%),rgba(18,17,14,.88); color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); font:600 10px Manrope,sans-serif; letter-spacing:.1em; text-align:center; text-transform:uppercase; backdrop-filter:blur(8px); animation:room-pulse 2.8s ease-in-out infinite; transition:background .25s ease,color .25s ease,box-shadow .25s ease,transform .25s ease; cursor:grab; }
       .hero-sound .room-play { position:relative; left:auto; bottom:auto; }
       .ambient-3d { position:absolute; z-index:0; inset:5px; border-radius:50%; overflow:hidden; opacity:.98; pointer-events:none; }.ambient-3d canvas{display:block;width:100%;height:100%}
-      .room-play-copy { position:relative; z-index:2; display:grid; place-content:center; gap:5px; text-shadow:0 2px 9px rgba(0,0,0,.85); }.room-play-symbol { display:block; color:var(--gold); font:21px/1 sans-serif; letter-spacing:0; }.room-play-status{display:block;color:#fff0c3;font:700 8px/1 'DM Mono',monospace;letter-spacing:.14em;text-indent:.14em}
+      .room-play-copy { position:absolute; z-index:2; inset:0; pointer-events:none; text-shadow:0 2px 9px rgba(0,0,0,.85); }.room-play-symbol { position:absolute; left:50%; top:50%; display:block; color:var(--gold); font:21px/1 sans-serif; letter-spacing:0; transform:translate(-50%,-50%); }.room-play-status{position:absolute;left:50%;top:calc(50% + 19px);display:block;color:#fff0c3;font:700 8px/1 'DM Mono',monospace;letter-spacing:.14em;text-indent:.14em;transform:translateX(-50%)}
       #room-play-label,#room-play-hint{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
       .room-play small { display:block; color:var(--gold); font:9px/1.3 'DM Mono',monospace; letter-spacing:.03em; text-transform:none; }
       .room-play:hover,.room-play:focus-visible,.room-play[aria-pressed="true"] { background:var(--gold); color:var(--ink); animation:none; outline:0; }
+      .room-play:hover .room-play-symbol,.room-play:focus-visible .room-play-symbol,.room-play[aria-pressed="true"] .room-play-symbol,.room-play:hover .room-play-status,.room-play:focus-visible .room-play-status,.room-play[aria-pressed="true"] .room-play-status { color:var(--ink); text-shadow:none; }
       .room-play:hover small,.room-play:focus-visible small,.room-play[aria-pressed="true"] small { color:#4a3c1f; }
       @keyframes room-pulse { 0%,100% { transform:scale(1); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); } 50% { transform:scale(1.045); box-shadow:0 0 0 15px rgba(219,197,139,.14),0 10px 34px rgba(0,0,0,.54); } }@keyframes ambient-text-spin{to{transform:rotate(360deg)}}
       @media(prefers-reduced-motion:reduce){.room-play{animation:none}}
@@ -372,7 +374,43 @@
         designToggle.setAttribute('title', `Switch to ${nextDesign}`);
       });
       ambientTrack.volume = .14;
-      roomToneButton.addEventListener('click', async () => { const isStarting = ambientTrack.paused; if (isStarting) await ambientTrack.play(); else ambientTrack.pause(); document.querySelector('#room-play-symbol').textContent = isStarting ? 'Ⅱ' : '▶'; document.querySelector('#room-play-label').textContent = isStarting ? 'Pause ambient' : 'Play ambient'; document.querySelector('#room-play-hint').textContent = isStarting ? 'Room tone is playing' : 'Enter the listening room'; roomToneButton.setAttribute('aria-pressed', String(isStarting)); roomToneButton.setAttribute('aria-label', isStarting ? 'Pause ambient' : 'Play ambient'); });
+      const soundDock = document.querySelector('.hero-sound');
+      let skipAmbientClick = false;
+      let drag = null;
+      const placeSoundDock = (clientX, clientY) => {
+        const size = roomToneButton.getBoundingClientRect();
+        const pad = 12;
+        soundDock.classList.add('is-floating');
+        soundDock.style.left = `${Math.max(pad, Math.min(window.innerWidth - size.width - pad, clientX - size.width / 2))}px`;
+        soundDock.style.top = `${Math.max(pad, Math.min(window.innerHeight - size.height - pad, clientY - size.height / 2))}px`;
+      };
+      try {
+        const savedDock = JSON.parse(localStorage.getItem('nocturne-ambient-position'));
+        if (savedDock && Number.isFinite(savedDock.left) && Number.isFinite(savedDock.top)) placeSoundDock(savedDock.left + 66, savedDock.top + 66);
+      } catch (_) {}
+      soundDock.addEventListener('pointerdown', event => {
+        if (event.button !== undefined && event.button !== 0) return;
+        drag = { id:event.pointerId, x:event.clientX, y:event.clientY, moved:false };
+        soundDock.setPointerCapture?.(event.pointerId);
+      });
+      soundDock.addEventListener('pointermove', event => {
+        if (!drag || event.pointerId !== drag.id) return;
+        if (!drag.moved && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) < 7) return;
+        drag.moved = true;
+        placeSoundDock(event.clientX, event.clientY);
+      });
+      const finishDrag = event => {
+        if (!drag || event.pointerId !== drag.id) return;
+        if (drag.moved) {
+          skipAmbientClick = true;
+          try { localStorage.setItem('nocturne-ambient-position', JSON.stringify({ left:parseFloat(soundDock.style.left), top:parseFloat(soundDock.style.top) })); } catch (_) {}
+        }
+        soundDock.releasePointerCapture?.(event.pointerId);
+        drag = null;
+      };
+      soundDock.addEventListener('pointerup', finishDrag);
+      soundDock.addEventListener('pointercancel', finishDrag);
+      roomToneButton.addEventListener('click', async event => { if (skipAmbientClick) { event.preventDefault(); skipAmbientClick = false; return; } const isStarting = ambientTrack.paused; if (isStarting) await ambientTrack.play(); else ambientTrack.pause(); document.querySelector('#room-play-symbol').textContent = isStarting ? 'Ⅱ' : '▶'; document.querySelector('#room-play-label').textContent = isStarting ? 'Pause ambient' : 'Play ambient'; document.querySelector('#room-play-hint').textContent = isStarting ? 'Room tone is playing' : 'Enter the listening room'; roomToneButton.setAttribute('aria-pressed', String(isStarting)); roomToneButton.setAttribute('aria-label', isStarting ? 'Pause ambient' : 'Play ambient'); });
       const loadCollection = async () => {
         try {
           const response = await fetch('./data/collection.json', { cache: 'no-store' });
