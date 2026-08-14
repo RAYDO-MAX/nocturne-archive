@@ -18,7 +18,7 @@
       nav { position:sticky; top:0; z-index:20; height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); background:rgba(16,16,15,.92); backdrop-filter:blur(15px); }
       .brand,.brand:visited { position:absolute;left:50%;transform:translateX(-50%);display:inline-flex;align-items:baseline;gap:7px;color:var(--bone);font-family:'Instrument Serif',serif;font-size:29px;letter-spacing:-.03em;text-decoration:none; }.brand span{letter-spacing:-.01em}.brand em{color:#e2c879;font-style:italic}
       .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }.nav-links a{color:inherit;text-decoration:none}.nav-links a:hover{color:var(--gold)}
-      .design-switch { margin-left:auto; padding:9px 12px; border:1px solid var(--line); background:transparent; color:var(--bone); font:600 11px 'DM Mono',monospace; letter-spacing:.06em; text-transform:uppercase; transition:.25s ease; }.design-switch:hover,.design-switch:focus-visible{border-color:var(--gold);color:var(--gold);outline:0}.design-switch:focus-visible{box-shadow:0 0 0 2px rgba(219,197,139,.2)}
+      .design-switch { width:42px;height:42px;margin-left:auto;padding:0;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:transparent;color:var(--bone);font:22px/1 sans-serif;transition:.3s ease; }.design-switch:hover,.design-switch:focus-visible{border-color:var(--gold);color:var(--gold);background:rgba(219,197,139,.08);transform:rotate(18deg);outline:0}.design-switch:focus-visible{box-shadow:0 0 0 2px rgba(219,197,139,.2)}.design-switch span{display:block;transform:translateY(-1px)}
       section[id]{scroll-margin-top:102px}
       .hero { min-height:650px; position:relative; display:grid; grid-template-columns:1fr .8fr; align-items:end; padding:88px 0 65px; overflow:hidden; }
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
@@ -112,7 +112,7 @@
       /* Accessible type scale and visible keyboard focus. */
       .nav-links,.eyebrow,.section-kicker,.hero-meta span,.snapshot-item span,.weekly-label,.weekly-meta,.live,.modal-format{font-size:13px}.room-button,.filter,.details,.map-tab{font-size:13px}.auction-stats span,.value span,footer{font-size:12px}.modal-note{font-size:13px}.card:focus-visible,.nav-links a:focus-visible,.room-button:focus-visible,.filter:focus-visible,.map-tab:focus-visible,.bid-button:focus-visible,.modal-close:focus-visible{outline:2px solid var(--gold);outline-offset:4px}.card:focus-visible{transform:translateY(-5px)}
       @media(max-width:760px){nav{height:64px;gap:17px}.brand,.brand:visited{position:static;transform:none;flex:none;font-size:25px;gap:6px}.nav-links{display:flex;gap:14px;overflow-x:auto;white-space:nowrap;font-size:11px;letter-spacing:.06em}.nav-links::-webkit-scrollbar{display:none}section[id]{scroll-margin-top:84px}}
-      @media(max-width:760px){.design-switch{flex:none;padding:8px 9px;font-size:9px;letter-spacing:.03em}.nav-links{display:none}}
+      @media(max-width:760px){.design-switch{flex:none;width:38px;height:38px;font-size:20px}.nav-links{display:none}}
 
       /* Gallery is an alternative, brighter editorial layout for direct comparison. */
       body.design-gallery { --ink:#eee8dc; --bone:#191613; --muted:#6d6257; --line:rgba(25,22,19,.2); --gold:#ad5d3d; }
@@ -147,7 +147,7 @@
   </head>
   <body>
     <div class="shell" id="top">
-      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false">Try Gallery</button></nav>
+      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false" aria-label="Switch to daylight design" title="Switch to daylight design"><span aria-hidden="true">☀</span></button></nav>
       <main>
         <section class="hero">
           <div>
@@ -327,8 +327,11 @@
       const designToggle = document.querySelector('#design-toggle');
       designToggle.addEventListener('click', () => {
         const galleryIsActive = document.body.classList.toggle('design-gallery');
-        designToggle.textContent = galleryIsActive ? 'View Archive' : 'Try Gallery';
+        designToggle.innerHTML = `<span aria-hidden="true">${galleryIsActive ? '☾' : '☀'}</span>`;
         designToggle.setAttribute('aria-pressed', String(galleryIsActive));
+        const nextDesign = galleryIsActive ? 'night-time Archive design' : 'daylight Gallery design';
+        designToggle.setAttribute('aria-label', `Switch to ${nextDesign}`);
+        designToggle.setAttribute('title', `Switch to ${nextDesign}`);
       });
       ambientTrack.volume = .14;
       roomToneButton.addEventListener('click', async () => { if (ambientTrack.paused) { await ambientTrack.play(); roomToneButton.innerHTML = '<span class="room-play-symbol" aria-hidden="true">Ⅱ</span><span>Pause ambient</span><small>Room tone is playing</small>'; roomToneButton.setAttribute('aria-pressed', 'true'); roomToneButton.setAttribute('aria-label', 'Pause ambient'); } else { ambientTrack.pause(); roomToneButton.innerHTML = '<span class="room-play-symbol" aria-hidden="true">▶</span><span>Play ambient</span><small>Enter the listening room</small>'; roomToneButton.setAttribute('aria-pressed', 'false'); roomToneButton.setAttribute('aria-label', 'Play ambient'); } });
