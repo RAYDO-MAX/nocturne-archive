@@ -24,6 +24,7 @@
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
       h1 { max-width:760px; margin:18px 0 27px; font:400 clamp(72px,10vw,150px)/.8 'Instrument Serif',serif; letter-spacing:-.06em; }
       h1 i { color:var(--gold); }
+      .hero-purpose { max-width:500px; margin:0 0 16px; color:var(--bone); font:500 17px/1.5 Manrope,sans-serif; }
       .intro { color:#c0bcb2; max-width:430px; line-height:1.7; font-size:14px; }
       .hero-meta { display:grid; grid-template-columns:repeat(4, minmax(90px,1fr)); gap:16px; max-width:700px; margin-top:49px; }
       .hero-meta > div { padding-left:14px; border-left:1px solid var(--line); }
@@ -86,6 +87,7 @@
       .artist,.title { font-size:14px; }.title { color:#c5c0b5; }
       .intro { font-size:16px; }.weekly-copy,.auction-info p,.archive-note p,.modal-box p { font-size:15px; }
       .about{padding:72px 0;border-top:1px solid var(--line)}.about-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:55px;align-items:start}.about h2{max-width:390px}.about-copy{max-width:680px;margin:0;color:#cbc6ba;font-size:17px;line-height:1.72}.about-copy strong{color:var(--gold);font-weight:600}.about-details{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:31px;background:var(--line);border:1px solid var(--line)}.about-details div{padding:17px;background:#171716}.about-details b{display:block;color:var(--bone);font:400 25px 'Instrument Serif'}.about-details span{display:block;margin-top:5px;color:var(--muted);font:13px 'DM Mono';letter-spacing:.06em;text-transform:uppercase}@media(max-width:760px){.about{padding:55px 0}.about-layout{grid-template-columns:1fr;gap:20px}.about-copy{font-size:16px}.about-details{grid-template-columns:1fr 1fr}.about-details div:last-child{grid-column:span 2}}
+      .curator{padding:84px 0;border-top:1px solid var(--line)}.curator-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:31px}.curator-copy{max-width:410px;margin:0;color:var(--muted);font-size:15px;line-height:1.7}.curator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;border:1px solid var(--line);background:var(--line)}.curator-card{min-width:0;padding:18px;background:#171716;cursor:pointer;transition:background .25s ease,transform .25s ease}.curator-card:hover,.curator-card:focus-visible{background:#22211e;transform:translateY(-4px);outline:2px solid var(--gold);outline-offset:3px}.curator-cover{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#292825;margin-bottom:18px}.curator-number{color:var(--gold);font:11px 'DM Mono';letter-spacing:.08em}.curator-title{margin:10px 0 5px;color:var(--bone);font:400 31px/.95 'Instrument Serif';letter-spacing:-.035em}.curator-artist{color:var(--muted);font-size:13px}.curator-note{margin:17px 0 0;padding-top:14px;border-top:1px solid var(--line);color:#c9c4ba;font-size:14px;line-height:1.6}.curator-note:before{content:'Why it stays close';display:block;margin-bottom:7px;color:var(--gold);font:10px 'DM Mono';letter-spacing:.08em;text-transform:uppercase}@media(max-width:760px){.curator{padding:55px 0}.curator-head{display:block}.curator-copy{margin-top:15px}.curator-grid{grid-template-columns:1fr}.curator-card{display:grid;grid-template-columns:115px 1fr;column-gap:16px}.curator-cover{grid-row:span 4;margin:0}.curator-note{grid-column:2;margin-top:12px}}
       .weekly { border-top:1px solid var(--line); padding:84px 0; }
       .auction { padding:84px 0; border-top:1px solid var(--line); }
       .auction-layout { display:grid; grid-template-columns:.86fr 1.14fr; border:1px solid var(--line); background:#161615; }
@@ -131,6 +133,8 @@
       body.design-gallery .room-play:hover small,body.design-gallery .room-play:focus-visible small,body.design-gallery .room-play[aria-pressed="true"] small { color:#fff1df; }
       body.design-gallery .about-details div { background:#f7f1e7; }
       body.design-gallery .about-copy { color:#4f463f; }
+      body.design-gallery .hero-purpose { color:#302821; }
+      body.design-gallery .curator-card { background:#f7f1e7; }.design-gallery .curator-card:hover,.design-gallery .curator-card:focus-visible { background:#fffaf1; }.design-gallery .curator-title { color:#191613; }.design-gallery .curator-note { color:#5a4e44; }
       body.design-gallery .artist { color:#191613; }.design-gallery .title,.design-gallery .details,.design-gallery .archive-note p { color:#6d6257; }
       body.design-gallery .catalog-tools input,body.design-gallery .catalog-tools select { color:#191613; background:#f7f1e7; }
       body.design-gallery .catalog-tools input::placeholder { color:#897b6e; }
@@ -149,6 +153,7 @@
           <div>
             <div class="eyebrow">Private Listening Room / Est. 2026</div>
             <h1>Music, kept <i>close.</i></h1>
+            <p class="hero-purpose">A private archive of vinyl and compact discs, curated for slow listening.</p>
             <p class="intro" id="archive-intro">A considered archive of records and compact discs. Each object has a history, a sound, and a place in the room.</p>
             <div class="hero-meta"><div><b id="total-count">—</b><span>In archive</span></div><div><b id="vinyl-count">—</b><span>Vinyl records</span></div><div><b id="cd-count">—</b><span>Compact discs</span></div><div><b id="artist-count">—</b><span>Artists</span></div></div>
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
@@ -157,6 +162,10 @@
         </section>
         <section class="about" id="about">
           <div class="about-layout"><div><div class="section-kicker">About Nocturne Archive</div><h2>A public room for physical music.</h2></div><div><p class="about-copy"><strong>Nocturne Archive</strong> is a living presentation of a private collection of vinyl and compact discs. It brings together editions, listening notes and Discogs details in one quiet, browseable space — built for people who still value music as an object.</p><div class="about-details"><div><b id="about-count">—</b><span>Physical releases</span></div><div><b>Discogs</b><span>Collection source</span></div><div><b>2026</b><span>Listening room</span></div></div></div></div>
+        </section>
+        <section class="curator" id="curator-selection">
+          <div class="curator-head"><div><div class="section-kicker">Curator’s selection</div><h2>Three releases, kept close.</h2></div><p class="curator-copy">A small changing shelf from the archive — selected for the edition, the era and the ritual of returning to it.</p></div>
+          <div class="curator-grid" id="curator-grid" aria-live="polite"><article class="curator-card"><div class="curator-number">01 / Loading</div><div class="curator-title">Curator’s selection</div><p class="curator-note">The selected releases will appear here with the collection data.</p></article></div>
         </section>
         <section class="weekly">
           <div class="weekly-head"><div><div class="section-kicker">The weekly signal</div><h2>New music, this week.</h2></div><p class="weekly-copy">A compact, independent radar of albums released this week — separate from the Nocturne Archive collection.</p></div>
@@ -257,6 +266,19 @@
         document.querySelector('#last-sync').textContent = collection.updatedAt ? new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric' }).format(new Date(collection.updatedAt)) : '—';
         if (archive.length && firstDecade) document.querySelector('#archive-intro').textContent = `An evolving archive of ${archive.length} physical releases, spanning ${firstDecade}${firstDecade !== lastDecade ? ` to ${lastDecade}` : ''}. Each object has a history, a sound, and a place in the room.`;
         updateArchiveMap(archive);
+        renderCuratorSelection(archive);
+      };
+      const renderCuratorSelection = (archive) => {
+        const featured = [...archive].filter(release => release.image).sort((a, b) => (priceValue(b) ?? -1) - (priceValue(a) ?? -1)).slice(0, 3);
+        const notes = [
+          release => `A defining ${release.format?.toLowerCase() || 'physical'} edition from ${release.year || 'the archive'} — selected for the way its object and sound belong together.`,
+          release => `A return point in the collection: this ${release.format?.toLowerCase() || 'release'} holds a particular era, edition and listening ritual in one place.`,
+          release => `Kept close for the details — the artwork, the physical format and the small ceremony of putting it on again.`
+        ];
+        const curatorGrid = document.querySelector('#curator-grid');
+        if (!featured.length) return;
+        curatorGrid.innerHTML = featured.map((release, index) => `<article class="curator-card" data-release="${releases.indexOf(release)}" tabindex="0" role="button" aria-label="Open curator selection: ${escapeHtml(release.artist)} — ${escapeHtml(release.title)}"><img class="curator-cover" src="${escapeHtml(release.image)}" alt="Cover of ${escapeHtml(release.title)}" loading="lazy"><div class="curator-number">0${index + 1} / ${escapeHtml(release.format || 'Release')} · ${escapeHtml(release.year || '—')}</div><div class="curator-title">${escapeHtml(release.title)}</div><div class="curator-artist">${escapeHtml(release.artist)}</div><p class="curator-note">${escapeHtml(notes[index](release))}</p></article>`).join('');
+        curatorGrid.querySelectorAll('.curator-card').forEach(card => { const showDetails = () => openRelease(releases[card.dataset.release]); card.addEventListener('click', showDetails); card.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); showDetails(); } }); });
       };
       const countValues = (values) => [...values.reduce((counts, value) => { if (value) counts.set(value, (counts.get(value) || 0) + 1); return counts; }, new Map()).entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([label, count]) => ({ label, count }));
       const renderArchiveMap = () => {
