@@ -168,7 +168,7 @@
         </section>
         <section class="collection" id="collection">
           <div class="collection-top"><div><div class="section-kicker">The collection</div><h2>Explore the archive.</h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="vinyl">Vinyl</button><button class="filter" data-filter="cd">CD</button><button class="filter" data-filter="available">Available</button><button class="reset-filter" id="reset-filters" hidden>Reset filters</button></div></div>
-          <div class="catalog-tools"><input id="search" type="search" placeholder="Search artist or release" aria-label="Search the archive"><select id="genre-filter" aria-label="Filter by genre"><option value="all">All genres</option></select><select id="sort" aria-label="Sort the archive"><option value="recent">Recently added</option><option value="artist">Artist A–Z</option><option value="year-desc">Newest release year</option><option value="year-asc">Earliest release year</option></select></div>
+          <div class="catalog-tools"><input id="search" type="search" placeholder="Search artist or release" aria-label="Search the archive"><select id="genre-filter" aria-label="Filter by genre"><option value="all">All genres</option></select><select id="sort" aria-label="Sort the archive"><option value="recent">Recently added</option><option value="artist">Artist A–Z</option><option value="year-desc">Newest release year</option><option value="year-asc">Earliest release year</option><option value="price-desc">Highest estimated price</option><option value="price-asc">Lowest estimated price</option></select></div>
           <div class="result-line" id="result-count">Showing all releases</div>
           <div class="grid" id="grid"></div>
           <div class="archive-note"><p>Collection data will be synchronised from Discogs. Notes, condition and estimated value remain part of the private archive unless intentionally shared here.</p><div class="value"><strong id="value">—</strong><span>Estimated archive value</span><small class="estimate-note">Indicative Discogs estimate only. Final value can vary with condition, edition and demand.</small></div></div>
@@ -203,9 +203,28 @@
       let activeMap = 'genres';
       const resetButton = document.querySelector('#reset-filters');
       const grid = document.querySelector('#grid');
+      const priceValue = (release) => {
+        const value = String(release.estimatedPrice || '').match(/[\d.,]+/)?.[0];
+        if (!value) return null;
+        const normalised = value.includes(',') && value.includes('.') ? value.replace(/,/g, '') : value.replace(',', '.');
+        const price = Number.parseFloat(normalised);
+        return Number.isFinite(price) ? price : null;
+      };
       const render = () => {
         const lowered = query.toLowerCase().trim();
-        const visible = releases.filter(r => (active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active)) && (selectedGenre === 'all' || r.genres?.includes(selectedGenre)) && (!lowered || `${r.artist} ${r.title} ${r.note || ''}`.toLowerCase().includes(lowered))).sort((a,b) => sortMode === 'artist' ? a.artist.localeCompare(b.artist) : sortMode === 'year-desc' ? Number(b.year || 0) - Number(a.year || 0) : sortMode === 'year-asc' ? Number(a.year || 9999) - Number(b.year || 9999) : new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
+        const visible = releases.filter(r => (active === 'all' || (active === 'available' ? r.state === 'available' : r.format.toLowerCase() === active)) && (selectedGenre === 'all' || r.genres?.includes(selectedGenre)) && (!lowered || `${r.artist} ${r.title} ${r.note || ''}`.toLowerCase().includes(lowered))).sort((a,b) => {
+          if (sortMode === 'artist') return a.artist.localeCompare(b.artist);
+          if (sortMode === 'year-desc') return Number(b.year || 0) - Number(a.year || 0);
+          if (sortMode === 'year-asc') return Number(a.year || 9999) - Number(b.year || 9999);
+          if (sortMode === 'price-desc' || sortMode === 'price-asc') {
+            const aPrice = priceValue(a); const bPrice = priceValue(b);
+            if (aPrice === null && bPrice === null) return 0;
+            if (aPrice === null) return 1;
+            if (bPrice === null) return -1;
+            return sortMode === 'price-desc' ? bPrice - aPrice : aPrice - bPrice;
+          }
+          return new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0);
+        });
         document.querySelector('#result-count').textContent = `Showing ${visible.length} of ${releases.length} releases`;
         resetButton.hidden = active === 'all' && selectedGenre === 'all' && !query && sortMode === 'recent';
         grid.innerHTML = visible.map((r,i) => `<article class="card" data-release="${releases.indexOf(r)}" tabindex="0" role="button" aria-label="Open details for ${escapeHtml(r.artist)} — ${escapeHtml(r.title)}"><div class="cover ${r.cover}">${r.image ? `<img src="${r.image}" alt="Cover of ${r.title}" loading="lazy">` : ''}<span class="number">${String(i+1).padStart(2,'0')}</span>${r.estimatedPrice ? `<span class="card-price">${r.estimatedPrice}</span>` : ''}</div><div class="artist">${r.artist}</div><div class="title">${r.title}</div><div class="details"><span>${r.format}</span><span>${r.year}</span></div></article>`).join('') || '<p class="intro">No releases match these filters.</p>';
