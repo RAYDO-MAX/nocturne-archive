@@ -79,9 +79,10 @@
       .room-button { padding:13px 17px; color:var(--bone); border:1px solid var(--line); background:rgba(255,255,255,.025); font:500 10px 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; transition:.25s ease; }
       .room-button:hover { color:var(--ink); border-color:var(--gold); background:var(--gold); box-shadow:0 0 28px rgba(201,179,122,.25); transform:translateY(-2px); }
       .hero-sound { position:absolute; z-index:2; right:18px; bottom:37px; }
-      .room-play { position:absolute; z-index:4; left:calc(50% - 66px); bottom:31px; width:132px; height:132px; padding:13px; border:1px solid rgba(219,197,139,.82); border-radius:50%; display:grid; place-content:center; gap:4px; background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.12),transparent 28%),rgba(18,17,14,.88); color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); font:600 10px Manrope,sans-serif; letter-spacing:.1em; text-align:center; text-transform:uppercase; backdrop-filter:blur(8px); animation:room-pulse 2.8s ease-in-out infinite; transition:background .25s ease,color .25s ease,box-shadow .25s ease,transform .25s ease; }
+      .room-play { position:absolute; z-index:4; left:calc(50% - 66px); bottom:31px; width:132px; height:132px; padding:13px; border:1px solid rgba(219,197,139,.82); border-radius:50%; display:grid; place-content:center; gap:4px; overflow:hidden; background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.12),transparent 28%),rgba(18,17,14,.88); color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); font:600 10px Manrope,sans-serif; letter-spacing:.1em; text-align:center; text-transform:uppercase; backdrop-filter:blur(8px); animation:room-pulse 2.8s ease-in-out infinite; transition:background .25s ease,color .25s ease,box-shadow .25s ease,transform .25s ease; }
       .hero-sound .room-play { position:relative; left:auto; bottom:auto; }
-      .room-play-symbol { display:block; color:var(--gold); font:19px/1 sans-serif; letter-spacing:0; }
+      .ambient-3d { position:absolute; z-index:0; inset:5px; border-radius:50%; overflow:hidden; opacity:.92; pointer-events:none; }.ambient-3d canvas{display:block;width:100%;height:100%}
+      .room-play-copy { position:relative; z-index:1; display:grid; place-content:center; gap:4px; text-shadow:0 2px 9px rgba(0,0,0,.85); }.room-play-symbol { display:block; color:var(--gold); font:19px/1 sans-serif; letter-spacing:0; }
       .room-play small { display:block; color:var(--gold); font:9px/1.3 'DM Mono',monospace; letter-spacing:.03em; text-transform:none; }
       .room-play:hover,.room-play:focus-visible,.room-play[aria-pressed="true"] { background:var(--gold); color:var(--ink); animation:none; outline:0; }
       .room-play:hover small,.room-play:focus-visible small,.room-play[aria-pressed="true"] small { color:#4a3c1f; }
@@ -194,7 +195,7 @@
             <div class="hero-meta"><div><b id="total-count">—</b><span>In archive</span></div><div><b id="vinyl-count">—</b><span>Vinyl records</span></div><div><b id="cd-count">—</b><span>Compact discs</span></div><div><b id="artist-count">—</b><span>Artists</span></div></div>
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
             <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
-          </div><div class="hero-sound"><button class="room-play" id="room-tone" aria-pressed="false" aria-label="Play ambient"><span class="room-play-symbol" aria-hidden="true">▶</span><span>Play ambient</span><small>Enter the listening room</small></button></div>
+          </div><div class="hero-sound"><button class="room-play" id="room-tone" aria-pressed="false" aria-label="Play ambient"><span class="ambient-3d" id="ambient-3d" aria-hidden="true"></span><span class="room-play-copy"><span class="room-play-symbol" id="room-play-symbol" aria-hidden="true">▶</span><span id="room-play-label">Play ambient</span><small id="room-play-hint">Enter the listening room</small></span></button></div>
         </section>
         <section class="about" id="about">
           <div class="about-layout"><div><div class="section-kicker">About Nocturne Archive</div><h2>A public room for physical music.</h2></div><div><p class="about-copy"><strong>Nocturne Archive</strong> is a living presentation of a private collection of vinyl and compact discs. It brings together editions, listening notes and Discogs details in one quiet, browseable space — built for people who still value music as an object.</p><p class="archive-keywords">Vinyl collection · record archive · rare editions · CD collection</p><div class="about-details"><div><b id="about-count">—</b><span>Physical releases</span></div><div><b>Discogs</b><span>Collection source</span></div><div><b>2026</b><span>Listening room</span></div></div></div></div>
@@ -370,7 +371,7 @@
         designToggle.setAttribute('title', `Switch to ${nextDesign}`);
       });
       ambientTrack.volume = .14;
-      roomToneButton.addEventListener('click', async () => { if (ambientTrack.paused) { await ambientTrack.play(); roomToneButton.innerHTML = '<span class="room-play-symbol" aria-hidden="true">Ⅱ</span><span>Pause ambient</span><small>Room tone is playing</small>'; roomToneButton.setAttribute('aria-pressed', 'true'); roomToneButton.setAttribute('aria-label', 'Pause ambient'); } else { ambientTrack.pause(); roomToneButton.innerHTML = '<span class="room-play-symbol" aria-hidden="true">▶</span><span>Play ambient</span><small>Enter the listening room</small>'; roomToneButton.setAttribute('aria-pressed', 'false'); roomToneButton.setAttribute('aria-label', 'Play ambient'); } });
+      roomToneButton.addEventListener('click', async () => { const isStarting = ambientTrack.paused; if (isStarting) await ambientTrack.play(); else ambientTrack.pause(); document.querySelector('#room-play-symbol').textContent = isStarting ? 'Ⅱ' : '▶'; document.querySelector('#room-play-label').textContent = isStarting ? 'Pause ambient' : 'Play ambient'; document.querySelector('#room-play-hint').textContent = isStarting ? 'Room tone is playing' : 'Enter the listening room'; roomToneButton.setAttribute('aria-pressed', String(isStarting)); roomToneButton.setAttribute('aria-label', isStarting ? 'Pause ambient' : 'Play ambient'); });
       const loadCollection = async () => {
         try {
           const response = await fetch('./data/collection.json', { cache: 'no-store' });
@@ -403,6 +404,34 @@
       render();
       loadCollection();
       loadWeeklyReleases();
+    </script>
+    <script type="module">
+      const miniHost = document.querySelector('#ambient-3d');
+      const reduceMiniMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (miniHost && !reduceMiniMotion && window.WebGLRenderingContext) {
+        try {
+          const THREE = await import('https://unpkg.com/three@0.160.1/build/three.module.js');
+          const renderer = new THREE.WebGLRenderer({ antialias:true, alpha:true, powerPreference:'low-power' });
+          renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+          renderer.setClearColor(0x000000, 0); miniHost.appendChild(renderer.domElement);
+          const scene = new THREE.Scene(); const camera = new THREE.PerspectiveCamera(34, 1, .1, 20); camera.position.z = 5.4;
+          const record = new THREE.Group(); scene.add(record);
+          record.add(new THREE.Mesh(new THREE.CircleGeometry(1.48, 64), new THREE.MeshBasicMaterial({ color:0x090909, transparent:true, opacity:.94 })));
+          [ .7, .98, 1.2 ].forEach(radius => record.add(new THREE.Mesh(new THREE.TorusGeometry(radius, .012, 5, 48), new THREE.MeshBasicMaterial({ color:0x776b4b, transparent:true, opacity:.74 }))));
+          const label = new THREE.Mesh(new THREE.CircleGeometry(.42, 40), new THREE.MeshBasicMaterial({ color:0xc9ad67 })); label.position.z = .015; record.add(label);
+          const spindle = new THREE.Mesh(new THREE.CircleGeometry(.055, 20), new THREE.MeshBasicMaterial({ color:0xf4e4b3 })); spindle.position.z = .02; record.add(spindle);
+          const orbit = new THREE.Group(); scene.add(orbit);
+          const dots = [0xc9ad67, 0xf0dfb4, 0x8e784b].map(color => { const dot = new THREE.Mesh(new THREE.SphereGeometry(.055, 16, 16), new THREE.MeshBasicMaterial({ color })); orbit.add(dot); return dot; });
+          const clock = new THREE.Clock(); let visible = true, playing = false, pointerX = 0, pointerY = 0;
+          const resize = () => { const { width, height } = miniHost.getBoundingClientRect(); if (!width || !height) return; renderer.setSize(width, height, false); camera.aspect = width / height; camera.updateProjectionMatrix(); };
+          new ResizeObserver(resize).observe(miniHost); new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; }, { threshold:.02 }).observe(miniHost); resize();
+          miniHost.closest('button').addEventListener('pointermove', event => { const box = miniHost.getBoundingClientRect(); pointerX = ((event.clientX - box.left) / box.width - .5) * .24; pointerY = ((event.clientY - box.top) / box.height - .5) * .18; });
+          miniHost.closest('button').addEventListener('pointerleave', () => { pointerX = 0; pointerY = 0; });
+          document.querySelector('#ambient-track').addEventListener('play', () => { playing = true; }); document.querySelector('#ambient-track').addEventListener('pause', () => { playing = false; });
+          const animateMini = () => { requestAnimationFrame(animateMini); const delta = Math.min(clock.getDelta(), .05); if (!visible || document.hidden) return; const time = clock.getElapsedTime(); record.rotation.z -= delta * (playing ? 2.4 : .11); record.rotation.x += (pointerY - record.rotation.x) * .08; record.rotation.y += (pointerX - record.rotation.y) * .08; const speed = playing ? 1.7 : .42; dots.forEach((dot, index) => { const angle = time * speed + index * (Math.PI * 2 / dots.length); const radius = playing ? 1.68 : 1.57; dot.position.set(Math.cos(angle) * radius, Math.sin(angle) * radius, .12); }); renderer.render(scene, camera); };
+          animateMini();
+        } catch (_) { miniHost.remove(); }
+      }
     </script>
     <script type="module">
       const host = null; // The photographic listening room replaces the former WebGL scene.
