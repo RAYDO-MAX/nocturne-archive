@@ -35,6 +35,7 @@
       .room-button:hover { color:var(--ink); border-color:var(--gold); background:var(--gold); box-shadow:0 0 28px rgba(201,179,122,.25); transform:translateY(-2px); }
       .turntable { width:min(35vw,460px); aspect-ratio:1; justify-self:end; position:relative; transform:translate(7%,-5%); }
       .record { width:100%; aspect-ratio:1; border-radius:50%; background:repeating-radial-gradient(circle at 50% 50%, #161616 0 3px,#20201f 4px 5px,#111 6px 8px); box-shadow:0 0 0 14px #191918, 0 25px 90px #000; position:relative; animation:spin 26s linear 3.1s infinite backwards; }
+      .turntable-3d{position:absolute;inset:0;z-index:1;opacity:0;pointer-events:none;transition:opacity .8s ease}.turntable-3d canvas{width:100%;height:100%;display:block}.turntable.is-3d-ready .turntable-3d{opacity:1}.turntable.is-3d-ready .record{opacity:0;animation:none}
       .record-play{position:absolute;z-index:6;left:50%;top:50%;width:108px;height:108px;transform:translate(-50%,-50%);border:1px solid rgba(201,179,122,.7);border-radius:50%;background:rgba(17,17,16,.78);box-shadow:0 0 0 7px rgba(13,13,12,.28),0 8px 28px rgba(0,0,0,.42);color:var(--bone);font:600 11px/1.2 Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(5px);animation:ambient-pulse 2.8s ease-in-out infinite;transition:background .25s ease,color .25s ease,box-shadow .25s ease}.record-play:hover,.record-play:focus-visible{background:var(--gold);color:var(--ink);box-shadow:0 0 0 10px rgba(201,179,122,.16),0 10px 35px rgba(0,0,0,.55);outline:0;animation-play-state:paused}.record-play:active{transform:translate(-50%,-50%) scale(.94)}.record-play[aria-pressed="true"]{background:var(--gold);color:var(--ink);animation:none;box-shadow:0 0 0 9px rgba(201,179,122,.2),0 10px 35px rgba(0,0,0,.55)}@keyframes ambient-pulse{0%,100%{transform:translate(-50%,-50%) scale(1);box-shadow:0 0 0 7px rgba(13,13,12,.28),0 8px 28px rgba(0,0,0,.42)}50%{transform:translate(-50%,-50%) scale(1.075);box-shadow:0 0 0 15px rgba(201,179,122,.12),0 10px 36px rgba(0,0,0,.52)}}@media(prefers-reduced-motion:reduce){.record-play{animation:none}}
       @keyframes spin { from { transform:rotate(-17deg); } to { transform:rotate(343deg); } }
       .tonearm-base { position:absolute; z-index:3; top:3%; right:2%; width:43px; height:43px; border-radius:50%; background:radial-gradient(circle at 34% 30%,#f1e9d4 0 6%,#9c9589 7% 26%,#3b3934 27% 55%,#161615 57%); box-shadow:0 4px 10px #000; }
@@ -121,7 +122,7 @@
             <div class="hero-meta"><div><b id="total-count">—</b><span>In archive</span></div><div><b id="vinyl-count">—</b><span>Vinyl records</span></div><div><b id="cd-count">—</b><span>Compact discs</span></div><div><b id="artist-count">—</b><span>Artists</span></div></div>
             <div class="room-actions"><button class="room-button" id="shuffle">Shuffle the shelf</button><a class="room-button" href="#collection">Enter archive</a></div>
             <div class="collection-snapshot" aria-label="Collection snapshot"><div class="snapshot-item"><strong id="top-genres">—</strong><span>Dominant sounds</span></div><div class="snapshot-item"><strong id="time-span">—</strong><span>Time span</span></div><div class="snapshot-item"><strong id="hero-value">—</strong><span>Estimated value</span></div><div class="snapshot-item"><strong id="last-sync">—</strong><span>Last synced</span></div></div>
-          </div><div class="turntable"><div class="record"></div><div class="tonearm-base"></div><div class="tonearm"></div><button class="record-play" id="room-tone" aria-pressed="false" aria-label="Play ambient">Play ambient</button></div>
+          </div><div class="turntable"><div class="record"></div><div class="turntable-3d" id="turntable-3d" aria-hidden="true"></div><div class="tonearm-base"></div><div class="tonearm"></div><button class="record-play" id="room-tone" aria-pressed="false" aria-label="Play ambient">Play ambient</button></div>
         </section>
         <section class="about" id="about">
           <div class="about-layout"><div><div class="section-kicker">About Nocturne Archive</div><h2>A public room for physical music.</h2></div><div><p class="about-copy"><strong>Nocturne Archive</strong> is a living presentation of a private collection of vinyl and compact discs. It brings together editions, listening notes and Discogs details in one quiet, browseable space — built for people who still value music as an object.</p><div class="about-details"><div><b id="about-count">—</b><span>Physical releases</span></div><div><b>Discogs</b><span>Collection source</span></div><div><b>2026</b><span>Listening room</span></div></div></div></div>
@@ -285,6 +286,48 @@
       render();
       loadCollection();
       loadWeeklyReleases();
+    </script>
+    <script type="module">
+      const host = document.querySelector('#turntable-3d');
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (host && !reduceMotion && window.WebGLRenderingContext) {
+        try {
+          const THREE = await import('https://unpkg.com/three@0.160.1/build/three.module.js');
+          const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power' });
+          renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+          renderer.outputColorSpace = THREE.SRGBColorSpace;
+          host.appendChild(renderer.domElement);
+          const scene = new THREE.Scene();
+          const camera = new THREE.PerspectiveCamera(34, 1, .1, 100);
+          camera.position.set(0, 0, 9);
+          const tilt = new THREE.Group(); scene.add(tilt);
+          const record = new THREE.Group(); tilt.add(record);
+          const base = new THREE.Mesh(new THREE.CircleGeometry(3.2, 96), new THREE.MeshStandardMaterial({ color: 0x191917, roughness: .72, metalness: .25 }));
+          base.position.z = -.16; tilt.add(base);
+          const disc = new THREE.Mesh(new THREE.CylinderGeometry(2.85, 2.85, .16, 96), new THREE.MeshStandardMaterial({ color: 0x0b0b0b, roughness: .32, metalness: .5 }));
+          disc.rotation.x = Math.PI / 2; record.add(disc);
+          const label = new THREE.Mesh(new THREE.CircleGeometry(.84, 64), new THREE.MeshStandardMaterial({ color: 0x9a7044, roughness: .56, metalness: .1 }));
+          label.position.z = .095; record.add(label);
+          const spindle = new THREE.Mesh(new THREE.CylinderGeometry(.07, .07, .16, 24), new THREE.MeshStandardMaterial({ color: 0xdcc887, metalness: .85, roughness: .22 }));
+          spindle.rotation.x = Math.PI / 2; spindle.position.z = .14; record.add(spindle);
+          [1.05, 1.28, 1.54, 1.8, 2.06, 2.32, 2.57].forEach(radius => { const groove = new THREE.Mesh(new THREE.TorusGeometry(radius, .012, 6, 96), new THREE.MeshStandardMaterial({ color: 0x31302f, roughness: .4, metalness: .35 })); groove.position.z = .098; record.add(groove); });
+          scene.add(new THREE.HemisphereLight(0xeadfbf, 0x090909, 1.4));
+          const key = new THREE.PointLight(0xe9c974, 14, 18); key.position.set(-3, 4, 6); scene.add(key);
+          const rim = new THREE.PointLight(0x7a6a4c, 8, 16); rim.position.set(4, -2, 4); scene.add(rim);
+          const clock = new THREE.Clock();
+          let playing = false, visible = true, pointerX = 0, pointerY = 0;
+          const resize = () => { const { width, height } = host.getBoundingClientRect(); if (!width || !height) return; renderer.setSize(width, height, false); camera.aspect = width / height; camera.updateProjectionMatrix(); };
+          new ResizeObserver(resize).observe(host); resize();
+          new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; }, { threshold: .02 }).observe(host);
+          host.closest('.turntable').addEventListener('pointermove', event => { const box = host.getBoundingClientRect(); pointerX = ((event.clientX - box.left) / box.width - .5) * .22; pointerY = ((event.clientY - box.top) / box.height - .5) * .16; });
+          host.closest('.turntable').addEventListener('pointerleave', () => { pointerX = 0; pointerY = 0; });
+          document.querySelector('#ambient-track').addEventListener('play', () => { playing = true; });
+          document.querySelector('#ambient-track').addEventListener('pause', () => { playing = false; });
+          host.closest('.turntable').classList.add('is-3d-ready');
+          const animate = () => { requestAnimationFrame(animate); const delta = Math.min(clock.getDelta(), .05); if (!visible || document.hidden) return; record.rotation.z -= delta * (playing ? .72 : .24); tilt.rotation.y += (pointerX - tilt.rotation.y) * .055; tilt.rotation.x += (-pointerY - tilt.rotation.x) * .055; renderer.render(scene, camera); };
+          animate();
+        } catch (_) { host.remove(); }
+      }
     </script>
   </body>
 </html>
