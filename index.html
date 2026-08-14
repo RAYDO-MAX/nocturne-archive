@@ -18,7 +18,7 @@
       nav { position:sticky; top:0; z-index:20; height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); background:rgba(16,16,15,.92); backdrop-filter:blur(15px); }
       .brand,.brand:visited { position:absolute;left:50%;transform:translateX(-50%);display:inline-flex;align-items:baseline;gap:7px;color:var(--bone);font-family:'Instrument Serif',serif;font-size:29px;letter-spacing:-.03em;text-decoration:none; }.brand span{letter-spacing:-.01em}.brand em{color:#e2c879;font-style:italic}
       .nav-links { display:flex; gap:28px; font-size:11px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted); }.nav-links a{color:inherit;text-decoration:none}.nav-links a:hover{color:var(--gold)}
-      .design-switch { width:42px;height:42px;margin-left:auto;padding:0;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:transparent;color:var(--bone);font:22px/1 sans-serif;transition:.3s ease; }.design-switch:hover,.design-switch:focus-visible{border-color:var(--gold);color:var(--gold);background:rgba(219,197,139,.08);transform:rotate(18deg);outline:0}.design-switch:focus-visible{box-shadow:0 0 0 2px rgba(219,197,139,.2)}.design-switch span{display:block;transform:translateY(-1px)}
+      .design-switch { width:42px;height:42px;margin-left:auto;padding:0;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:repeating-radial-gradient(circle at 50% 50%,#1b1a18 0 3px,#30302d 4px 5px,#171716 6px 7px);color:var(--ink);box-shadow:inset 0 0 0 4px #161615,0 2px 8px rgba(0,0,0,.3);transition:.45s ease; }.design-switch:hover,.design-switch:focus-visible{border-color:var(--gold);box-shadow:inset 0 0 0 4px #161615,0 0 0 3px rgba(219,197,139,.14),0 4px 14px rgba(0,0,0,.4);transform:rotate(40deg);outline:0}.design-switch:focus-visible{box-shadow:inset 0 0 0 4px #161615,0 0 0 3px rgba(219,197,139,.3),0 4px 14px rgba(0,0,0,.4)}.design-switch span{width:17px;height:17px;border-radius:50%;display:grid;place-items:center;background:var(--gold);font:600 5px/1 'DM Mono',monospace;letter-spacing:-.03em;transform:rotate(0);transition:.3s ease}.design-switch:hover span,.design-switch:focus-visible span{transform:rotate(-40deg)}
       section[id]{scroll-margin-top:102px}
       .hero { min-height:650px; position:relative; display:grid; grid-template-columns:1fr .8fr; align-items:end; padding:88px 0 65px; overflow:hidden; }
       .eyebrow, .section-kicker { color:var(--gold); font:500 10px 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
@@ -118,6 +118,7 @@
       body.design-gallery { --ink:#eee8dc; --bone:#191613; --muted:#6d6257; --line:rgba(25,22,19,.2); --gold:#ad5d3d; }
       body.design-gallery nav { background:rgba(238,232,220,.92); }
       body.design-gallery .brand em { color:#ad5d3d; }
+      body.design-gallery .design-switch { background:repeating-radial-gradient(circle at 50% 50%,#e8dfd1 0 3px,#cfc2b0 4px 5px,#f6eee2 6px 7px);box-shadow:inset 0 0 0 4px #f6eee2,0 2px 8px rgba(62,43,31,.18); }.design-gallery .design-switch span{background:#ad5d3d;color:#fff5e8}.design-gallery .design-switch:hover,.design-gallery .design-switch:focus-visible{box-shadow:inset 0 0 0 4px #f6eee2,0 0 0 3px rgba(173,93,61,.15),0 4px 14px rgba(62,43,31,.2)}
       body.design-gallery .hero { min-height:710px; grid-template-columns:.78fr 1.22fr; align-items:center; padding:70px 0; }
       body.design-gallery .hero > div:first-child { grid-column:2; grid-row:1; padding:20px 0 20px clamp(30px,6vw,105px); }
       body.design-gallery .turntable { grid-column:1; grid-row:1; justify-self:start; width:min(31vw,410px); aspect-ratio:.84; transform:none; box-shadow:18px 22px 0 rgba(173,93,61,.19),0 22px 55px rgba(62,43,31,.24); }
@@ -147,7 +148,7 @@
   </head>
   <body>
     <div class="shell" id="top">
-      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false" aria-label="Switch to daylight design" title="Switch to daylight design"><span aria-hidden="true">☀</span></button></nav>
+      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false" aria-label="Switch to daylight design" title="Switch to daylight design"><span aria-hidden="true">DAY</span></button></nav>
       <main>
         <section class="hero">
           <div>
@@ -327,7 +328,7 @@
       const designToggle = document.querySelector('#design-toggle');
       designToggle.addEventListener('click', () => {
         const galleryIsActive = document.body.classList.toggle('design-gallery');
-        designToggle.innerHTML = `<span aria-hidden="true">${galleryIsActive ? '☾' : '☀'}</span>`;
+        designToggle.innerHTML = `<span aria-hidden="true">${galleryIsActive ? 'NIGHT' : 'DAY'}</span>`;
         designToggle.setAttribute('aria-pressed', String(galleryIsActive));
         const nextDesign = galleryIsActive ? 'night-time Archive design' : 'daylight Gallery design';
         designToggle.setAttribute('aria-label', `Switch to ${nextDesign}`);
