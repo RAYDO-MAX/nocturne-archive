@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raydo-max.github.io/nocturne-archive/sitemap.xml
