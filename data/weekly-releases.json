@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T04:59:54.811Z",
+  "updatedAt": "2026-08-16T05:03:00.380Z",
   "releases": [
     {
       "id": "fb67ceb3-904e-457d-b71e-3a9f272c0cc4",
@@ -74,16 +74,16 @@
       "genres": []
     },
     {
-      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
-      "title": "Det Karolinska Arvet",
-      "artist": "Karolinerna",
-      "date": "2026",
+      "id": "42720dae-96b9-4d17-bbdb-e9c6701a6409",
+      "title": "Starry Mine",
+      "artist": "遥風啓司",
+      "date": "2026-08-16",
       "genres": []
     },
     {
-      "id": "3e02ac97-49ff-415d-a85e-3221a6cfcd22",
-      "title": "Time Machine",
-      "artist": "The Jungle",
+      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
+      "title": "Det Karolinska Arvet",
+      "artist": "Karolinerna",
       "date": "2026",
       "genres": []
     }
