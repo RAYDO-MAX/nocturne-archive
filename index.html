@@ -78,8 +78,9 @@
       .snapshot-item { min-height:73px; padding:13px 16px; background:rgba(19,19,18,.9); }.snapshot-item strong { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font:400 22px 'Instrument Serif'; letter-spacing:-.02em; color:var(--bone); }.snapshot-item span{display:block;margin-top:5px;color:var(--muted);font:10px 'DM Mono';letter-spacing:.09em;text-transform:uppercase;}
       .room-button { display:inline-flex; align-items:center; justify-content:center; padding:13px 17px; color:var(--bone); border:1px solid var(--line); background:rgba(255,255,255,.025); font:500 10px/1 'DM Mono'; letter-spacing:.1em; text-transform:uppercase; text-decoration:none; transition:.25s ease; }
       .room-button:hover { color:var(--ink); border-color:var(--gold); background:var(--gold); box-shadow:0 0 28px rgba(201,179,122,.25); transform:translateY(-2px); }
-      .hero-sound { position:absolute; z-index:2; right:18px; bottom:37px; touch-action:none; }
+      .hero-sound { position:absolute; z-index:2; right:18px; bottom:37px; touch-action:none; transition:opacity .25s ease,transform .25s ease; }
       .hero-sound.is-floating { position:fixed; z-index:30; right:auto; bottom:auto; cursor:grabbing; }
+      .hero-sound.is-away { opacity:0; pointer-events:none; transform:scale(.9); }
       .room-play { position:absolute; z-index:4; left:calc(50% - 66px); bottom:31px; width:132px; height:132px; padding:13px; border:1px solid rgba(219,197,139,.82); border-radius:50%; display:grid; place-content:center; gap:4px; overflow:hidden; background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.12),transparent 28%),rgba(18,17,14,.88); color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); font:600 10px Manrope,sans-serif; letter-spacing:.1em; text-align:center; text-transform:uppercase; backdrop-filter:blur(8px); animation:room-pulse 2.8s ease-in-out infinite; transition:background .25s ease,color .25s ease,box-shadow .25s ease,transform .25s ease; cursor:pointer; }
       .hero-sound .room-play { position:relative; left:auto; bottom:auto; }
       .ambient-3d { position:absolute; z-index:0; inset:5px; border-radius:50%; overflow:hidden; opacity:.98; pointer-events:none; }.ambient-3d canvas{display:block;width:100%;height:100%}
@@ -420,14 +421,20 @@
       const placeSoundDock = (clientX, clientY) => {
         const size = roomToneButton.getBoundingClientRect();
         const pad = 12;
+        const minTop = 76;
+        const maxTop = Math.max(minTop, Math.min(window.innerHeight - size.height - pad, window.innerHeight * .42));
         soundDock.classList.add('is-floating');
         soundDock.style.left = `${Math.max(pad, Math.min(window.innerWidth - size.width - pad, clientX - size.width / 2))}px`;
-        soundDock.style.top = `${Math.max(pad, Math.min(window.innerHeight - size.height - pad, clientY - size.height / 2))}px`;
+        soundDock.style.top = `${Math.max(minTop, Math.min(maxTop, clientY - size.height / 2))}px`;
       };
       try {
         const savedDock = JSON.parse(localStorage.getItem('nocturne-ambient-position'));
         if (savedDock && Number.isFinite(savedDock.left) && Number.isFinite(savedDock.top)) placeSoundDock(savedDock.left + 66, savedDock.top + 66);
       } catch (_) {}
+      const heroSection = document.querySelector('.hero');
+      const updateSoundDockVisibility = () => soundDock.classList.toggle('is-away', heroSection.getBoundingClientRect().bottom < 110);
+      window.addEventListener('scroll', updateSoundDockVisibility, { passive:true });
+      updateSoundDockVisibility();
       const isDockEdge = event => {
         const rect = roomToneButton.getBoundingClientRect();
         const distance = Math.hypot(event.clientX - rect.left - rect.width / 2, event.clientY - rect.top - rect.height / 2);
