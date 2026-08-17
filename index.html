@@ -469,6 +469,14 @@
           [ .7, .98, 1.2 ].forEach(radius => record.add(new THREE.Mesh(new THREE.TorusGeometry(radius, .012, 5, 48), new THREE.MeshBasicMaterial({ color:0x776b4b, transparent:true, opacity:.74 }))));
           const label = new THREE.Mesh(new THREE.CircleGeometry(.42, 40), new THREE.MeshBasicMaterial({ color:0xc9ad67 })); label.position.z = .015; record.add(label);
           const spindle = new THREE.Mesh(new THREE.CircleGeometry(.055, 20), new THREE.MeshBasicMaterial({ color:0xf4e4b3 })); spindle.position.z = .02; record.add(spindle);
+          const tonePivot = new THREE.Group(); tonePivot.position.set(1.26, 1.18, .16); scene.add(tonePivot);
+          const armMetal = new THREE.MeshBasicMaterial({ color:0xc9ad67 });
+          const pivot = new THREE.Mesh(new THREE.CircleGeometry(.13, 20), armMetal); tonePivot.add(pivot);
+          const tonearm = new THREE.Group(); tonePivot.add(tonearm);
+          const armShaft = new THREE.Mesh(new THREE.CylinderGeometry(.038, .038, 1.18, 10), armMetal); armShaft.position.y = -.56; tonearm.add(armShaft);
+          const cartridge = new THREE.Mesh(new THREE.BoxGeometry(.16, .2, .08), new THREE.MeshBasicMaterial({ color:0x28241c })); cartridge.position.set(0, -1.12, .03); tonearm.add(cartridge);
+          const stylus = new THREE.Mesh(new THREE.CylinderGeometry(.012, .012, .12, 8), new THREE.MeshBasicMaterial({ color:0xf0dfb4 })); stylus.position.set(0, -1.22, .025); tonearm.add(stylus);
+          tonearm.rotation.z = -.2;
           const orbit = new THREE.Group(); scene.add(orbit);
           const dots = [0xc9ad67, 0xf0dfb4, 0x8e784b].map(color => { const dot = new THREE.Mesh(new THREE.SphereGeometry(.055, 16, 16), new THREE.MeshBasicMaterial({ color })); orbit.add(dot); return dot; });
           const clock = new THREE.Clock(); let visible = true, playing = false, pointerX = 0, pointerY = 0;
@@ -477,7 +485,7 @@
           miniHost.closest('button').addEventListener('pointermove', event => { const box = miniHost.getBoundingClientRect(); pointerX = ((event.clientX - box.left) / box.width - .5) * .24; pointerY = ((event.clientY - box.top) / box.height - .5) * .18; });
           miniHost.closest('button').addEventListener('pointerleave', () => { pointerX = 0; pointerY = 0; });
           document.querySelector('#ambient-track').addEventListener('play', () => { playing = true; }); document.querySelector('#ambient-track').addEventListener('pause', () => { playing = false; });
-          const animateMini = () => { requestAnimationFrame(animateMini); const delta = Math.min(clock.getDelta(), .05); if (!visible || document.hidden) return; const time = clock.getElapsedTime(); record.rotation.z -= delta * (playing ? 3.2 : .13); record.rotation.x += (pointerY * 2.8 - record.rotation.x) * .11; record.rotation.y += (pointerX * 2.8 - record.rotation.y) * .11; orbit.rotation.x += (pointerY * 1.9 - orbit.rotation.x) * .09; orbit.rotation.y += (pointerX * 1.9 - orbit.rotation.y) * .09; const speed = playing ? 2.8 : .52; dots.forEach((dot, index) => { const angle = time * speed + index * (Math.PI * 2 / dots.length); const radius = playing ? 1.74 : 1.57; const depth = Math.sin(angle * 1.45) * (playing ? .52 : .18); dot.position.set(Math.cos(angle) * radius, Math.sin(angle) * radius * .72, depth); dot.scale.setScalar(playing ? 1 + (depth + .52) * .35 : 1); }); renderer.render(scene, camera); };
+          const animateMini = () => { requestAnimationFrame(animateMini); const delta = Math.min(clock.getDelta(), .05); if (!visible || document.hidden) return; const time = clock.getElapsedTime(); record.rotation.z -= delta * (playing ? 3.2 : .13); record.rotation.x += (pointerY * 2.8 - record.rotation.x) * .11; record.rotation.y += (pointerX * 2.8 - record.rotation.y) * .11; orbit.rotation.x += (pointerY * 1.9 - orbit.rotation.x) * .09; orbit.rotation.y += (pointerX * 1.9 - orbit.rotation.y) * .09; tonearm.rotation.z += ((playing ? -.75 : -.2) - tonearm.rotation.z) * Math.min(delta * 5.6, 1); tonearm.position.z += ((playing ? .012 : .09) - tonearm.position.z) * Math.min(delta * 5.6, 1); const speed = playing ? 2.8 : .52; dots.forEach((dot, index) => { const angle = time * speed + index * (Math.PI * 2 / dots.length); const radius = playing ? 1.74 : 1.57; const depth = Math.sin(angle * 1.45) * (playing ? .52 : .18); dot.position.set(Math.cos(angle) * radius, Math.sin(angle) * radius * .72, depth); dot.scale.setScalar(playing ? 1 + (depth + .52) * .35 : 1); }); renderer.render(scene, camera); };
           animateMini();
         } catch (_) { miniHost.remove(); }
       }
