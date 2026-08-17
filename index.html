@@ -86,8 +86,8 @@
       .room-play-copy { position:absolute; z-index:2; inset:0; pointer-events:none; text-shadow:0 2px 9px rgba(0,0,0,.85); }.room-play-symbol { position:absolute; left:50%; top:50%; display:block; color:var(--gold); font:21px/1 sans-serif; letter-spacing:0; transform:translate(-50%,-50%); }.room-play-status{position:absolute;left:50%;top:calc(50% + 19px);display:block;color:#fff0c3;font:700 8px/1 'DM Mono',monospace;letter-spacing:.14em;text-indent:.14em;transform:translateX(-50%)}
       #room-play-label,#room-play-hint{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
       .room-play small { display:block; color:var(--gold); font:9px/1.3 'DM Mono',monospace; letter-spacing:.03em; text-transform:none; }
-      .room-play:hover,.room-play:focus-visible,.room-play[aria-pressed="true"] { background:var(--gold); color:var(--ink); animation:none; outline:0; }
-      .room-play:hover .room-play-symbol,.room-play:focus-visible .room-play-symbol,.room-play[aria-pressed="true"] .room-play-symbol,.room-play:hover .room-play-status,.room-play:focus-visible .room-play-status,.room-play[aria-pressed="true"] .room-play-status { color:var(--ink); text-shadow:none; }
+      .room-play:hover,.room-play:focus-visible,.room-play[aria-pressed="true"] { background:radial-gradient(circle at 32% 27%,rgba(255,255,255,.16),transparent 28%),rgba(18,17,14,.93); border-color:#f0dfb4; color:var(--bone); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 0 28px rgba(201,179,122,.42); animation:none; outline:0; }
+      .room-play:hover .room-play-symbol,.room-play:focus-visible .room-play-symbol,.room-play[aria-pressed="true"] .room-play-symbol,.room-play:hover .room-play-status,.room-play:focus-visible .room-play-status,.room-play[aria-pressed="true"] .room-play-status { color:#fff0c3; }
       .room-play:hover small,.room-play:focus-visible small,.room-play[aria-pressed="true"] small { color:#4a3c1f; }
       @keyframes room-pulse { 0%,100% { transform:scale(1); box-shadow:0 0 0 7px rgba(14,14,13,.21),0 8px 26px rgba(0,0,0,.44); } 50% { transform:scale(1.045); box-shadow:0 0 0 15px rgba(219,197,139,.14),0 10px 34px rgba(0,0,0,.54); } }@keyframes ambient-text-spin{to{transform:rotate(360deg)}}
       @media(prefers-reduced-motion:reduce){.room-play{animation:none}}
@@ -469,13 +469,13 @@
           [ .7, .98, 1.2 ].forEach(radius => record.add(new THREE.Mesh(new THREE.TorusGeometry(radius, .012, 5, 48), new THREE.MeshBasicMaterial({ color:0x776b4b, transparent:true, opacity:.74 }))));
           const label = new THREE.Mesh(new THREE.CircleGeometry(.42, 40), new THREE.MeshBasicMaterial({ color:0xc9ad67 })); label.position.z = .015; record.add(label);
           const spindle = new THREE.Mesh(new THREE.CircleGeometry(.055, 20), new THREE.MeshBasicMaterial({ color:0xf4e4b3 })); spindle.position.z = .02; record.add(spindle);
-          const tonePivot = new THREE.Group(); tonePivot.position.set(1.26, 1.18, .16); scene.add(tonePivot);
+          const tonePivot = new THREE.Group(); tonePivot.position.set(1.08, 1.05, .16); scene.add(tonePivot);
           const armMetal = new THREE.MeshBasicMaterial({ color:0xc9ad67 });
           const pivot = new THREE.Mesh(new THREE.CircleGeometry(.13, 20), armMetal); tonePivot.add(pivot);
           const tonearm = new THREE.Group(); tonePivot.add(tonearm);
-          const armShaft = new THREE.Mesh(new THREE.CylinderGeometry(.038, .038, 1.18, 10), armMetal); armShaft.position.y = -.56; tonearm.add(armShaft);
-          const cartridge = new THREE.Mesh(new THREE.BoxGeometry(.16, .2, .08), new THREE.MeshBasicMaterial({ color:0x28241c })); cartridge.position.set(0, -1.12, .03); tonearm.add(cartridge);
-          const stylus = new THREE.Mesh(new THREE.CylinderGeometry(.012, .012, .12, 8), new THREE.MeshBasicMaterial({ color:0xf0dfb4 })); stylus.position.set(0, -1.22, .025); tonearm.add(stylus);
+          const armShaft = new THREE.Mesh(new THREE.CylinderGeometry(.05, .05, .92, 10), armMetal); armShaft.position.y = -.43; tonearm.add(armShaft);
+          const cartridge = new THREE.Mesh(new THREE.BoxGeometry(.18, .18, .08), new THREE.MeshBasicMaterial({ color:0x28241c })); cartridge.position.set(0, -.88, .03); tonearm.add(cartridge);
+          const stylus = new THREE.Mesh(new THREE.CylinderGeometry(.015, .015, .1, 8), new THREE.MeshBasicMaterial({ color:0xf0dfb4 })); stylus.position.set(0, -.98, .025); tonearm.add(stylus);
           tonearm.rotation.z = -.2;
           const orbit = new THREE.Group(); scene.add(orbit);
           const dots = [0xc9ad67, 0xf0dfb4, 0x8e784b].map(color => { const dot = new THREE.Mesh(new THREE.SphereGeometry(.055, 16, 16), new THREE.MeshBasicMaterial({ color })); orbit.add(dot); return dot; });
