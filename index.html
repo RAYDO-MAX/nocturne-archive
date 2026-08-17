@@ -22,7 +22,7 @@
     <title>Nocturne Archive — Vinyl &amp; CD Collection | Private Listening Room</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -183,11 +183,50 @@
       body.design-gallery .weekly h2 { color:#f4eee3; } body.design-gallery .weekly-copy { color:#c9bdb0; }
       body.design-gallery .archive-map-layout,body.design-gallery .auction-layout { box-shadow:14px 14px 0 rgba(173,93,61,.13); }
       @media(max-width:760px){body.design-gallery .hero{min-height:760px;display:block;padding-top:82px}body.design-gallery .weekly{margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px}}
+
+      /* Revolut-inspired comparison mode: a black-and-white catalogue rhythm. */
+      body.design-revolut { --ink:#191c1f; --bone:#fff; --muted:#505a63; --line:#e2e2e7; --gold:#494fdf; background:#fff; color:#191c1f; font-family:Inter,Manrope,sans-serif; }
+      body.design-revolut .shell { max-width:none; padding:0; }
+      body.design-revolut nav { height:64px; padding:0 max(24px,calc((100vw - 1200px)/2)); border:0; background:#000; backdrop-filter:none; }
+      body.design-revolut .brand,body.design-revolut .brand:visited { position:static; transform:none; color:#fff; font:500 22px/1 Inter,sans-serif; letter-spacing:-.05em; }
+      body.design-revolut .brand em { color:#fff; font-style:normal; }
+      body.design-revolut .nav-links { margin-left:48px; gap:25px; color:rgba(255,255,255,.72); font:500 14px/1 Inter,sans-serif; letter-spacing:.02em; text-transform:none; }
+      body.design-revolut .nav-links a:hover { color:#fff; }
+      body.design-revolut .design-switch { width:auto; min-height:40px; margin-left:auto; padding:0 17px; border:0; border-radius:999px; background:#fff; color:#000; box-shadow:none; transform:none; }
+      body.design-revolut .design-switch:hover,body.design-revolut .design-switch:focus-visible { border:0; background:#e2e2e7; box-shadow:none; transform:none; }
+      body.design-revolut .design-switch span,body.design-revolut .design-switch:hover span,body.design-revolut .design-switch:focus-visible span { width:auto; height:auto; padding:0; border-radius:0; background:transparent; color:#000; font:600 14px/1 Inter,sans-serif; letter-spacing:.02em; transform:none; }
+      body.design-revolut .hero { min-height:720px; padding:116px max(24px,calc((100vw - 1200px)/2)) 76px; background-position:center; }
+      body.design-revolut .hero:before { background:linear-gradient(90deg,rgba(0,0,0,.94) 0%,rgba(0,0,0,.83) 43%,rgba(0,0,0,.26) 74%,rgba(0,0,0,.06) 100%); }
+      body.design-revolut h1 { max-width:930px; margin:20px 0 27px; color:#fff; font:500 clamp(66px,10vw,136px)/.98 Inter,sans-serif; letter-spacing:-.075em; }
+      body.design-revolut h1 i { color:#fff; font-style:normal; }
+      body.design-revolut h2 { color:#191c1f; font:500 clamp(48px,6vw,80px)/1 Inter,sans-serif; letter-spacing:-.055em; }
+      body.design-revolut .hero-purpose { font:400 18px/1.56 Inter,sans-serif; } body.design-revolut .intro { color:rgba(255,255,255,.72); font:400 16px/1.5 Inter,sans-serif; }
+      body.design-revolut .eyebrow,body.design-revolut .section-kicker { color:#494fdf; font:600 13px/1.4 Inter,sans-serif; letter-spacing:.01em; text-transform:none; }
+      body.design-revolut .hero .eyebrow { color:#fff; }
+      body.design-revolut .hero-meta { gap:28px; max-width:760px; margin-top:46px; }
+      body.design-revolut .hero-meta > div { padding-left:0; border:0; } body.design-revolut .hero-meta b { font:500 30px/1 Inter,sans-serif; } body.design-revolut .hero-meta span { margin-top:7px; color:rgba(255,255,255,.72); font:400 13px/1.4 Inter,sans-serif; letter-spacing:.02em; text-transform:none; }
+      body.design-revolut .room-actions { gap:12px; margin-top:31px; } body.design-revolut .room-button { min-height:48px; padding:0 25px; border:0; border-radius:999px; background:#fff; color:#000; font:600 16px/1 Inter,sans-serif; letter-spacing:0; text-transform:none; box-shadow:none; }
+      body.design-revolut .room-button + .room-button { background:transparent; border:1px solid #fff; color:#fff; } body.design-revolut .room-button:hover { transform:none; background:#e2e2e7; box-shadow:none; }
+      body.design-revolut .collection-snapshot { max-width:100%; border:0; background:transparent; gap:12px; margin-top:48px; } body.design-revolut .snapshot-item { min-height:0; padding:0; background:transparent; } body.design-revolut .snapshot-item strong { color:#fff; font:500 22px/1 Inter,sans-serif; } body.design-revolut .snapshot-item span { color:rgba(255,255,255,.72); font:400 13px/1.4 Inter,sans-serif; letter-spacing:.02em; text-transform:none; }
+      body.design-revolut .about,body.design-revolut .curator,body.design-revolut .archive-map,body.design-revolut .collection { margin:0; padding:88px max(24px,calc((100vw - 1200px)/2)); border:0; background:#fff; color:#191c1f; }
+      body.design-revolut .curator { background:#f4f4f4; } body.design-revolut .about-copy,body.design-revolut .curator-copy,body.design-revolut .archive-map-copy,body.design-revolut .archive-note p { color:#505a63; font:400 16px/1.5 Inter,sans-serif; }
+      body.design-revolut .about-copy strong,body.design-revolut .archive-keywords { color:#494fdf; } body.design-revolut .about-details,body.design-revolut .curator-grid { gap:16px; border:0; background:transparent; }
+      body.design-revolut .about-details div,body.design-revolut .curator-card { padding:24px; border:1px solid #e2e2e7; border-radius:20px; background:#fff; } body.design-revolut .about-details b,body.design-revolut .curator-title,body.design-revolut .artist { color:#191c1f; font-family:Inter,sans-serif; } body.design-revolut .about-details span,body.design-revolut .curator-artist,body.design-revolut .curator-note,body.design-revolut .details,body.design-revolut .title { color:#505a63; font-family:Inter,sans-serif; }
+      body.design-revolut .curator-card:hover,body.design-revolut .curator-card:focus-visible { background:#fff; transform:none; outline:2px solid #494fdf; outline-offset:3px; } body.design-revolut .curator-title { font:500 30px/1 Inter,sans-serif; letter-spacing:-.04em; } body.design-revolut .curator-number,body.design-revolut .curator-note:before { color:#494fdf; font-family:Inter,sans-serif; }
+      body.design-revolut .weekly,body.design-revolut .auction { margin:0; padding:88px max(24px,calc((100vw - 1200px)/2)); border:0; background:#000; color:#fff; } body.design-revolut .weekly h2,body.design-revolut .auction h2 { color:#fff; } body.design-revolut .weekly-copy,body.design-revolut .auction-info p { color:rgba(255,255,255,.72); font-family:Inter,sans-serif; }
+      body.design-revolut .weekly-grid { gap:16px; border:0; background:transparent; } body.design-revolut .weekly-card { min-height:310px; padding:28px; border-radius:20px; background:#16181a; } body.design-revolut .weekly-card.featured { background:#494fdf; } body.design-revolut .weekly-label,body.design-revolut .weekly-link { color:#fff; font-family:Inter,sans-serif; } body.design-revolut .weekly-title { font:500 34px/1 Inter,sans-serif; letter-spacing:-.045em; }
+      body.design-revolut .archive-map-layout { border:1px solid #e2e2e7; background:#fff; } body.design-revolut .map-orbit { background:#f4f4f4; } body.design-revolut .map-core { border-color:#494fdf; background:#fff; box-shadow:none; } body.design-revolut .map-core strong,body.design-revolut .map-tab.active,body.design-revolut .map-tab:hover { color:#494fdf; font-family:Inter,sans-serif; } body.design-revolut .map-core span,body.design-revolut .map-count,body.design-revolut .map-foot { color:#505a63; font-family:Inter,sans-serif; } body.design-revolut .map-tab { color:#505a63; font-family:Inter,sans-serif; text-transform:none; letter-spacing:0; border-radius:999px; } body.design-revolut .map-tab.active,body.design-revolut .map-tab:hover { border-color:#494fdf; background:#fff; } body.design-revolut .map-row { color:#191c1f; font-family:Inter,sans-serif; } body.design-revolut .map-bar { background:#e2e2e7; border-radius:999px; } body.design-revolut .map-bar i { background:#494fdf; }
+      body.design-revolut .collection-top { margin-bottom:32px; } body.design-revolut .filter,body.design-revolut .reset-filter { min-height:44px; padding:0 18px; border:0; border-radius:999px; background:#f4f4f4; color:#191c1f; font:600 14px/1 Inter,sans-serif; letter-spacing:0; text-transform:none; text-decoration:none; } body.design-revolut .filter.active,body.design-revolut .filter:hover { background:#191c1f; color:#fff; } body.design-revolut .reset-filter { color:#494fdf; background:transparent; }
+      body.design-revolut .catalog-tools input,body.design-revolut .catalog-tools select { min-height:56px; border-color:#e2e2e7; border-radius:12px; background:#fff; color:#191c1f; font:400 16px Inter,sans-serif; } body.design-revolut .catalog-tools input:focus,body.design-revolut .catalog-tools select:focus { border-color:#494fdf; box-shadow:0 0 0 2px rgba(73,79,223,.15); } body.design-revolut .result-line { color:#505a63; font-family:Inter,sans-serif; }
+      body.design-revolut .card:hover { transform:none; } body.design-revolut .cover { border-radius:20px; background:#f4f4f4; } body.design-revolut .card:hover .cover { box-shadow:none; outline:2px solid #494fdf; outline-offset:3px; } body.design-revolut .card-price { border-radius:999px; background:#494fdf; color:#fff; font-family:Inter,sans-serif; } body.design-revolut .cover:after { display:none; }
+      body.design-revolut .archive-note { border-color:#e2e2e7; } body.design-revolut .value strong { color:#494fdf; font-family:Inter,sans-serif; } body.design-revolut .value span,body.design-revolut .estimate-note { color:#505a63; font-family:Inter,sans-serif; }
+      body.design-revolut .auction-layout { border:0; background:#16181a; border-radius:20px; overflow:hidden; } body.design-revolut .auction-info { padding:44px; } body.design-revolut .auction-stats { border-color:rgba(255,255,255,.12); } body.design-revolut .auction-stats div+div { border-color:rgba(255,255,255,.12); } body.design-revolut .live { color:#fff; font-family:Inter,sans-serif; } body.design-revolut footer { padding:48px max(24px,calc((100vw - 1200px)/2)); border:0; background:#000; color:rgba(255,255,255,.72); font-family:Inter,sans-serif; }
+      @media(max-width:760px){body.design-revolut nav{padding:0 20px}body.design-revolut .nav-links{display:none}body.design-revolut .design-switch{min-height:38px;padding:0 13px}body.design-revolut .design-switch span{font-size:12px}body.design-revolut .hero{min-height:760px;padding:82px 20px 48px}body.design-revolut h1{font-size:clamp(54px,16vw,74px)}body.design-revolut .hero-meta{gap:20px 12px}body.design-revolut .collection-snapshot{gap:18px 12px}body.design-revolut .about,body.design-revolut .curator,body.design-revolut .archive-map,body.design-revolut .collection,body.design-revolut .weekly,body.design-revolut .auction{padding:64px 20px}body.design-revolut .curator-grid,body.design-revolut .weekly-grid{gap:12px}body.design-revolut .curator-card{border-radius:20px}body.design-revolut .weekly-card{min-height:220px}body.design-revolut .collection-top{display:block}body.design-revolut .filters{margin-top:22px}body.design-revolut .auction-info{padding:28px 22px}}
     </style>
   </head>
   <body>
     <div class="shell" id="top">
-      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false" aria-label="Switch to daylight design" title="Switch to daylight design"><span aria-hidden="true">DAY</span></button></nav>
+      <nav><a class="brand" href="#top" aria-label="Back to the top of Nocturne Archive"><span>Nocturne</span><em>Archive</em></a><div class="nav-links"><a href="#about">About</a><a href="#collection">Collection</a><a href="#collection-map">Map</a><a href="#auction">Upcoming auctions</a></div><button class="design-switch" id="design-toggle" aria-pressed="false" aria-label="Open Revolut-inspired design" title="Open Revolut-inspired design"><span aria-hidden="true">REVOLUT VIEW</span></button></nav>
       <main>
         <section class="hero">
           <div>
@@ -366,10 +405,11 @@
       const ambientTrack = document.querySelector('#ambient-track');
       const designToggle = document.querySelector('#design-toggle');
       designToggle.addEventListener('click', () => {
-        const galleryIsActive = document.body.classList.toggle('design-gallery');
-        designToggle.innerHTML = `<span aria-hidden="true">${galleryIsActive ? 'NIGHT' : 'DAY'}</span>`;
-        designToggle.setAttribute('aria-pressed', String(galleryIsActive));
-        const nextDesign = galleryIsActive ? 'night-time Archive design' : 'daylight Gallery design';
+        const revolutIsActive = document.body.classList.toggle('design-revolut');
+        document.body.classList.remove('design-gallery');
+        designToggle.innerHTML = `<span aria-hidden="true">${revolutIsActive ? 'ARCHIVE VIEW' : 'REVOLUT VIEW'}</span>`;
+        designToggle.setAttribute('aria-pressed', String(revolutIsActive));
+        const nextDesign = revolutIsActive ? 'Archive design' : 'Revolut-inspired design';
         designToggle.setAttribute('aria-label', `Switch to ${nextDesign}`);
         designToggle.setAttribute('title', `Switch to ${nextDesign}`);
       });
