@@ -423,7 +423,8 @@
           segment.addEventListener('blur', deactivateSegments);
         });
         document.querySelector('#map-foot').textContent = rows.length ? `${labels[activeMap]} · ring shows 100% of all recorded categories` : 'Collection data will appear here after the next sync.';
-        document.querySelector('#map-list').innerHTML = rows.length ? rows.map(({ label, count }) => `<div class="map-row"><span>${escapeHtml(label)}</span><span class="map-bar"><i style="width:${Math.max(8, Math.round((count / rows[0].count) * 100))}%"></i></span><span class="map-count"><b>${count}</b><small>${percentage(count)}%</small></span></div>`).join('') : '<p class="map-empty">The map is waiting for collection data.</p>';
+        const largestSegment = Math.max(...chartRows.map(row => row.count), 1);
+        document.querySelector('#map-list').innerHTML = rows.length ? chartRows.map(({ label, count, share }) => `<div class="map-row"><span>${escapeHtml(label)}</span><span class="map-bar"><i style="width:${Math.max(8, Math.round((count / largestSegment) * 100))}%"></i></span><span class="map-count"><b>${count}</b><small>${Math.round(share)}%</small></span></div>`).join('') : '<p class="map-empty">The map is waiting for collection data.</p>';
         window.dispatchEvent(new CustomEvent('nocturne-map-change'));
       };
       const updateArchiveMap = (archive) => {
