@@ -427,7 +427,7 @@
         window.dispatchEvent(new CustomEvent('nocturne-map-change'));
       };
       const updateArchiveMap = (archive) => {
-        const genreValues = archive.flatMap(release => release.genres || []);
+        const genreValues = archive.map(release => release.genres?.[0]).filter(Boolean);
         const countryValues = archive.map(release => release.country).filter(Boolean);
         const decadeValues = archive.map(release => Number(release.year)).filter(Number.isFinite).map(year => `${Math.floor(year / 10) * 10}s`);
         mapData = { genres: countValues(genreValues), countries: countValues(countryValues), decades: countValues(decadeValues) };
