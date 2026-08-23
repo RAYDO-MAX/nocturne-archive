@@ -1,10 +1,38 @@
 {
-  "updatedAt": "2026-08-22T05:03:01.283Z",
+  "updatedAt": "2026-08-23T05:04:49.206Z",
   "releases": [
+    {
+      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
+      "title": "Radiation Therapy",
+      "artist": "Crossbreed",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
+      "title": "Castlevania: Piano Collections",
+      "artist": "Benyamin NussRamon van Engelenhoven",
+      "date": "2026",
+      "genres": []
+    },
     {
       "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
       "title": "The Ballad of General Jupiter",
       "artist": "Anton Roolaart",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
+      "title": "Electric Fantasy",
+      "artist": "Pierre Schott",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
+      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
+      "artist": "Fritz ReinerReiner Vienna Philharmonic",
       "date": "2026",
       "genres": []
     },
@@ -18,23 +46,9 @@
       ]
     },
     {
-      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
-      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
-      "artist": "Fritz ReinerReiner Vienna Philharmonic",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "92ca6ff8-7c90-4d16-806e-536fa3fb5412",
-      "title": "Midnights in October",
-      "artist": "Midnights in October",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
-      "title": "Electric Fantasy",
-      "artist": "Pierre Schott",
+      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
+      "title": "Аудионаркотики. Часть 2",
+      "artist": "Еперный театор",
       "date": "2026",
       "genres": []
     },
@@ -46,44 +60,30 @@
       "genres": []
     },
     {
-      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
-      "title": "Аудионаркотики. Часть 2",
+      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
+      "title": "Аудионаркотики. Часть 1",
       "artist": "Еперный театор",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "697c7985-1dba-4b0f-a0db-3c2575c6bc3a",
-      "title": "Complete Orchestral Works, Vol. 3",
-      "artist": "Maurice RavelOBC Barcelona Symphony OrchestraLudovic Morlot",
+      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
+      "title": "Living Free (Live Manchester '75)",
+      "artist": "Don McLean",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "537d15e2-1b31-4737-aacd-d96dc410a920",
-      "title": "Through Lines",
-      "artist": "Skye Peterson",
+      "id": "99223d42-db65-42d4-9376-64f0a555484e",
+      "title": "DREAMBOY (UNFINISHED)",
+      "artist": "Lil Nas X",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "42720dae-96b9-4d17-bbdb-e9c6701a6409",
-      "title": "Starry Mine",
-      "artist": "遥風啓司",
-      "date": "2026-08-16",
-      "genres": []
-    },
-    {
-      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
-      "title": "Det Karolinska Arvet",
-      "artist": "Karolinerna",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "3e02ac97-49ff-415d-a85e-3221a6cfcd22",
-      "title": "Time Machine",
-      "artist": "The Jungle",
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
       "date": "2026",
       "genres": []
     }
