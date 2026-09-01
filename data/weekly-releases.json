@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:19:04.042Z",
+  "updatedAt": "2026-09-01T09:36:55.955Z",
   "releases": [
     {
       "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
@@ -7,15 +7,6 @@
       "artist": "Anton Roolaart",
       "date": "2026",
       "genres": []
-    },
-    {
-      "id": "ecd9914c-79f2-402a-b84e-96f91aed70e0",
-      "title": "Eastward Bound (live New York ’75)",
-      "artist": "Savoy Brown",
-      "date": "2026",
-      "genres": [
-        "blues"
-      ]
     },
     {
       "id": "a91a7159-15bc-41e2-951c-5a800584265e",
@@ -32,32 +23,41 @@
       "genres": []
     },
     {
-      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
-      "title": "Electric Fantasy",
-      "artist": "Pierre Schott",
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
-      "title": "Thunk",
-      "artist": "Jim MoginieThe Family Dog",
+      "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
+      "title": "Radiation Therapy",
+      "artist": "Crossbreed",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
-      "title": "Аудионаркотики. Часть 2",
-      "artist": "Еперный театор",
+      "id": "3731cdf7-48cb-4540-86a9-1b23db0f2246",
+      "title": "Castlevania: Piano Collections",
+      "artist": "Benyamin NussRamon van Engelenhoven",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "697c7985-1dba-4b0f-a0db-3c2575c6bc3a",
-      "title": "Complete Orchestral Works, Vol. 3",
-      "artist": "Maurice RavelOBC Barcelona Symphony OrchestraLudovic Morlot",
+      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
+      "title": "Living Free (Live Manchester '75)",
+      "artist": "Don McLean",
       "date": "2026",
       "genres": []
+    },
+    {
+      "id": "ecd9914c-79f2-402a-b84e-96f91aed70e0",
+      "title": "Eastward Bound (live New York ’75)",
+      "artist": "Savoy Brown",
+      "date": "2026",
+      "genres": [
+        "blues"
+      ]
     },
     {
       "id": "537d15e2-1b31-4737-aacd-d96dc410a920",
@@ -67,23 +67,23 @@
       "genres": []
     },
     {
-      "id": "017bbd87-fdcf-49e9-9dff-316989518a02",
-      "title": "Det Karolinska Arvet",
-      "artist": "Karolinerna",
+      "id": "99223d42-db65-42d4-9376-64f0a555484e",
+      "title": "DREAMBOY (UNFINISHED)",
+      "artist": "Lil Nas X",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "3e02ac97-49ff-415d-a85e-3221a6cfcd22",
-      "title": "Time Machine",
-      "artist": "The Jungle",
+      "id": "d6b6d243-343c-417e-8b26-31db549aa17b",
+      "title": "Broken Dreams",
+      "artist": "Siska",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
-      "title": "Аудионаркотики. Часть 1",
-      "artist": "Еперный театор",
+      "id": "7e7c88bd-756f-4930-a4ba-788c62e996b7",
+      "title": "ЖЗЛ",
+      "artist": "Lacerate",
       "date": "2026",
       "genres": []
     }
