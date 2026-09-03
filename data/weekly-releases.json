@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T08:59:10.149Z",
+  "updatedAt": "2026-09-03T09:09:19.065Z",
   "releases": [
     {
       "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
@@ -23,58 +23,16 @@
       "genres": []
     },
     {
-      "id": "92ca6ff8-7c90-4d16-806e-536fa3fb5412",
-      "title": "Midnights in October",
-      "artist": "Midnights in October",
+      "id": "e5120329-c2fc-49cf-8bd3-9d9a78904464",
+      "title": "Electric Fantasy",
+      "artist": "Pierre Schott",
       "date": "2026",
       "genres": []
     },
     {
-      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
-      "title": "Meridians",
-      "artist": "Alasdair FraserNatalie Haas",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
-      "title": "Thunk",
-      "artist": "Jim MoginieThe Family Dog",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "d6b6d243-343c-417e-8b26-31db549aa17b",
-      "title": "Broken Dreams",
-      "artist": "Siska",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "7e7c88bd-756f-4930-a4ba-788c62e996b7",
-      "title": "ЖЗЛ",
-      "artist": "Lacerate",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "121c2760-e64e-4874-96d6-ebdfc13270ce",
-      "title": "Не ври мне, что всё будет хорошо",
-      "artist": "Мёртвая Вера",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
-      "title": "Аудионаркотики. Часть 1",
-      "artist": "Еперный театор",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "d5af81e0-9adc-4559-8672-cb44f6b0b63b",
-      "title": "Outroom",
-      "artist": "X - Tram",
+      "id": "a91a7159-15bc-41e2-951c-5a800584265e",
+      "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
+      "artist": "Fritz ReinerReiner Vienna Philharmonic",
       "date": "2026",
       "genres": []
     },
@@ -86,6 +44,48 @@
       "genres": [
         "blues"
       ]
+    },
+    {
+      "id": "73ddf532-92d2-45e6-aa68-431e5ecfee27",
+      "title": "Аудионаркотики. Часть 2",
+      "artist": "Еперный театор",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "663065b7-6f95-4723-80e5-d1e0b7a3a404",
+      "title": "Thunk",
+      "artist": "Jim MoginieThe Family Dog",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
+      "title": "Аудионаркотики. Часть 1",
+      "artist": "Еперный театор",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "2d9c951c-df35-4658-b6e2-c919b92586d8",
+      "title": "Living Free (Live Manchester '75)",
+      "artist": "Don McLean",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "99223d42-db65-42d4-9376-64f0a555484e",
+      "title": "DREAMBOY (UNFINISHED)",
+      "artist": "Lil Nas X",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
+      "date": "2026",
+      "genres": []
     }
   ]
 }
