@@ -1,18 +1,11 @@
 {
-  "updatedAt": "2026-09-10T09:09:24.886Z",
+  "updatedAt": "2026-09-11T09:07:11.515Z",
   "releases": [
     {
       "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
       "title": "Radiation Therapy",
       "artist": "Crossbreed",
       "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "5869041d-77ce-4ed5-a32a-a29774ad3cb1",
-      "title": "Vile No More",
-      "artist": "Cruel Honey",
-      "date": "2026-09-04",
       "genres": []
     },
     {
@@ -84,6 +77,13 @@
       "id": "99223d42-db65-42d4-9376-64f0a555484e",
       "title": "DREAMBOY (UNFINISHED)",
       "artist": "Lil Nas X",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "e2afb7aa-425f-4245-a839-618d2ad938da",
+      "title": "Meridians",
+      "artist": "Alasdair FraserNatalie Haas",
       "date": "2026",
       "genres": []
     }
