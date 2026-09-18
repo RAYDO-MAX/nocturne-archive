@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T09:39:38.851Z",
+  "updatedAt": "2026-09-18T09:12:02.161Z",
   "releases": [
     {
       "id": "e0b91d6b-ab3b-4dfa-8a1e-b6d818435837",
@@ -21,13 +21,6 @@
       "id": "a91a7159-15bc-41e2-951c-5a800584265e",
       "title": "Dvorak Slavonic Dances - Brahms Hungarian Dances - Reiner Vienna Philharmonic (Redux)",
       "artist": "Fritz ReinerReiner Vienna Philharmonic",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "92ca6ff8-7c90-4d16-806e-536fa3fb5412",
-      "title": "Midnights in October",
-      "artist": "Midnights in October",
       "date": "2026",
       "genres": []
     },
@@ -84,6 +77,13 @@
       "id": "8d154656-cb6a-442b-88f3-9774e39f01ab",
       "title": "Аудионаркотики. Часть 1",
       "artist": "Еперный театор",
+      "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "121c2760-e64e-4874-96d6-ebdfc13270ce",
+      "title": "Не ври мне, что всё будет хорошо",
+      "artist": "Мёртвая Вера",
       "date": "2026",
       "genres": []
     }
