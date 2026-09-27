@@ -1,7 +1,7 @@
 {
   "username": "NocturneArchive",
-  "updatedAt": "2026-09-26T09:33:33.371Z",
-  "estimatedValue": "€3,017.79–€14,181.22",
+  "updatedAt": "2026-09-27T10:13:34.055Z",
+  "estimatedValue": "€3,021.79–€14,179.63",
   "releases": [
     {
       "id": 1432749789,
@@ -11056,7 +11056,7 @@
       "released": "2008",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 47.97",
+      "estimatedPrice": "EUR 48.07",
       "tracklist": [
         {
           "position": "1",
@@ -12048,7 +12048,7 @@
       "released": "2005-12-21",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 25.69",
+      "estimatedPrice": "EUR 25.74",
       "tracklist": [
         {
           "position": "1-01",
@@ -12764,7 +12764,7 @@
       "released": "2006-08-30",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 69.89",
+      "estimatedPrice": "EUR 70.00",
       "tracklist": [
         {
           "position": "1",
@@ -16993,7 +16993,7 @@
       "released": "1972",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 16.42",
+      "estimatedPrice": "EUR 16.45",
       "tracklist": [
         {
           "position": "A1",
@@ -17551,7 +17551,7 @@
       "released": "—",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 18.89",
+      "estimatedPrice": "EUR 18.98",
       "tracklist": [
         {
           "position": "1",
@@ -17760,7 +17760,7 @@
       "released": "2008-05-28",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 12.01",
+      "estimatedPrice": "EUR 12.03",
       "tracklist": [
         {
           "position": "1",
@@ -19116,68 +19116,12 @@
       ],
       "dateAdded": "2024-05-12T05:32:14-07:00",
       "label": "Tzadik",
-      "country": "US",
-      "released": "2008",
+      "country": "Not specified",
+      "released": 2008,
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 20.52",
-      "tracklist": [
-        {
-          "position": "1",
-          "title": "Mow Mow",
-          "duration": "3:04"
-        },
-        {
-          "position": "2",
-          "title": "Uluwati",
-          "duration": "3:37"
-        },
-        {
-          "position": "3",
-          "title": "A Ride On Cottonfair",
-          "duration": "4:21"
-        },
-        {
-          "position": "4",
-          "title": "Anulikwutsayl",
-          "duration": "9:01"
-        },
-        {
-          "position": "5",
-          "title": "Toys",
-          "duration": "2:43"
-        },
-        {
-          "position": "6",
-          "title": "Of Wonder And Certainty",
-          "duration": "4:29"
-        },
-        {
-          "position": "7",
-          "title": "Mystic Circles",
-          "duration": "6:07"
-        },
-        {
-          "position": "8",
-          "title": "Nekashim",
-          "duration": "3:56"
-        },
-        {
-          "position": "9",
-          "title": "Exodus",
-          "duration": "7:01"
-        },
-        {
-          "position": "10",
-          "title": "Forbidden Tears",
-          "duration": "3:07"
-        },
-        {
-          "position": "11",
-          "title": "Raksasa",
-          "duration": "5:15"
-        }
-      ]
+      "estimatedPrice": null,
+      "tracklist": []
     },
     {
       "id": 1681242661,
@@ -19527,83 +19471,12 @@
       ],
       "dateAdded": "2023-08-16T12:10:23-07:00",
       "label": "Universal",
-      "country": "Europe",
-      "released": "2012",
+      "country": "Not specified",
+      "released": 2012,
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 6.59",
-      "tracklist": [
-        {
-          "position": "1",
-          "title": "My Baby Just Cares For Me",
-          "duration": "2:36"
-        },
-        {
-          "position": "2",
-          "title": "Don't Explain",
-          "duration": "4:48"
-        },
-        {
-          "position": "3",
-          "title": "Baltimore",
-          "duration": "5:02"
-        },
-        {
-          "position": "4",
-          "title": "Feeling Good",
-          "duration": "2:54"
-        },
-        {
-          "position": "5",
-          "title": "Four Women",
-          "duration": "5:47"
-        },
-        {
-          "position": "6",
-          "title": "I Love You Porgy",
-          "duration": "3:22"
-        },
-        {
-          "position": "7",
-          "title": "If You Go Away",
-          "duration": "3:12"
-        },
-        {
-          "position": "8",
-          "title": "I Put A Spell On You",
-          "duration": "4:06"
-        },
-        {
-          "position": "9",
-          "title": "Keeper Of The Flame",
-          "duration": "4:06"
-        },
-        {
-          "position": "10",
-          "title": "He Ain't Comin' Home No More",
-          "duration": "3:06"
-        },
-        {
-          "position": "11",
-          "title": "Marriage Is For Old Folks",
-          "duration": "2:11"
-        },
-        {
-          "position": "12",
-          "title": "Wild Is The Wind",
-          "duration": "7:14"
-        },
-        {
-          "position": "13",
-          "title": "That's All I Want From You",
-          "duration": "3:13"
-        },
-        {
-          "position": "14",
-          "title": "I'm Going Back Home",
-          "duration": "2:58"
-        }
-      ]
+      "estimatedPrice": null,
+      "tracklist": []
     },
     {
       "id": 1692283635,
@@ -20141,58 +20014,12 @@
       ],
       "dateAdded": "2023-08-16T01:38:33-07:00",
       "label": "Vertigo",
-      "country": "UK",
+      "country": "Not specified",
       "released": "—",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 17.19",
-      "tracklist": [
-        {
-          "position": "A1",
-          "title": "Once Upon A Time In The West",
-          "duration": ""
-        },
-        {
-          "position": "A2",
-          "title": "News",
-          "duration": ""
-        },
-        {
-          "position": "A3",
-          "title": "Where Do You Think You're Going?",
-          "duration": ""
-        },
-        {
-          "position": "A4",
-          "title": "Communiqué",
-          "duration": ""
-        },
-        {
-          "position": "B1",
-          "title": "Lady Writer",
-          "duration": ""
-        },
-        {
-          "position": "B2",
-          "title": "Angel Of Mercy",
-          "duration": ""
-        },
-        {
-          "position": "B3",
-          "title": "Portobello Belle",
-          "duration": ""
-        },
-        {
-          "position": "B4",
-          "title": "Single-Handed Sailor",
-          "duration": ""
-        },
-        {
-          "position": "B5",
-          "title": "Follow Me Home",
-          "duration": ""
-        }
-      ]
+      "estimatedPrice": null,
+      "tracklist": []
     },
     {
       "id": 1434012732,
