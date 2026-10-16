@@ -1,7 +1,7 @@
 {
   "username": "NocturneArchive",
-  "updatedAt": "2026-10-13T12:02:08.072Z",
-  "estimatedValue": "€3,039.89–€14,201.98",
+  "updatedAt": "2026-10-16T09:14:35.138Z",
+  "estimatedValue": "€3,037.18–€14,197.98",
   "releases": [
     {
       "id": 1432749789,
@@ -672,7 +672,7 @@
       "released": "2019-08-23",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 49.29",
+      "estimatedPrice": "EUR 49.38",
       "tracklist": [
         {
           "position": "A2",
@@ -1314,7 +1314,7 @@
       "released": "2012-11-13",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 973.00",
+      "estimatedPrice": "EUR 985.97",
       "tracklist": [
         {
           "position": "A1",
@@ -2647,7 +2647,7 @@
       "released": "2022",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 34.91",
+      "estimatedPrice": "EUR 35.38",
       "tracklist": [
         {
           "position": "A1",
@@ -5395,7 +5395,7 @@
         },
         {
           "position": "A3",
-          "title": "California Gurls (Feat. Snoop Dogg)",
+          "title": "California Gurls",
           "duration": "3:54"
         },
         {
@@ -6089,7 +6089,7 @@
       "released": "1987-10-19",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 11.56",
+      "estimatedPrice": "EUR 11.64",
       "tracklist": [
         {
           "position": "A1",
@@ -6268,7 +6268,7 @@
       "released": "2012-09-07",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 37.76",
+      "estimatedPrice": "EUR 38.27",
       "tracklist": [
         {
           "position": "LP-A1",
@@ -7170,7 +7170,7 @@
       "released": "1986",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 9.13",
+      "estimatedPrice": "EUR 9.19",
       "tracklist": [
         {
           "position": "A1",
@@ -7773,7 +7773,7 @@
       "released": "1984",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 27.86",
+      "estimatedPrice": "EUR 28.23",
       "tracklist": [
         {
           "position": "A1",
@@ -9229,7 +9229,7 @@
       "released": "2011",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 11.45",
+      "estimatedPrice": "EUR 11.60",
       "tracklist": [
         {
           "position": "1",
@@ -9937,7 +9937,7 @@
       "released": "—",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 4.83",
+      "estimatedPrice": "EUR 4.80",
       "tracklist": [
         {
           "position": "1",
@@ -10392,7 +10392,7 @@
       "released": "2011-02-00",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 17.16",
+      "estimatedPrice": "EUR 17.39",
       "tracklist": [
         {
           "position": "1",
@@ -11056,7 +11056,7 @@
       "released": "2008",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 50.56",
+      "estimatedPrice": "EUR 49.86",
       "tracklist": [
         {
           "position": "1",
@@ -12048,7 +12048,7 @@
       "released": "2005-12-21",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 25.81",
+      "estimatedPrice": "EUR 25.94",
       "tracklist": [
         {
           "position": "1-01",
@@ -12360,6 +12360,102 @@
       ]
     },
     {
+      "id": 1434015960,
+      "discogsId": 12882402,
+      "artist": "Malia",
+      "title": "Black Orchid",
+      "format": "CD",
+      "year": 2012,
+      "image": "https://i.discogs.com/b4PO25h1-TTTkmcSzC49GDZgmtfnYWohvxHLsGikqNU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODgy/NDAyLTE1NDc5OTcw/MDAtNDIxMy5qcGVn.jpeg",
+      "cover": "three",
+      "state": "archive",
+      "note": "Very Good Plus (VG+)",
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Smooth Jazz"
+      ],
+      "dateAdded": "2023-08-16T12:10:23-07:00",
+      "label": "M (7), Universal Music Group, EmArcy",
+      "country": "Europe",
+      "released": "2012-01-13",
+      "condition": "Not specified",
+      "sleeveCondition": "Not specified",
+      "estimatedPrice": "EUR 13.35",
+      "tracklist": [
+        {
+          "position": "1",
+          "title": "My Baby Just Cares For Me",
+          "duration": "2:36"
+        },
+        {
+          "position": "2",
+          "title": "Don't Explain",
+          "duration": "4:48"
+        },
+        {
+          "position": "3",
+          "title": "Baltimore",
+          "duration": "5:02"
+        },
+        {
+          "position": "4",
+          "title": "Feeling Good",
+          "duration": "2:54"
+        },
+        {
+          "position": "5",
+          "title": "Four Woman",
+          "duration": "5:47"
+        },
+        {
+          "position": "6",
+          "title": "I Love You Porgy",
+          "duration": "3:22"
+        },
+        {
+          "position": "7",
+          "title": "If You Go Away",
+          "duration": "3:12"
+        },
+        {
+          "position": "8",
+          "title": "I Put A Spell On You",
+          "duration": "4:06"
+        },
+        {
+          "position": "9",
+          "title": "Keeper Of The Flame",
+          "duration": "4:06"
+        },
+        {
+          "position": "10",
+          "title": "He Ain't Comin' Home No More",
+          "duration": "3:06"
+        },
+        {
+          "position": "11",
+          "title": "Marriage Is For Old Folks",
+          "duration": "2:11"
+        },
+        {
+          "position": "12",
+          "title": "Wild Is The Wind",
+          "duration": "7:14"
+        },
+        {
+          "position": "13",
+          "title": "That's All I Want From You",
+          "duration": "3:13"
+        },
+        {
+          "position": "14",
+          "title": "I'm Going Back Home",
+          "duration": "2:58"
+        }
+      ]
+    },
+    {
       "id": 1433196657,
       "discogsId": 2955745,
       "artist": "Alicia Keys",
@@ -12367,7 +12463,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/ms7EPispPbnmsMrggX_aJ_iFNqkA6VZaAc6Vp0h5dq0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTU3/NDUtMTY1NjU1MzAx/MC0xMjUzLmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -12381,7 +12477,7 @@
       "released": "2011-06-28",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 45.79",
+      "estimatedPrice": "EUR 46.40",
       "tracklist": [
         {
           "position": "A1",
@@ -12473,7 +12569,7 @@
       "format": "Vinyl",
       "year": 1974,
       "image": "https://i.discogs.com/w7HnWd2DYh8UNSIkHFpFlu7aP618LGsHig82BDF4J-g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDk2/NDItMTQzNzMyODgx/NS01NTY3LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Very Good (VG)",
       "genres": [
@@ -12559,7 +12655,7 @@
       "format": "CD",
       "year": 2007,
       "image": "https://i.discogs.com/fL3k5qV0hcqubzFoesQtpUUigzJuOa4MCBM7isqJq_c/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMDIw/NzMtMTU1MTIzOTU3/NS01MzY5LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -12656,7 +12752,7 @@
       "format": "Vinyl",
       "year": 2005,
       "image": "https://i.discogs.com/7mw0CrNYZxgk2MCRm042KzMhGsKIXe_VmlxFzNwI-v4/rs:fit/g:sm/q:90/h:300/w:289/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjU5/MTgtMTI1ODc2Njc4/MS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -12751,7 +12847,7 @@
       "format": "CD",
       "year": 2006,
       "image": "https://i.discogs.com/x1lmCfqm-2zIBAfUz-5Ts6sf2LlpsvAEJSV55mfX4-4/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODM5/MDI4LTE1ODI1Njg0/NzctNDY1MS5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -12764,7 +12860,7 @@
       "released": "2006-08-30",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 70.19",
+      "estimatedPrice": "EUR 70.57",
       "tracklist": [
         {
           "position": "1",
@@ -12836,7 +12932,7 @@
       "format": "CD",
       "year": 2007,
       "image": "https://i.discogs.com/9ys7U8EZRNL6Hc-SLTijY82WQJJUvZHzupm74wbgbXU/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODA0/MjMtMTQxOTg1MDQ4/OS02MjY0LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -12916,7 +13012,7 @@
       "format": "Vinyl",
       "year": 2012,
       "image": "https://i.discogs.com/hpOIIN7bepRe_-Mn_pC9Kj-PunCpZ4T-GitMUWBw020/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMjY5/NTEtMTY5NjIwNzA4/MS05ODI1LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13001,7 +13097,7 @@
       "format": "Vinyl",
       "year": 2006,
       "image": "https://i.discogs.com/zInvV1D660Wqe5j8IavQZiuuc1ZYmQ7VM9hivvksF0Y/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTky/NTctMTI1ODkwMDUy/NS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13101,7 +13197,7 @@
       "format": "Vinyl",
       "year": 2006,
       "image": "https://i.discogs.com/uJo3nCM7eqroEvEtTP9fZHIRLdj8oBDZu6sSdhL1N2w/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2ODMy/ODMtMTM5OTgyMjkw/OC02NTE2LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13192,7 +13288,7 @@
       "format": "Vinyl",
       "year": 2007,
       "image": "https://i.discogs.com/iaogVWLoI07q2Uy4GOxospAzVZ3FXg-iQTc2JUSZ87E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDQ4/ODctMTUxMTEyMDcw/OS03NTU0LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13274,7 +13370,7 @@
       "format": "CD",
       "year": 2007,
       "image": "https://i.discogs.com/xlNGP7RoRnvocQcMdNmX8-Oyo6M_HSxyzFhBNI0Ctd0/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MTI3/MTMtMTQ3ODg3MTU5/NC0yOTg0LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
       "genres": [
@@ -13356,7 +13452,7 @@
       "format": "CD",
       "year": 2009,
       "image": "https://i.discogs.com/A0UOUGAWshW2F7PYatdvip59E0KWCkfKZ447zPfwz6k/rs:fit/g:sm/q:90/h:498/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzM5/NjItMTUxMTA0NzYz/OC0zMjYwLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -13429,7 +13525,7 @@
       "format": "SACD",
       "year": "—",
       "image": "https://i.discogs.com/f1lLMy5X-62ZCHaw9A0ubR_GoT_U13uXusOCEdpQwxo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTQ4/Nzk2LTE3MTgyNzY0/MDMtNTMxMi5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -13506,7 +13602,7 @@
       "format": "CD",
       "year": 2008,
       "image": "https://i.discogs.com/vnCCL_4JIkEDOtAuaxxB_grDVpZz9EQf1z8cs1y6mWc/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMzE1/NjctMTQ4MzMzNDE3/MC0xMzM5LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -13592,7 +13688,7 @@
       "format": "Vinyl",
       "year": 2010,
       "image": "https://i.discogs.com/niKqEGd51hvEkuQ2giwNW6SBAliP9ZJOQSg3rF8SUsk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTcy/MzctMTQ1MDA4MTY3/Mi04MzcxLmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13673,7 +13769,7 @@
       "format": "Vinyl",
       "year": 2010,
       "image": "https://i.discogs.com/YqSJs51cZGzTxcdyagrfBpM7rPs5KVEYGFKR31fLgv4/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODIx/NjgtMTQ3MzUyMTM4/NS03OTQwLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -13764,7 +13860,7 @@
       "format": "SACD",
       "year": 2002,
       "image": "https://i.discogs.com/mOwXQPvTOtey6YlsvWBOH2SPniDeVmHN6vHm43EVUxs/rs:fit/g:sm/q:90/h:400/w:455/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzUx/NjI3LTE2NzAwMjEy/NzctMjgyOS5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
       "genres": [
@@ -13855,7 +13951,7 @@
       "format": "SACD",
       "year": 2005,
       "image": "https://i.discogs.com/VKKENlbTp2zD2XmFj_csEQCQRZ0hIVGj4MaXKb00cZs/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzMy/NjktMTQzOTQ0NDY4/MS03NzUxLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
       "genres": [
@@ -13932,7 +14028,7 @@
       "format": "Vinyl",
       "year": 2012,
       "image": "https://i.discogs.com/U5ZhIqZplTUXrbQJ6DPSeBnINL_Lv8Iuo28kgBMkPDE/rs:fit/g:sm/q:90/h:520/w:520/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1Mzg2/ODgtMTM2Nzc1OTMy/MC0zMzgyLmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Limited Edition — Rock",
       "genres": [
@@ -14007,7 +14103,7 @@
       "format": "Vinyl",
       "year": 2013,
       "image": "https://i.discogs.com/Bp8g3jb_VaDiOCAgIr_P3Met9qJaw0h8NSEeZV7IwC8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNjc2/MjUtMTM4NjM1NDA2/Ny0xMzczLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Rock, Pop",
       "genres": [
@@ -14021,7 +14117,7 @@
       "released": "2013-12-06",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 34.84",
+      "estimatedPrice": "EUR 35.30",
       "tracklist": [
         {
           "position": "A1",
@@ -14098,7 +14194,7 @@
       "format": "Vinyl",
       "year": 2018,
       "image": "https://i.discogs.com/-39pY9GElRFMvqGXfxI_K9x5mEy6szfaRhWxyymhDPQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDI1/NDQyLTE1MTYxMTAx/NDAtNzA2MS5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Mint (M)",
       "genres": [
@@ -14153,7 +14249,7 @@
       "format": "Vinyl",
       "year": 2018,
       "image": "https://i.discogs.com/Wq6wS9s-tkjJv1Qxb7okwvs457KIwfYYNI6EYzL-bk0/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDc0/MTgzLTE1Mjc4NTQx/ODgtNjc0Mi5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Electronic",
       "genres": [
@@ -14213,7 +14309,7 @@
       "format": "Vinyl",
       "year": 2009,
       "image": "https://i.discogs.com/xQcy0A3qklcxL1O6bSHROIggcMMgAytOQ_ZNBtFJSmA/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDg2/ODItMTYzNzQ0NzQz/Mi00MzM1LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -14318,7 +14414,7 @@
       "format": "CD",
       "year": 2010,
       "image": "https://i.discogs.com/8SUMqz6fOsE4aGvdBsMnrddx4ZH4QczjKo_G6WHWjmM/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0ODYy/NDItMTI4NjY2MTc1/Mi5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -14383,7 +14479,7 @@
       "format": "Vinyl",
       "year": 2007,
       "image": "https://i.discogs.com/oGFTf7HkwePMTcpibrunS06FZ0fwrYw3dqU9A-j5ZhM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNTA1/Mi0xMTkzMzkzMzM0/LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -14500,7 +14596,7 @@
       "format": "Vinyl",
       "year": 2007,
       "image": "https://i.discogs.com/2OJaXUlo9qMO3oJsZpft7J6mU4Ex0pYQ0mF8duE5w3s/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2Nzkx/OS0xNzc5NjQ5MDc4/LTk5ODguanBlZw.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -14575,7 +14671,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/1sYiuk7AoA5rU3OGes2SzkT8OZuGccdxvDYZd5mdob4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODY4/OTYtMTY3MDI3Mzcy/MS0yNDg3LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -14692,7 +14788,7 @@
       "format": "CD",
       "year": 2001,
       "image": "https://i.discogs.com/_O3H1IOS-JxMKW729BG7nr7YJMSN-WOL-YgHag_QcE0/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODEy/MjI0LTE1MDQ3MTUx/NTYtODg3OS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -14762,7 +14858,7 @@
       "format": "CD",
       "year": 1995,
       "image": "https://i.discogs.com/uwGgKvsWo9zYSPiyWkDq5DEf6uG0I7gG029YDLCIYOY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MDcx/MjUtMTYwMTkxNjAz/NS0yNDIzLmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
       "genres": [
@@ -14836,7 +14932,7 @@
       "format": "CD",
       "year": 1998,
       "image": "https://i.discogs.com/RjqfMzoiOVu4C5L0Sr0XAhSkqnkaGupwoIFGFk3Ltao/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MzE0/MDAtMTU2MjY3ODk4/Ny01ODEyLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
       "genres": [
@@ -14915,7 +15011,7 @@
       "format": "Vinyl",
       "year": 2008,
       "image": "https://i.discogs.com/rdFW9fw0SqACclLL2o3HJpa1OsnkaY419IWySFglcuQ/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MjY5/MTUtMTYxMTIxNjkx/Ni05NzYxLmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15030,7 +15126,7 @@
       "format": "Vinyl",
       "year": 2023,
       "image": "https://i.discogs.com/Gnu0ZM1Z3CmlSXb4z51a_n4QwFTDOaiBgIxto-IKlVQ/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Mjgy/MTMyLTE2OTU3NTY3/OTktNzgzMy5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -15108,7 +15204,7 @@
       "format": "Vinyl",
       "year": 2023,
       "image": "https://i.discogs.com/j8tKaJEYBu4igHlj2XniIuOAak3eUY3Xb3rymZ48Ur0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MjA1/OTU2LTE2OTQyNDI0/MTAtMzcwNC5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -15128,7 +15224,7 @@
       "released": "2023-09-08",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 91.58",
+      "estimatedPrice": "EUR 92.80",
       "tracklist": [
         {
           "position": "A1",
@@ -15200,7 +15296,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/PxSknakvhhUqXwJeB5GnBtVWbRVTrZ5KsN2y-Yjy0Dc/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTYw/MzQtMTQ1NzEyMjgz/My01MjQ5LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15286,7 +15382,7 @@
       "format": "CD",
       "year": 2005,
       "image": "https://i.discogs.com/4G6k1dSUn_6v9K-f4cOFFelaDY2BjVp0juVW-Z_3y6Q/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2NDY5/NjMtMTQ2NTg5ODUw/Mi04NTAxLmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good (VG)",
       "genres": [
@@ -15376,7 +15472,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/jh6EtHxo7XvtlXOcQw7-jx-dFV-IB5zQlQWs5K5zBY4/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNzQ4/NjMtMTczMjIxODM1/Ny04NDIxLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15473,7 +15569,7 @@
       "format": "Vinyl",
       "year": 2000,
       "image": "https://i.discogs.com/qX8Ho7VAkk8gW-rKITdc4cGcfaEFR4ouGsQ-aCJ64og/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NDAz/MC0xMTY0NzQ3Nzg4/LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15487,7 +15583,7 @@
       "released": "2000",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 412.09",
+      "estimatedPrice": "EUR 417.59",
       "tracklist": [
         {
           "position": "A1",
@@ -15554,7 +15650,7 @@
       "format": "Vinyl",
       "year": 2002,
       "image": "https://i.discogs.com/q_dy8WKwlTs2qAjS2oEzDzmvvqyS9T9kV8CVN1IMJxM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2OTY2/NDYtMTYyNzIyODA1/MC02MjU5LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15568,7 +15664,7 @@
       "released": "2002",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 129.39",
+      "estimatedPrice": "EUR 131.12",
       "tracklist": [
         {
           "position": "A1",
@@ -15635,7 +15731,7 @@
       "format": "CD",
       "year": 2002,
       "image": "https://i.discogs.com/fK_ZnOQAJRjKuyRSjOwLkbEgz9e5izLu_EmMcg37dvU/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNjIw/NDQtMTQ3NzU3NTA2/OC0zNTA3LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
       "genres": [
@@ -15730,7 +15826,7 @@
       "format": "Vinyl",
       "year": 2023,
       "image": "https://i.discogs.com/oYPpNh0RGtSQvsqVxwkp1If68w4qjPZjwJ5i2rf3ipM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Njg2/OTQzLTE3MDAyMTEx/MDYtODkzNy5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album — Electronic, Pop",
       "genres": [
@@ -15818,7 +15914,7 @@
       "format": "Vinyl",
       "year": 1986,
       "image": "https://i.discogs.com/4R3AKS9gR9sKFKc7kVjxberof4kBzbIgtuF2udrv9Bg/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzUw/MjgtMTUyNTExNjQw/Ni04NzQyLmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Stereo — Jazz",
       "genres": [
@@ -15869,7 +15965,7 @@
       "format": "Vinyl",
       "year": 2021,
       "image": "https://i.discogs.com/QwfiPcIvQLJHo_p81Svlw0C17FdaStNU7-Ws_GRdG7Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjgx/ODYxLTE3NDA2NzIy/MjEtMTQ1Mi5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -15949,7 +16045,7 @@
       "format": "Vinyl",
       "year": 2013,
       "image": "https://i.discogs.com/f2sQ5ugescULS58unL5U8PbSa1ZJJcvf2B4P9ob0PhU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjI4/NjYtMTQ1NDg1OTIy/Mi0zMjY2LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -16134,7 +16230,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/23U5FP3hEVe-5krm11ahicRHxmMUgZuAMt1e0nOKj4o/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMjE2/ODctMTQ0MTc4ODI4/MS0yNDIzLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -16213,7 +16309,7 @@
       "format": "Vinyl",
       "year": 1969,
       "image": "https://i.discogs.com/DSB3NnxpZgTvtOHpAPMFgkh2W2H39ilgZ5gmed3K-zo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NjY0/MzktMTMwMDg4NjY5/MS5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Good (G) · Good (G)",
       "genres": [
@@ -16237,7 +16333,7 @@
       "format": "Vinyl",
       "year": 1969,
       "image": "https://i.discogs.com/fJhgt2mGQamdJ2fDP51t9_Jo7JS9OWHpCc6zWkcMjD4/rs:fit/g:sm/q:90/h:498/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2NzAy/MTgtMTQ1MjQyMDU4/MS03MzUyLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz, Classical",
       "genres": [
@@ -16323,7 +16419,7 @@
       "format": "Vinyl",
       "year": 1983,
       "image": "https://i.discogs.com/nKyDWS5v0PDb908ooaHn9KKRF-kg1seoG47Kcygj7cE/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxOTQ4/MzQtMTY1ODA0OTAy/Mi04MTE2LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Stereo — Pop, Classical",
       "genres": [
@@ -16410,7 +16506,7 @@
       "format": "Vinyl",
       "year": 1975,
       "image": "https://i.discogs.com/PcGd8ICYks19-anZurS7Qb0Xpbk3E-0b8mM_mWLyKe4/rs:fit/g:sm/q:90/h:495/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0MjQ1/MjUtMTM2NDkwMDA3/OS00NDcwLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz, Pop",
       "genres": [
@@ -16425,7 +16521,7 @@
       "released": "1975",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 3.04",
+      "estimatedPrice": "EUR 3.06",
       "tracklist": [
         {
           "position": "A1",
@@ -16467,7 +16563,7 @@
       "format": "CD",
       "year": 2001,
       "image": "https://i.discogs.com/ex3IU-MQavSi8_28WqoQHeHnPZJZjVOxnUvyEfYwTR8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMDIz/ODgtMTM1ODQyNDA2/MS00MDg2LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
       "genres": [
@@ -16538,7 +16634,7 @@
       "format": "Vinyl",
       "year": 1987,
       "image": "https://i.discogs.com/dRB2no2jM-m9BBwaEcn4UlmNmxia2tnqGBXmywbfC0w/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjI2/NTQtMTQ0NjM4MDc5/OC00OTcyLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album — Pop",
       "genres": [
@@ -16643,7 +16739,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/cIzqEbdNxErXX8G_DBDMurw73uAiZLKLAK96-w-cQbM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNjEw/OTItMTU4NzMxNTU0/OC0zMjE3LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -16729,7 +16825,7 @@
       "format": "Vinyl",
       "year": 2013,
       "image": "https://i.discogs.com/tuMGQp1ZkQDOMnd6ToHNwking_WoaXj0aMVsKsd8taY/rs:fit/g:sm/q:90/h:600/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNDkw/ODktMTY4MzAxMDc4/My05NjExLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -16744,7 +16840,7 @@
       "released": "2013",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 143.09",
+      "estimatedPrice": "EUR 145.00",
       "tracklist": [
         {
           "position": "A1",
@@ -16821,7 +16917,7 @@
       "format": "Vinyl",
       "year": 2024,
       "image": "https://i.discogs.com/mof0UA0ZxqGaLSLft3cED70xzwbA8gr1iZ_8pBnm9JU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTUz/OTUzLTE3MjQ0MjM0/NzQtMzI0MS5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Near Mint (NM or M-)",
       "genres": [
@@ -16836,7 +16932,7 @@
       "released": "2024-08-23",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 39.59",
+      "estimatedPrice": "EUR 40.11",
       "tracklist": [
         {
           "position": "A1",
@@ -16873,7 +16969,7 @@
       "format": "Vinyl",
       "year": 1972,
       "image": "https://i.discogs.com/-AlQQT4c7dQTJPClxDCbVYmljsmVLWL5reTDrme9Ssc/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NDA5/NDctMTY0MjEwOTY5/OS0xMjYwLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Club Edition, Special Edition, Stereo — Funk / Soul, Pop",
       "genres": [
@@ -16980,7 +17076,7 @@
       "format": "Vinyl",
       "year": 1972,
       "image": "https://i.discogs.com/zrx931P32etSo5KLx1axqfBfshycmFedyVG_IqbtL2Q/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTAw/MjY5LTE1NTI1OTMx/MzItMTkxNS5qcGVn.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Quadraphonic — Blues",
       "genres": [
@@ -16993,7 +17089,7 @@
       "released": "1972",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 16.49",
+      "estimatedPrice": "EUR 16.58",
       "tracklist": [
         {
           "position": "A1",
@@ -17060,7 +17156,7 @@
       "format": "Vinyl",
       "year": 2022,
       "image": "https://i.discogs.com/8pdREjz5pcBW_JgIe5SfQfR9nXR-RixW7fFzken-zSA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMjc4/NzA2LTE2NDc5Nzgx/ODQtNTQyNy5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -17131,7 +17227,7 @@
       "format": "Vinyl",
       "year": 2004,
       "image": "https://i.discogs.com/E8Nq9_yoFcc1d0fElALozfg_qB7eeYWG3L2-tF23qxQ/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNjY2/MTgtMTQ4MTc0ODky/Ni0xMTU4LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -17217,7 +17313,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/bS7E6lECSoLESHu95uVLCVA5-132xmYN-1blgl9GlSo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODg5/NzYtMTMzMzg3MjI1/OC5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Limited Edition, Reissue, Remastered — Jazz",
       "genres": [
@@ -17303,7 +17399,7 @@
       "format": "CD",
       "year": 2000,
       "image": "https://i.discogs.com/LaLTnuHeoP9REhekaDjtYDerKou2CY1C8PqkAiPOjNA/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwNDM1/MjctMTUwMTY0MTQz/MS01Mjg1LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good Plus (VG+)",
       "genres": [
@@ -17391,7 +17487,7 @@
       "format": "Vinyl",
       "year": 1972,
       "image": "https://i.discogs.com/R2CcYzzsGvi7PXrCreEOIgSy54CR6Si5bwOkxFSjaHM/rs:fit/g:sm/q:90/h:512/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5NzUx/MDQtMTQzMDc3Mzky/Ni03NDkyLmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation — Rock, Blues",
       "genres": [
@@ -17537,7 +17633,7 @@
       "format": "CD",
       "year": "—",
       "image": "https://i.discogs.com/Rv86IFCciEaMqjuvjTa--kpVAByQsxbhOmkd_kyR5EI/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjYz/NTY3LTE2ODkyNTky/MTAtMzI2MC5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
       "genres": [
@@ -17551,7 +17647,7 @@
       "released": "—",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 18.98",
+      "estimatedPrice": "EUR 19.07",
       "tracklist": [
         {
           "position": "1",
@@ -17663,7 +17759,7 @@
       "format": "Vinyl",
       "year": 2013,
       "image": "https://i.discogs.com/lCYyOFGj63KY6Z2fdNhAij9MPWJfqHSrrHnZaT6nRKs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyOTk5/OTMtMTM4OTk3NTYz/MC0yNzY2LmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Mint (M)",
       "genres": [
@@ -17747,7 +17843,7 @@
       "format": "CD",
       "year": 2008,
       "image": "https://i.discogs.com/EDFtJyvAZioxUnCMAa6po4d0vwGsvPtJXmzsJexzjLs/rs:fit/g:sm/q:90/h:536/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mjg0/NzAyLTE1ODkxNzcy/MTktOTYwMC5qcGVn.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -17760,7 +17856,7 @@
       "released": "2008-05-28",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 12.06",
+      "estimatedPrice": "EUR 12.13",
       "tracklist": [
         {
           "position": "1",
@@ -17827,7 +17923,7 @@
       "format": "Vinyl",
       "year": 2000,
       "image": "https://i.discogs.com/iBBJnpmbp4zTdmtljB0INLKgvWAJcZg36OmSPcgw5bw/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MTc5/NS0xMTgwNDQ2NzA5/LmpwZWc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -17841,7 +17937,7 @@
       "released": "2000",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 148.81",
+      "estimatedPrice": "EUR 150.80",
       "tracklist": [
         {
           "position": "A1",
@@ -17913,7 +18009,7 @@
       "format": "Vinyl",
       "year": 2011,
       "image": "https://i.discogs.com/3_E4f4J3FhLdRYfnZYbTQM3jeZt_scwxyYzMrTkdvMc/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NTg1/MTgtMTY4ODg5NTY5/OC0zNjM3LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -18009,7 +18105,7 @@
       "format": "CD",
       "year": 2020,
       "image": "https://i.discogs.com/zCU-usSV4UToRPXi7aWMIu8su0ePM7URxYeQizUQIfs/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjM0/ODM3LTE2NDE0NjI0/NDUtNzA3Mi5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -18073,7 +18169,7 @@
       "format": "Vinyl",
       "year": 2007,
       "image": "https://i.discogs.com/SoSVa9vez1UZf-1AWy6v-nIcYLmO2TTVad9RicU08wM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzIw/MDMtMTU3MjI3ODE0/Ny0xMzYxLmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album — Rock, Blues, Folk, World, & Country",
       "genres": [
@@ -18088,7 +18184,7 @@
       "released": "2007-10-00",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 59.67",
+      "estimatedPrice": "EUR 60.47",
       "tracklist": [
         {
           "position": "A1",
@@ -18165,7 +18261,7 @@
       "format": "CD",
       "year": 2020,
       "image": "https://i.discogs.com/HQ9RlAuQro9KPUTGfSUJC4uOFd2v6_RT3e6hqikvij4/rs:fit/g:sm/q:90/h:538/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTk1/NzM3LTE2MDE1ODIy/MTctNTgxMi5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -18243,7 +18339,7 @@
       "format": "Vinyl",
       "year": 2012,
       "image": "https://i.discogs.com/YGPa1sQpx47NmxyB85Zxr5QhPIeL04dCJ9tPBLlKV-k/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5Nzk3/NzEtMTQwNzk0NzM4/OS02NDU2LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Pop",
       "genres": [
@@ -18332,7 +18428,7 @@
       "format": "CD",
       "year": 2007,
       "image": "https://i.discogs.com/rHCH4f20SHQpLNaMfzWD_3l-FZH1MfrexZhgeqZkyW4/rs:fit/g:sm/q:90/h:521/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDE4/OTY2LTE1ODMxNDk3/MjItNzk5Ny5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Good (G)",
       "genres": [
@@ -18458,7 +18554,7 @@
       "format": "CD",
       "year": 2022,
       "image": "https://i.discogs.com/c7yS_i90XIrpd2ez8XBi7paRyZyVK_WP_vnmkFNnAKM/rs:fit/g:sm/q:90/h:527/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDA4/NTYyLTE2NzMyMzMy/MDctNTY1MC5qcGVn.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -18544,7 +18640,7 @@
       "format": "Vinyl",
       "year": 2014,
       "image": "https://i.discogs.com/5axD5gMdTZuqROx_HW1pcpWIX9sKbwmzRJAiStqrG1Y/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDEy/NjYxLTE1NzQwMjYx/ODMtODI0OS5wbmc.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Reissue, Mono — Folk, World, & Country",
       "genres": [
@@ -18618,7 +18714,7 @@
       "format": "CD",
       "year": 2002,
       "image": "https://i.discogs.com/qpcqqdKWuTFEuJhqztduW0P_PCc9ImcjZZi6akWBrq8/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg3MDI4/NTUtMTcwOTQ3NjU2/OS0xNzg2LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -18650,7 +18746,7 @@
       "format": "CD",
       "year": 1996,
       "image": "https://i.discogs.com/pefhDMD35WKi0NEsq7Firj4RmYRJ_EwEw5sxue0sYpI/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NTY0/MjctMTcwMjM2NDM5/My04MTIzLmpwZWc.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -18744,7 +18840,7 @@
       "format": "CD",
       "year": 1999,
       "image": "https://i.discogs.com/EynizmMzn_TC24V-ibi-21J9P0iPHzF5wnZHUxeUDu4/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMjc3/MzItMTM1MjgzMDI1/NC0zNzA0LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -18810,7 +18906,7 @@
       "format": "CD",
       "year": 2001,
       "image": "https://i.discogs.com/vYv04ix7K7yWQRdkXRmfmNZZ5iIE2S1Q1Q-4ReUy_t4/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTg0/MTk5LTE2MTUwNjQw/OTgtMTYwOS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Near Mint (NM or M-) · Very Good (VG)",
       "genres": [
@@ -18822,7 +18918,7 @@
       "released": "2001",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 16.12",
+      "estimatedPrice": "EUR 16.01",
       "tracklist": [
         {
           "position": "5",
@@ -18864,7 +18960,7 @@
       "format": "Vinyl",
       "year": 1974,
       "image": "https://i.discogs.com/L6HFipIZn9coKnx7NU0FvXQAbDhOSUuwZztA1IiQUz8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTgx/MzctMTM0NzEyNjAx/NS04NDM2LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Vinyl, LP, Album — Jazz",
       "genres": [
@@ -18908,7 +19004,7 @@
       "format": "Vinyl",
       "year": 1977,
       "image": "https://i.discogs.com/5-Rf8o-eR4FAS6PIPpxGqaXZcSQgjwC1HOe5Fks7o6w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTY4/Mzk1LTE2NzIwMTQw/NjUtMzYyMC5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Vinyl, LP, Album, Reissue, Test Pressing — Jazz",
       "genres": [
@@ -18922,7 +19018,7 @@
       "released": "1977-04-25",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 482.17",
+      "estimatedPrice": "EUR 488.60",
       "tracklist": [
         {
           "position": "A1",
@@ -18969,7 +19065,7 @@
       "format": "Vinyl",
       "year": 1977,
       "image": "https://i.discogs.com/4anp0NBPRbqtTwWVNR_v7dM1vldjXz8M8m_ArnW2SXw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMjc4/MjUtMTY2NzEwOTU2/Ny05Mjc3LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Vinyl, LP, Album, Stereo — Jazz",
       "genres": [
@@ -19024,7 +19120,7 @@
       "format": "Vinyl",
       "year": 2010,
       "image": "https://i.discogs.com/g5o3T1SU5fsPB2aEEtiwGr8-JjLDzNUDrZTvthvwXPs/rs:fit/g:sm/q:90/h:600/w:577/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTIz/NjktMTI5MzE4Nzgx/MS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Vinyl, LP, Compilation, Limited Edition, Picture Disc — Rock, Classical, Stage & Screen",
       "genres": [
@@ -19104,7 +19200,7 @@
       "format": "CD",
       "year": 2008,
       "image": "https://i.discogs.com/PW3owupGTqWAxxz7BfILb0sk5NZXDPD9V3u0df7XAlA/rs:fit/g:sm/q:90/h:570/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTE2/NTEtMTIxMDYwNTg0/NC5qcGVn.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
       "genres": [
@@ -19187,7 +19283,7 @@
       "format": "CD",
       "year": 2009,
       "image": "https://i.discogs.com/vkK8srm4Z01O5ZfZyY4gfL2E0cQJpHxULcstKDul8ko/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNzcx/NzAtMTI2MjY4MjUx/MS5qcGVn.jpeg",
-      "cover": "four",
+      "cover": "one",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
       "genres": [
@@ -19268,7 +19364,7 @@
       "format": "CD",
       "year": 2010,
       "image": "https://i.discogs.com/-11FcCQA_nJVCGDENBPYimJaw2GStVoG2RfbxFOQgUQ/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMzAx/NzctMTU2NTk5MTYw/My03OTc1LmpwZWc.jpeg",
-      "cover": "one",
+      "cover": "two",
       "state": "archive",
       "note": "Very Good (VG) · Very Good (VG)",
       "genres": [
@@ -19338,7 +19434,7 @@
       "format": "CD",
       "year": 2010,
       "image": "https://i.discogs.com/MongHje77-loZMN7s_oYSamfgGKZXvSjrqKTDMnAYtA/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTcw/NjctMTMyMjA0MDgy/MS5qcGVn.jpeg",
-      "cover": "two",
+      "cover": "three",
       "state": "archive",
       "note": "Very Good Plus (VG+) · Very Good Plus (VG+)",
       "genres": [
@@ -19420,7 +19516,7 @@
       "format": "Vinyl",
       "year": 2012,
       "image": "https://i.discogs.com/AFRAFb7_auRzZPEDk5WkPJQDT9pcdzldeF4VsV7LF3g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTEw/NDktMTM5OTc2NTk1/MS02NzQ3LmpwZWc.jpeg",
-      "cover": "three",
+      "cover": "four",
       "state": "archive",
       "note": "Near Mint (NM or M-)",
       "genres": [
@@ -19437,7 +19533,7 @@
       "released": "2012",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 61.62",
+      "estimatedPrice": "EUR 62.44",
       "tracklist": [
         {
           "position": "A1",
@@ -19508,100 +19604,6 @@
           "position": "D3",
           "title": "First Of May",
           "duration": ""
-        }
-      ]
-    },
-    {
-      "id": 1434015960,
-      "discogsId": 12957889,
-      "artist": "Malia",
-      "title": "Black Orchid",
-      "format": "CD",
-      "year": 2012,
-      "image": "https://i.discogs.com/SxPGB6W9V82NzdiE4Z6qKfpc9Y7RMW9ZUMpIU_j4X-w/rs:fit/g:sm/q:90/h:541/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTU3/ODg5LTE1ODMxNDQx/NDQtODYzNC5qcGVn.jpeg",
-      "cover": "four",
-      "state": "archive",
-      "note": "Very Good Plus (VG+)",
-      "genres": [
-        "Jazz"
-      ],
-      "dateAdded": "2023-08-16T12:10:23-07:00",
-      "label": "Universal",
-      "country": "Europe",
-      "released": "2012",
-      "condition": "Not specified",
-      "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 6.59",
-      "tracklist": [
-        {
-          "position": "1",
-          "title": "My Baby Just Cares For Me",
-          "duration": "2:36"
-        },
-        {
-          "position": "2",
-          "title": "Don't Explain",
-          "duration": "4:48"
-        },
-        {
-          "position": "3",
-          "title": "Baltimore",
-          "duration": "5:02"
-        },
-        {
-          "position": "4",
-          "title": "Feeling Good",
-          "duration": "2:54"
-        },
-        {
-          "position": "5",
-          "title": "Four Women",
-          "duration": "5:47"
-        },
-        {
-          "position": "6",
-          "title": "I Love You Porgy",
-          "duration": "3:22"
-        },
-        {
-          "position": "7",
-          "title": "If You Go Away",
-          "duration": "3:12"
-        },
-        {
-          "position": "8",
-          "title": "I Put A Spell On You",
-          "duration": "4:06"
-        },
-        {
-          "position": "9",
-          "title": "Keeper Of The Flame",
-          "duration": "4:06"
-        },
-        {
-          "position": "10",
-          "title": "He Ain't Comin' Home No More",
-          "duration": "3:06"
-        },
-        {
-          "position": "11",
-          "title": "Marriage Is For Old Folks",
-          "duration": "2:11"
-        },
-        {
-          "position": "12",
-          "title": "Wild Is The Wind",
-          "duration": "7:14"
-        },
-        {
-          "position": "13",
-          "title": "That's All I Want From You",
-          "duration": "3:13"
-        },
-        {
-          "position": "14",
-          "title": "I'm Going Back Home",
-          "duration": "2:58"
         }
       ]
     },
@@ -20145,7 +20147,7 @@
       "released": "—",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 17.16",
+      "estimatedPrice": "EUR 17.39",
       "tracklist": [
         {
           "position": "A1",
@@ -22044,7 +22046,7 @@
       "released": "1986",
       "condition": "Not specified",
       "sleeveCondition": "Not specified",
-      "estimatedPrice": "EUR 56.86",
+      "estimatedPrice": "EUR 56.47",
       "tracklist": [
         {
           "position": "A1",
