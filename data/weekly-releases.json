@@ -1,11 +1,18 @@
 {
-  "updatedAt": "2026-10-18T09:03:48.003Z",
+  "updatedAt": "2026-10-19T10:08:11.931Z",
   "releases": [
     {
       "id": "8a9c54df-fd4a-4c74-b34c-451f8a59197d",
       "title": "Radiation Therapy",
       "artist": "Crossbreed",
       "date": "2026",
+      "genres": []
+    },
+    {
+      "id": "de95cd9f-06bd-43a3-a905-c9fdf671eb88",
+      "title": "Arrasando",
+      "artist": "Krystal Martínez-Rodríguez",
+      "date": "2026-10-19",
       "genres": []
     },
     {
@@ -77,13 +84,6 @@
       "id": "99223d42-db65-42d4-9376-64f0a555484e",
       "title": "DREAMBOY (UNFINISHED)",
       "artist": "Lil Nas X",
-      "date": "2026",
-      "genres": []
-    },
-    {
-      "id": "537d15e2-1b31-4737-aacd-d96dc410a920",
-      "title": "Through Lines",
-      "artist": "Skye Peterson",
       "date": "2026",
       "genres": []
     }
